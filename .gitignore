@@ -1,0 +1,41 @@
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Tauri / Rust build artifacts
+frontend/src-tauri/target/
+frontend/src-tauri/target-debug/
+frontend/src-tauri/target-release/
+
+# Cargo / Rust
+**/target/
+**/**.rs.bk
+
+# Tauri bundler output
+frontend/src-tauri/bundled/
+
+# Environment files
+.env
+.env.*.local
+
+# Misc
+coverage/
+.eslintcache
