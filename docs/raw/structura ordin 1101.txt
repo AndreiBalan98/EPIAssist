@@ -1,0 +1,30 @@
+titlu
+emitentul
+descriere
+
+11x ART. nr
+	descriere
+	(ART. 1) alienate (1)
+		(ART. 1) subpuncte a)
+
+semnatura, data, nr
+
+ANEXA 1
+	descriere
+	xN CAPITOLUL II
+		descriere
+		xN 1.
+			xN a)
+		(ANEXA 2 B) II. Titlu
+			xN 1.
+			(figura 1, 2)
+
+ANEXA 2
+	titlu
+	xN A. Titlu
+
+ANEXA 3
+
+ANEXA 4	
+
+de retinut
