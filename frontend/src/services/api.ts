@@ -1,35 +1,49 @@
-import axios from 'axios';
+/**
+ * API service for backend communication.
+ */
+import axios, { AxiosInstance } from 'axios';
 
-const API_BASE_URL = '/api';
+interface StatusResponse {
+  status: string;
+  message: string;
+}
 
-interface MarkdownFile {
+interface DocumentResponse {
   filename: string;
   content: string;
 }
 
-export const api = {
-  // Check if the API is running
-  checkStatus: async (): Promise<{ status: string; message: string }> => {
-    const response = await axios.get(`${API_BASE_URL}/status`);
-    return response.data;
-  },
+interface DocumentListResponse {
+  documents: string[];
+}
 
-  // List all markdown files
-  listMarkdownFiles: async (): Promise<string[]> => {
-    const response = await axios.get(`${API_BASE_URL}/markdown-files`);
-    return response.data;
-  },
+class ApiService {
+  private client: AxiosInstance;
 
-  // Get a specific markdown file
-  getMarkdownFile: async (filename: string): Promise<MarkdownFile> => {
-    const response = await axios.get(`${API_BASE_URL}/markdown/${filename}`);
-    return response.data;
-  },
+  constructor() {
+    this.client = axios.create({
+      baseURL: import.meta.env.VITE_API_URL || '/api',
+      timeout: 10000,
+    });
+  }
 
-  // Send a message (placeholder for future functionality)
-  sendMessage: async (message: string): Promise<{ success: boolean }> => {
-    // This is a placeholder for future implementation
-    console.log('Message sent:', message);
-    return { success: true };
-  },
-};
+  // Health check
+  async getStatus(): Promise<StatusResponse> {
+    const { data } = await this.client.get<StatusResponse>('/status');
+    return data;
+  }
+
+  // List all documents
+  async listDocuments(): Promise<string[]> {
+    const { data } = await this.client.get<DocumentListResponse>('/documents');
+    return data.documents;
+  }
+
+  // Get specific document
+  async getDocument(filename: string): Promise<DocumentResponse> {
+    const { data } = await this.client.get<DocumentResponse>(`/documents/${filename}`);
+    return data;
+  }
+}
+
+export const api = new ApiService();

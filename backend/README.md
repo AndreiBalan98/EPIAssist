@@ -1,44 +1,78 @@
-# EPIAssist Backend
+# EPI Assist - Backend
 
-This is the backend service for the EPIAssist application, built with FastAPI. It provides API endpoints for managing and serving markdown files.
+FastAPI server for markdown document serving and future AI integration.
 
-## Features
+## Structure
 
-- List all markdown files in the docs directory
-- Get content of a specific markdown file
-- Health check endpoint
-- CORS enabled for development
-
-## Setup
-
-1. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   .\venv\Scripts\activate  # On Windows
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Create a `docs` directory in the project root (if it doesn't exist)
-
-## Running the Server
-
-```bash
-uvicorn main:app --reload
+```
+backend/
+├── src/
+│   ├── controllers/      # Request handlers
+│   │   └── documents.py  # Document operations
+│   ├── routes/           # API endpoints
+│   │   └── api.py        # Route definitions
+│   ├── services/         # Business logic
+│   │   └── document_service.py
+│   ├── models/           # Data models
+│   │   └── schemas.py    # Pydantic models
+│   ├── utils/            # Utilities
+│   │   └── logger.py     # Logging setup
+│   ├── config/           # Configuration
+│   │   └── settings.py   # App settings
+│   ├── app.py            # FastAPI app config
+│   └── server.py         # Entry point
+├── tests/                # Unit tests
+├── requirements.txt
+└── README.md
 ```
 
-The API will be available at `http://localhost:8000`
+## 3-Layer Architecture
+
+1. **Routes** (`routes/`): Define endpoints, validate inputs
+2. **Controllers** (`controllers/`): Handle requests, call services
+3. **Services** (`services/`): Business logic, data access
 
 ## API Endpoints
 
 - `GET /api/status` - Health check
-- `GET /api/markdown-files` - List all markdown files
-- `GET /api/markdown/{filename}` - Get content of a specific markdown file
+- `GET /api/documents` - List all markdown files
+- `GET /api/documents/{filename}` - Get document content
 
-## Development
+## Setup
 
-- The server will automatically reload when you make changes to the code.
-- API documentation is available at `http://localhost:8000/docs` when the server is running.
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+# Development
+uvicorn src.server:app --reload --port 8000
+
+# Production
+uvicorn src.server:app --host 0.0.0.0 --port 8000
+```
+
+## Logging
+
+Structured JSON logging to console and file:
+- `logs/app.log` - All logs
+- Console - INFO and above
+
+## Environment Variables
+
+Create `.env`:
+```
+ENV=development
+LOG_LEVEL=INFO
+DOCS_DIR=../docs
+```
+
+## Testing
+
+```bash
+pytest tests/
+```
