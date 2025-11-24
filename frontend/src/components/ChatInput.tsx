@@ -15,27 +15,32 @@ export const ChatInput = () => {
     }
   };
 
+  const [isExpanded, setIsExpanded] = useState(false);
+  
   return (
-    <div
-      className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      {/* Circle or expanded input */}
-      {!isHovered ? (
-        <div className="w-14 h-14 bg-blue-500 rounded-full shadow-lg cursor-pointer transition-transform hover:scale-110" />
-      ) : (
-        <form onSubmit={handleSubmit} className="bg-white rounded-full shadow-lg px-6 py-3 min-w-[400px]">
-          <input
-            type="text"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            placeholder="Ask a question..."
-            className="w-full outline-none text-gray-700 placeholder-gray-400"
-            autoFocus
-          />
-        </form>
-      )}
+    <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
+      <div
+        onMouseEnter={() => setIsExpanded(true)}
+        onMouseLeave={() => setIsExpanded(false)}
+        className={`transition-all duration-300 ease-out ${
+          isExpanded 
+            ? 'w-[400px] h-12 bg-white' 
+            : 'w-14 h-14 bg-blue-500'
+        } rounded-full shadow-lg cursor-pointer flex items-center`}
+      >
+        {isExpanded && (
+          <form onSubmit={handleSubmit} className="w-full px-6">
+            <input
+              type="text"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              placeholder="Ask a question..."
+              className="w-full outline-none text-gray-700 placeholder-gray-400"
+              autoFocus
+            />
+          </form>
+        )}
+      </div>
     </div>
   );
 };
