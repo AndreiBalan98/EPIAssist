@@ -1,3 +1,4 @@
+# backend/src/utils/logger.py
 """Structured logging utility."""
 import logging
 import sys
@@ -16,7 +17,15 @@ def setup_logger(name: str, level: str = "INFO") -> logging.Logger:
         Configured logger instance
     """
     logger = logging.getLogger(name)
+    
+    # Prevent duplicate handlers - if already configured, return existing logger
+    if logger.handlers:
+        return logger
+    
     logger.setLevel(getattr(logging, level.upper()))
+    
+    # Prevent propagation to root logger to avoid duplicates
+    logger.propagate = False
     
     # Console handler
     console_handler = logging.StreamHandler(sys.stdout)

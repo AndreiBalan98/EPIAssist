@@ -1,7 +1,8 @@
+# backend/src/app.py
 """FastAPI application configuration."""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .config.settings import settings
+from .config.settings import settings  # ✅ Corect așa! E bine cum e
 from .routes.api import router
 from .utils.logger import setup_logger
 
