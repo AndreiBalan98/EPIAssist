@@ -31,9 +31,9 @@ export const SplashScreen = () => {
       className="fixed inset-0 bg-white flex items-center justify-center z-50 transition-opacity duration-500"
       style={{ opacity }}
     >
-      <h1 className="text-4xl text-black">
-        <span className="font-semibold">EPI</span>{' '}
-        <span className="font-normal italic">Assist</span>
+      <h1 className="text-black">
+        <span className="text-5xl md:text-7xl font-semibold">EPI</span>{' '}
+        <span className="text-5xl md:text-7xl font-normal italic">Assist</span>
       </h1>
     </div>
   );

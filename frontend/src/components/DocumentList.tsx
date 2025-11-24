@@ -12,7 +12,7 @@ export const DocumentList = ({ documents, selectedDocument, onSelect }: Document
     <div className="w-64 h-screen bg-white border-r border-gray-200 overflow-y-auto">
       <div className="p-4">
         <h2 className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-4">
-          Documents
+          Documente
         </h2>
         <div className="space-y-1">
           {documents.map((doc) => (
