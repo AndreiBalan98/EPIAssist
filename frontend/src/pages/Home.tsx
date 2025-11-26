@@ -1,9 +1,10 @@
 /**
- * Main home page component with TOC functionality.
+ * Main home page component with TOC functionality and skeleton loader.
  */
 import { useState, useCallback } from 'react';
 import { DocumentList } from '@components/DocumentList';
 import { DocumentViewer } from '@components/DocumentViewer';
+import { SkeletonLoader } from '@components/SkeletonLoader';
 import { ChatInput } from '@components/ChatInput';
 import { useDocuments } from '@hooks/useDocuments';
 
@@ -37,18 +38,32 @@ export const Home = () => {
     await selectDocument(filename);
   }, [selectDocument]);
 
-  if (loading && documents.length === 0) {
-    return (
-      <div className="flex items-center justify-center h-screen">
-        <p className="text-gray-500">Loading documents...</p>
-      </div>
-    );
-  }
-
+  // Show error state
   if (error && !currentDocument) {
     return (
       <div className="flex items-center justify-center h-screen">
-        <p className="text-red-500">{error}</p>
+        <div className="text-center">
+          <svg
+            className="w-12 h-12 mx-auto text-red-500 mb-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          <p className="text-red-500 text-lg">{error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+          >
+            Retry
+          </button>
+        </div>
       </div>
     );
   }
@@ -62,14 +77,22 @@ export const Home = () => {
         headings={headings}
         onHeadingClick={handleHeadingClick}
       />
-      {currentDocument && (
+      
+      {loading ? (
+        <SkeletonLoader />
+      ) : currentDocument ? (
         <DocumentViewer
           content={currentDocument.content}
           filename={currentDocument.filename}
           onHeadingsExtracted={handleHeadingsExtracted}
           scrollToHeading={scrollToHeading}
         />
+      ) : (
+        <div className="flex-1 flex items-center justify-center bg-gray-50">
+          <p className="text-gray-500">Select a document to view</p>
+        </div>
       )}
+      
       <ChatInput />
     </div>
   );

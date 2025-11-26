@@ -2,6 +2,7 @@
  * Root application component.
  */
 import { useState, useEffect } from 'react';
+import { ErrorBoundary } from '@components/ErrorBoundary';
 import { SplashScreen } from '@components/SplashScreen';
 import { Home } from './pages/Home';
 
@@ -18,10 +19,10 @@ function App() {
   }, []);
 
   return (
-    <>
+    <ErrorBoundary>
       {showSplash && <SplashScreen />}
       <Home />
-    </>
+    </ErrorBoundary>
   );
 }
 

@@ -1,8 +1,8 @@
 /**
  * Main document viewer - A4 width, centered with heading anchors.
  */
-import { useEffect, useRef } from 'react';
-import ReactMarkdown from 'react-markdown';
+import { useEffect, useRef, ReactNode } from 'react';
+import ReactMarkdown, { Components } from 'react-markdown';
 
 interface DocumentViewerProps {
   content: string;
@@ -58,60 +58,40 @@ export const DocumentViewer = ({
     }
   }, [scrollToHeading]);
 
+  // Helper to generate ID from text
+  const generateId = (children: ReactNode): string => {
+    const text = children?.toString() || '';
+    return text
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .substring(0, 50);
+  };
+
   // Custom components for ReactMarkdown to add IDs to headings
-  const components = {
-    h1: ({ children, ...props }: any) => {
-      const text = children?.toString() || '';
-      const id = text
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .substring(0, 50);
+  const components: Components = {
+    h1: ({ children, ...props }) => {
+      const id = generateId(children);
       return <h1 id={id} {...props}>{children}</h1>;
     },
-    h2: ({ children, ...props }: any) => {
-      const text = children?.toString() || '';
-      const id = text
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .substring(0, 50);
+    h2: ({ children, ...props }) => {
+      const id = generateId(children);
       return <h2 id={id} {...props}>{children}</h2>;
     },
-    h3: ({ children, ...props }: any) => {
-      const text = children?.toString() || '';
-      const id = text
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .substring(0, 50);
+    h3: ({ children, ...props }) => {
+      const id = generateId(children);
       return <h3 id={id} {...props}>{children}</h3>;
     },
-    h4: ({ children, ...props }: any) => {
-      const text = children?.toString() || '';
-      const id = text
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .substring(0, 50);
+    h4: ({ children, ...props }) => {
+      const id = generateId(children);
       return <h4 id={id} {...props}>{children}</h4>;
     },
-    h5: ({ children, ...props }: any) => {
-      const text = children?.toString() || '';
-      const id = text
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .substring(0, 50);
+    h5: ({ children, ...props }) => {
+      const id = generateId(children);
       return <h5 id={id} {...props}>{children}</h5>;
     },
-    h6: ({ children, ...props }: any) => {
-      const text = children?.toString() || '';
-      const id = text
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .substring(0, 50);
+    h6: ({ children, ...props }) => {
+      const id = generateId(children);
       return <h6 id={id} {...props}>{children}</h6>;
     },
   };
