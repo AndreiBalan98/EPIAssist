@@ -17,13 +17,21 @@ interface DocumentListResponse {
   documents: string[];
 }
 
+interface ChatRequest {
+  message: string;
+}
+
+interface ChatResponse {
+  response: string;
+}
+
 class ApiService {
   private client: AxiosInstance;
 
   constructor() {
     this.client = axios.create({
       baseURL: import.meta.env.VITE_API_URL || '/api',
-      timeout: 10000,
+      timeout: 30000, // 30s for AI responses
     });
   }
 
@@ -43,6 +51,12 @@ class ApiService {
   async getDocument(filename: string): Promise<DocumentResponse> {
     const { data } = await this.client.get<DocumentResponse>(`/documents/${filename}`);
     return data;
+  }
+
+  // Send chat message
+  async sendChatMessage(message: string): Promise<string> {
+    const { data } = await this.client.post<ChatResponse>('/chat', { message } as ChatRequest);
+    return data.response;
   }
 }
 
