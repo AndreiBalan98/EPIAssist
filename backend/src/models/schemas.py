@@ -17,3 +17,13 @@ class DocumentResponse(BaseModel):
 class DocumentListResponse(BaseModel):
     """List of documents response."""
     documents: list[str]
+
+
+class ChatRequest(BaseModel):
+    """Chat message request."""
+    message: str
+
+
+class ChatResponse(BaseModel):
+    """Chat message response."""
+    response: str
