@@ -4,6 +4,7 @@
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { api } from '@services/api';
+import axios from 'axios';
 
 export const ChatInput = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -45,7 +46,24 @@ export const ChatInput = () => {
       setMessage('');
     } catch (err) {
       console.error('Chat error:', err);
-      setError('Failed to get response. Please try again.');
+      
+      // Better error messages
+      if (axios.isAxiosError(err)) {
+        if (err.response) {
+          // Server responded with error
+          const statusCode = err.response.status;
+          const detail = err.response.data?.detail || 'Unknown error';
+          setError(`Server error (${statusCode}): ${detail}`);
+        } else if (err.request) {
+          // Request made but no response
+          setError('No response from server. Is the backend running?');
+        } else {
+          // Error in request setup
+          setError(`Request error: ${err.message}`);
+        }
+      } else {
+        setError('Failed to get response. Please try again.');
+      }
     } finally {
       setLoading(false);
     }
@@ -79,7 +97,8 @@ export const ChatInput = () => {
       {/* Error display */}
       {error && (
         <div className="mb-4 max-w-2xl w-full bg-red-50 rounded-lg shadow-lg p-4">
-          <p className="text-red-600 text-sm">{error}</p>
+          <p className="text-red-600 text-sm font-medium mb-1">Error</p>
+          <p className="text-red-700 text-sm">{error}</p>
         </div>
       )}
 
