@@ -49,8 +49,6 @@ export function extractDocumentContext(
     };
   }
 
-  const activeHeading = headings[activeIndex];
-
   // Build hierarchical path
   const path = buildHeadingPath(headings, activeIndex);
   path.unshift(documentName); // Add document name at start

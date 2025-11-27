@@ -1,7 +1,7 @@
 /**
  * Floating Table of Contents - right side, low opacity, expands on hover.
  */
-import { useState, useRef, useEffect } from 'react';
+import { useState} from 'react';
 
 interface HeadingItem {
   id: string;

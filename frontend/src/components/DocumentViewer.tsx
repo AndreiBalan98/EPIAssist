@@ -12,8 +12,7 @@ interface DocumentViewerProps {
 }
 
 export const DocumentViewer = ({ 
-  content, 
-  filename, 
+  content,
   onHeadingsExtracted,
   scrollToHeading 
 }: DocumentViewerProps) => {
