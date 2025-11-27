@@ -70,10 +70,10 @@ export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
 
   // Handle mouse leave on response area
   const handleResponseMouseLeave = () => {
-    // Fast close (0.2s) when leaving response
+    // Fast close (0.2s) when leaving response - also clears conversation
     responseCloseTimerRef.current = setTimeout(() => {
-      // Close both input and response
-      setIsExpanded(false);
+      setConversation([]); // Clear conversation to hide response
+      setError(null); // Clear any errors
     }, 200);
   };
 
