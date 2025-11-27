@@ -7,6 +7,7 @@ import { DocumentViewer } from '@components/DocumentViewer';
 import { SkeletonLoader } from '@components/SkeletonLoader';
 import { ChatInput } from '@components/ChatInput';
 import { useDocuments } from '@hooks/useDocuments';
+import { extractDocumentContext } from '@utils/context';
 import type { DocumentContext } from '@services/api';
 
 interface HeadingItem {
@@ -47,9 +48,6 @@ export const Home = () => {
     if (!currentDocument) {
       return undefined;
     }
-
-    // Import the context extraction utility
-    const { extractDocumentContext } = require('@utils/context');
     
     return extractDocumentContext(
       currentDocument.content,
