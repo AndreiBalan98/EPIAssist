@@ -1,8 +1,9 @@
 /**
- * Main home page component with TOC functionality, skeleton loader, and context tracking.
+ * Main home page - viewer only with floating document selector and TOC.
  */
 import { useState, useCallback } from 'react';
-import { DocumentList } from '@components/DocumentList';
+import { DocumentSelector } from '@components/DocumentSelector';
+import { FloatingTOC } from '@components/FloatingTOC';
 import { DocumentViewer } from '@components/DocumentViewer';
 import { SkeletonLoader } from '@components/SkeletonLoader';
 import { ChatInput } from '@components/ChatInput';
@@ -89,14 +90,22 @@ export const Home = () => {
 
   return (
     <div className="flex h-screen overflow-hidden">
-      <DocumentList
+      {/* Floating Document Selector - Top Left */}
+      <DocumentSelector
         documents={documents}
         selectedDocument={currentDocument?.filename || null}
         onSelect={handleDocumentSelect}
-        headings={headings}
-        onHeadingClick={handleHeadingClick}
       />
-      
+
+      {/* Floating TOC - Right Side */}
+      {currentDocument && (
+        <FloatingTOC
+          headings={headings}
+          onHeadingClick={handleHeadingClick}
+        />
+      )}
+
+      {/* Main Viewer - Full Screen */}
       {loading ? (
         <SkeletonLoader />
       ) : currentDocument ? (
@@ -112,6 +121,7 @@ export const Home = () => {
         </div>
       )}
       
+      {/* Chat Input */}
       <ChatInput getDocumentContext={getDocumentContext} />
     </div>
   );
