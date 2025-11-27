@@ -1,5 +1,11 @@
 /**
- * Chat input - blue circle that expands on hover with AI response display and context support.
+ * Chat input - blue circle with new behavior:
+ * - Closes after 1s if input empty and mouse leaves
+ * - Stays open if text written (until cleared)
+ * - Response stays visible until mouse leaves it
+ * - Fast close (0.2s) when leaving response area
+ * - Conversation persists until refresh
+ * - Reopening shows last conversation
  */
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
@@ -10,30 +16,81 @@ interface ChatInputProps {
   getDocumentContext: () => DocumentContext | undefined;
 }
 
+interface Message {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
 export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [message, setMessage] = useState('');
-  const [response, setResponse] = useState<string | null>(null);
+  const [conversation, setConversation] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
-  const collapseTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const closeTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const responseCloseTimerRef = useRef<NodeJS.Timeout | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const inputAreaRef = useRef<HTMLDivElement>(null);
+  const responseAreaRef = useRef<HTMLDivElement>(null);
 
-  const handleMouseEnter = () => {
-    // Clear any pending collapse timer
-    if (collapseTimerRef.current) {
-      clearTimeout(collapseTimerRef.current);
-      collapseTimerRef.current = null;
+  // Clear any pending timers
+  const clearTimers = () => {
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
     }
+    if (responseCloseTimerRef.current) {
+      clearTimeout(responseCloseTimerRef.current);
+      responseCloseTimerRef.current = null;
+    }
+  };
+
+  // Handle mouse enter on input area
+  const handleInputMouseEnter = () => {
+    clearTimers();
     setIsExpanded(true);
   };
 
-  const handleMouseLeave = () => {
-    // Start collapse timer (1.5s delay)
-    collapseTimerRef.current = setTimeout(() => {
+  // Handle mouse leave on input area
+  const handleInputMouseLeave = () => {
+    // If input is empty, close after 1s
+    // If input has text, don't close
+    if (message.trim() === '') {
+      closeTimerRef.current = setTimeout(() => {
+        setIsExpanded(false);
+      }, 1000);
+    }
+  };
+
+  // Handle mouse enter on response area
+  const handleResponseMouseEnter = () => {
+    clearTimers();
+  };
+
+  // Handle mouse leave on response area
+  const handleResponseMouseLeave = () => {
+    // Fast close (0.2s) when leaving response
+    responseCloseTimerRef.current = setTimeout(() => {
+      // Close both input and response
       setIsExpanded(false);
-    }, 1500);
+    }, 200);
+  };
+
+  // Handle text change
+  const handleTextChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = e.target.value;
+    setMessage(newValue);
+    
+    // If user clears all text while expanded, start close timer
+    if (newValue.trim() === '' && isExpanded) {
+      closeTimerRef.current = setTimeout(() => {
+        setIsExpanded(false);
+      }, 1000);
+    } else {
+      // If typing, clear any pending close timer
+      clearTimers();
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -41,14 +98,21 @@ export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
     
     if (!message.trim() || loading) return;
 
+    const userMessage = message.trim();
     setLoading(true);
     setError(null);
 
+    // Add user message to conversation
+    const newConversation: Message[] = [
+      ...conversation,
+      { role: 'user', content: userMessage }
+    ];
+    setConversation(newConversation);
+    setMessage(''); // Clear input immediately
+
     try {
-      // Get current document context
       const context = getDocumentContext();
       
-      // Log context for debugging
       if (context) {
         console.log('Sending with context:', {
           path: context.path,
@@ -56,24 +120,25 @@ export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
         });
       }
 
-      const aiResponse = await api.sendChatMessage(message.trim(), context);
-      setResponse(aiResponse);
-      setMessage('');
+      const aiResponse = await api.sendChatMessage(userMessage, context);
+      
+      // Add AI response to conversation
+      setConversation([
+        ...newConversation,
+        { role: 'assistant', content: aiResponse }
+      ]);
+      
     } catch (err) {
       console.error('Chat error:', err);
       
-      // Better error messages
       if (axios.isAxiosError(err)) {
         if (err.response) {
-          // Server responded with error
           const statusCode = err.response.status;
           const detail = err.response.data?.detail || 'Unknown error';
           setError(`Server error (${statusCode}): ${detail}`);
         } else if (err.request) {
-          // Request made but no response
           setError('No response from server. Is the backend running?');
         } else {
-          // Error in request setup
           setError(`Request error: ${err.message}`);
         }
       } else {
@@ -84,27 +149,32 @@ export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
     }
   };
 
-  // Cleanup timer on unmount
+  // Cleanup timers on unmount
   useEffect(() => {
-    return () => {
-      if (collapseTimerRef.current) {
-        clearTimeout(collapseTimerRef.current);
-      }
-    };
+    return () => clearTimers();
   }, []);
+
+  // Get last assistant message for display
+  const lastAssistantMessage = conversation
+    .slice()
+    .reverse()
+    .find(msg => msg.role === 'assistant');
 
   return (
     <div 
       ref={containerRef}
       className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
     >
-      {/* Response display */}
-      {response && (
-        <div className="mb-4 max-w-2xl w-full bg-white rounded-lg shadow-lg p-6 max-h-96 overflow-y-auto">
+      {/* Response display - shows when we have conversation */}
+      {lastAssistantMessage && (
+        <div 
+          ref={responseAreaRef}
+          className="mb-4 max-w-2xl w-full bg-white rounded-lg shadow-lg p-6 max-h-96 overflow-y-auto"
+          onMouseEnter={handleResponseMouseEnter}
+          onMouseLeave={handleResponseMouseLeave}
+        >
           <div className="prose prose-sm max-w-none">
-            <ReactMarkdown>{response}</ReactMarkdown>
+            <ReactMarkdown>{lastAssistantMessage.content}</ReactMarkdown>
           </div>
         </div>
       )}
@@ -119,6 +189,9 @@ export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
 
       {/* Input area */}
       <div
+        ref={inputAreaRef}
+        onMouseEnter={handleInputMouseEnter}
+        onMouseLeave={handleInputMouseLeave}
         className={`transition-all duration-300 ease-out ${
           isExpanded 
             ? 'w-[500px] h-12 bg-white' 
@@ -132,7 +205,7 @@ export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
             <input
               type="text"
               value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={handleTextChange}
               placeholder={loading ? "Se procesează..." : "Pune o întrebare..."}
               className="w-full outline-none text-gray-700 placeholder-gray-400"
               disabled={loading}
