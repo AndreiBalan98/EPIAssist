@@ -1,5 +1,5 @@
 /**
- * Main home page component with TOC functionality and skeleton loader.
+ * Main home page component with TOC functionality, skeleton loader, and context tracking.
  */
 import { useState, useCallback } from 'react';
 import { DocumentList } from '@components/DocumentList';
@@ -7,6 +7,7 @@ import { DocumentViewer } from '@components/DocumentViewer';
 import { SkeletonLoader } from '@components/SkeletonLoader';
 import { ChatInput } from '@components/ChatInput';
 import { useDocuments } from '@hooks/useDocuments';
+import type { DocumentContext } from '@services/api';
 
 interface HeadingItem {
   id: string;
@@ -18,6 +19,7 @@ export const Home = () => {
   const { documents, currentDocument, loading, error, selectDocument } = useDocuments();
   const [headings, setHeadings] = useState<HeadingItem[]>([]);
   const [scrollToHeading, setScrollToHeading] = useState<string | null>(null);
+  const [activeHeadingId, setActiveHeadingId] = useState<string | null>(null);
 
   // Callback when headings are extracted from document
   const handleHeadingsExtracted = useCallback((extractedHeadings: HeadingItem[]) => {
@@ -26,6 +28,7 @@ export const Home = () => {
 
   // Handle heading click from TOC
   const handleHeadingClick = useCallback((headingId: string) => {
+    setActiveHeadingId(headingId);
     setScrollToHeading(headingId);
     // Reset after scroll to allow re-clicking same heading
     setTimeout(() => setScrollToHeading(null), 1000);
@@ -35,8 +38,26 @@ export const Home = () => {
   const handleDocumentSelect = useCallback(async (filename: string) => {
     setHeadings([]);
     setScrollToHeading(null);
+    setActiveHeadingId(null);
     await selectDocument(filename);
   }, [selectDocument]);
+
+  // Build document context for chat
+  const getDocumentContext = useCallback((): DocumentContext | undefined => {
+    if (!currentDocument) {
+      return undefined;
+    }
+
+    // Import the context extraction utility
+    const { extractDocumentContext } = require('@utils/context');
+    
+    return extractDocumentContext(
+      currentDocument.content,
+      currentDocument.filename,
+      headings,
+      activeHeadingId
+    ) || undefined;
+  }, [currentDocument, headings, activeHeadingId]);
 
   // Show error state
   if (error && !currentDocument) {
@@ -93,7 +114,7 @@ export const Home = () => {
         </div>
       )}
       
-      <ChatInput />
+      <ChatInput getDocumentContext={getDocumentContext} />
     </div>
   );
 };

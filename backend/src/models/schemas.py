@@ -19,9 +19,16 @@ class DocumentListResponse(BaseModel):
     documents: list[str]
 
 
+class DocumentContext(BaseModel):
+    """Document context for chat."""
+    path: list[str]  # ['Document.md', 'Section', 'Subsection']
+    content: str  # Actual text content (max 5000 chars)
+
+
 class ChatRequest(BaseModel):
-    """Chat message request."""
+    """Chat message request with optional context."""
     message: str
+    context: DocumentContext | None = None
 
 
 class ChatResponse(BaseModel):

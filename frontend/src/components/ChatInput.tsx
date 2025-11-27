@@ -1,12 +1,16 @@
 /**
- * Chat input - blue circle that expands on hover with AI response display.
+ * Chat input - blue circle that expands on hover with AI response display and context support.
  */
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { api } from '@services/api';
+import { api, DocumentContext } from '@services/api';
 import axios from 'axios';
 
-export const ChatInput = () => {
+interface ChatInputProps {
+  getDocumentContext: () => DocumentContext | undefined;
+}
+
+export const ChatInput = ({ getDocumentContext }: ChatInputProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [message, setMessage] = useState('');
   const [response, setResponse] = useState<string | null>(null);
@@ -41,7 +45,18 @@ export const ChatInput = () => {
     setError(null);
 
     try {
-      const aiResponse = await api.sendChatMessage(message.trim());
+      // Get current document context
+      const context = getDocumentContext();
+      
+      // Log context for debugging
+      if (context) {
+        console.log('Sending with context:', {
+          path: context.path,
+          contentLength: context.content.length
+        });
+      }
+
+      const aiResponse = await api.sendChatMessage(message.trim(), context);
       setResponse(aiResponse);
       setMessage('');
     } catch (err) {
@@ -118,7 +133,7 @@ export const ChatInput = () => {
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder={loading ? "Thinking..." : "Ask a question..."}
+              placeholder={loading ? "Se procesează..." : "Pune o întrebare..."}
               className="w-full outline-none text-gray-700 placeholder-gray-400"
               disabled={loading}
               autoFocus

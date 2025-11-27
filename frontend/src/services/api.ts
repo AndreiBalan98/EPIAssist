@@ -17,8 +17,14 @@ interface DocumentListResponse {
   documents: string[];
 }
 
+export interface DocumentContext {
+  path: string[];
+  content: string;
+}
+
 interface ChatRequest {
   message: string;
+  context?: DocumentContext;
 }
 
 interface ChatResponse {
@@ -53,9 +59,18 @@ class ApiService {
     return data;
   }
 
-  // Send chat message
-  async sendChatMessage(message: string): Promise<string> {
-    const { data } = await this.client.post<ChatResponse>('/chat', { message } as ChatRequest);
+  // Send chat message with optional context
+  async sendChatMessage(
+    message: string, 
+    context?: DocumentContext
+  ): Promise<string> {
+    const requestData: ChatRequest = { message };
+    
+    if (context) {
+      requestData.context = context;
+    }
+
+    const { data } = await this.client.post<ChatResponse>('/chat', requestData);
     return data.response;
   }
 }
