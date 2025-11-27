@@ -18,18 +18,18 @@ class Settings(BaseSettings):
     # CORS
     cors_origins: list[str] = ["http://localhost:3000"]
     
-    # OpenRouter - REQUIRED
-    openrouter_api_key: str = ""
-    openrouter_model: str = "microsoft/mai-ds-r1:free"
+    # OpenAI - REQUIRED
+    openai_api_key: str = ""
+    openai_model: str = "gpt-4o-mini"
     
     class Config:
         env_file = ".env"
     
     def validate_required(self) -> None:
         """Validate that required settings are present."""
-        if not self.openrouter_api_key:
+        if not self.openai_api_key:
             raise ValueError(
-                "OPENROUTER_API_KEY is required. "
+                "OPENAI_API_KEY is required. "
                 "Please set it in your .env file or environment variables."
             )
 

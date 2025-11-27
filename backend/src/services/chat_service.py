@@ -8,17 +8,17 @@ logger = setup_logger(__name__)
 
 
 class ChatService:
-    """Handle OpenRouter API communication."""
+    """Handle OpenAI API communication."""
     
     def __init__(self):
-        self.api_key = settings.openrouter_api_key
-        self.model = settings.openrouter_model
-        self.api_url = "https://openrouter.ai/api/v1/chat/completions"
+        self.api_key = settings.openai_api_key
+        self.model = settings.openai_model
+        self.api_url = "https://api.openai.com/v1/chat/completions"
         logger.info(f"Chat service initialized with model: {self.model}")
     
     async def send_message(self, message: str) -> str:
         """
-        Send message to OpenRouter and get response with retry logic.
+        Send message to OpenAI and get response with retry logic.
         
         Args:
             message: User message to send
@@ -45,21 +45,19 @@ class ChatService:
                         ]
                     }
                     
-                    logger.info(f"Sending request to OpenRouter (attempt {attempt + 1}/{max_retries}): {self.model}")
+                    logger.info(f"Sending request to OpenAI (attempt {attempt + 1}/{max_retries}): {self.model}")
                     
                     response = await client.post(
                         self.api_url,
                         headers={
                             "Authorization": f"Bearer {self.api_key}",
                             "Content-Type": "application/json",
-                            "HTTP-Referer": "http://localhost:3000",
-                            "X-Title": "EPI Assist",
                         },
                         json=payload
                     )
                     
                     # Log response status
-                    logger.info(f"OpenRouter response status: {response.status_code}")
+                    logger.info(f"OpenAI response status: {response.status_code}")
                     
                     # Check for errors
                     response.raise_for_status()
@@ -72,10 +70,10 @@ class ChatService:
                     # Extract response text
                     if "choices" not in data or len(data["choices"]) == 0:
                         logger.error(f"Unexpected response format: {data}")
-                        raise Exception("Invalid response format from OpenRouter")
+                        raise Exception("Invalid response format from OpenAI")
                     
                     ai_response = data["choices"][0]["message"]["content"]
-                    logger.info(f"OpenRouter response received ({len(ai_response)} chars)")
+                    logger.info(f"OpenAI response received ({len(ai_response)} chars)")
                     
                     return ai_response
             
@@ -92,16 +90,16 @@ class ChatService:
                         raise Exception("Rate limit exceeded. Please wait a moment and try again.")
                 
                 # Log full error details for other HTTP errors
-                logger.error(f"OpenRouter HTTP error: {e.response.status_code}")
+                logger.error(f"OpenAI HTTP error: {e.response.status_code}")
                 logger.error(f"Response body: {e.response.text}")
-                raise Exception(f"OpenRouter API error: {e.response.status_code} - {e.response.text}")
+                raise Exception(f"OpenAI API error: {e.response.status_code} - {e.response.text}")
             
             except httpx.HTTPError as e:
-                logger.error(f"OpenRouter HTTP error: {str(e)}")
-                raise Exception(f"Failed to connect to OpenRouter: {str(e)}")
+                logger.error(f"OpenAI HTTP error: {str(e)}")
+                raise Exception(f"Failed to connect to OpenAI: {str(e)}")
             
             except KeyError as e:
-                logger.error(f"Failed to parse OpenRouter response: {str(e)}")
+                logger.error(f"Failed to parse OpenAI response: {str(e)}")
                 raise Exception(f"Invalid response format: missing {str(e)}")
             
             except Exception as e:
