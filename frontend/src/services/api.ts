@@ -35,10 +35,28 @@ class ApiService {
   private client: AxiosInstance;
 
   constructor() {
+    // In production: use full backend URL
+    // In development: use proxy (/api)
+    const baseURL = import.meta.env.VITE_API_URL || 
+                    (import.meta.env.DEV ? '/api' : 'https://epiassist.onrender.com/api');
+    
+    console.log('API Service initialized with baseURL:', baseURL);
+    
     this.client = axios.create({
-      baseURL: import.meta.env.VITE_API_URL || '/api',
+      baseURL,
       timeout: 30000, // 30s for AI responses
+      headers: {
+        'Content-Type': 'application/json',
+      },
     });
+
+    // Log all requests in development
+    if (import.meta.env.DEV) {
+      this.client.interceptors.request.use(request => {
+        console.log('API Request:', request.method?.toUpperCase(), request.url);
+        return request;
+      });
+    }
   }
 
   // Health check
