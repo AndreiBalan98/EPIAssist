@@ -96,9 +96,9 @@ export const DocumentViewer = ({
   };
 
   return (
-    <div ref={containerRef} className="flex-1 h-screen overflow-y-auto bg-gray-50 pb-24">
-      <div className="max-w-4xl mx-auto px-8 py-8">
-        <div className="bg-white rounded-lg shadow-sm p-8">
+    <div ref={containerRef} className="flex-1 h-screen overflow-y-auto bg-gray-50 md:bg-gray-50 pb-24">
+      <div className="max-w-4xl mx-auto md:px-8 md:py-8">
+        <div className="bg-white md:rounded-lg md:shadow-sm p-4 md:p-8">
           <div className="prose prose-slate max-w-none">
             <ReactMarkdown components={components}>{content}</ReactMarkdown>
           </div>

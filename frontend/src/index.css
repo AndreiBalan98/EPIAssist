@@ -72,3 +72,53 @@ body {
 .prose pre code {
   @apply bg-transparent text-gray-100 p-0;
 }
+
+/* Chat response specific styles */
+.chat-response {
+  @apply text-sm text-gray-700;
+}
+
+.chat-response h1 {
+  @apply text-lg font-bold text-gray-900 mt-3 mb-2;
+}
+
+.chat-response h2 {
+  @apply text-base font-semibold text-gray-900 mt-3 mb-2;
+}
+
+.chat-response h3 {
+  @apply text-sm font-semibold text-gray-900 mt-2 mb-1;
+}
+
+.chat-response p {
+  @apply mb-2 leading-relaxed text-sm;
+}
+
+.chat-response ul {
+  @apply list-disc mb-2 ml-5 space-y-1;
+}
+
+.chat-response ol {
+  @apply mb-2 ml-0 space-y-1;
+  list-style-type: none;
+}
+
+.chat-response li {
+  @apply text-sm;
+}
+
+.chat-response strong {
+  @apply font-semibold text-gray-900;
+}
+
+.chat-response code {
+  @apply bg-gray-100 text-gray-800 px-1 py-0.5 rounded text-xs;
+}
+
+.chat-response pre {
+  @apply bg-gray-900 text-gray-100 p-3 rounded-lg overflow-x-auto my-2;
+}
+
+.chat-response pre code {
+  @apply bg-transparent text-gray-100 p-0 text-xs;
+}

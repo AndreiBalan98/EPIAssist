@@ -2,6 +2,8 @@
 """Business logic for chat operations with document context."""
 import httpx
 import asyncio
+import json
+from typing import AsyncGenerator
 from ..config.settings import settings
 from ..utils.logger import setup_logger
 
@@ -24,10 +26,18 @@ UTILIZARE CONTEXT:
 - Dacă informația lipsește complet, spune clar "Nu am informații despre acest subiect" sau "Această informație nu este disponibilă în documentele actuale"
 
 FORMAT RĂSPUNS:
-- Folosește Markdown pentru formatare (headings, liste, bold, italic, code blocks)
-- Structurează răspunsurile cu titluri și liste când e relevant
+- Folosește Markdown pentru formatare
+- Pentru liste numerotate, folosește DOAR literele a), b), c), etc. - NU folosi 1., 2., 3.
+- Pentru titluri (headers), folosește ## (H2) sau ### (H3) - NU folosi # (H1) niciodată
+- Structurează răspunsurile cu titluri (H2/H3) și liste când e relevant
 - Fii concis dar complet - oferă exact informația necesară
 - Folosește exemple concrete când ajută la înțelegere
+
+IMPORTANT - STRUCTURA MARKDOWN:
+- Titluri: ## Titlu principal, ### Subtitlu
+- Liste ordonate: scrie manual "a) primul item", "b) al doilea item", etc.
+- Liste neordonate: folosi - sau *
+- Nu folosi niciodată 1., 2., 3. pentru liste
 
 ROL: Asistent medical inteligent pentru personal medical - eficient, precis, accesibil, sigur pe informațiile oferite."""
 
@@ -184,6 +194,108 @@ class ChatService:
                 raise
         
         raise Exception("Failed to get response after all retries")
+
+    async def send_message_stream(
+        self,
+        message: str,
+        context: dict | None = None
+    ) -> AsyncGenerator[str, None]:
+        """
+        Send message to OpenAI and stream the response token by token.
+
+        Args:
+            message: User message
+            context: Optional document context
+
+        Yields:
+            Response chunks as they arrive from OpenAI
+
+        Raises:
+            Exception: If API call fails
+        """
+        # Build messages with context
+        messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+
+        # Add context if provided
+        if context:
+            context_text = self._build_context_message(context)
+            if context_text:
+                messages.append({
+                    "role": "system",
+                    "content": context_text
+                })
+                logger.info(f"Added document context: {context.get('path', [])}")
+
+        # Add user message
+        messages.append({"role": "user", "content": message})
+
+        try:
+            async with httpx.AsyncClient(timeout=60.0) as client:
+                payload = {
+                    "model": self.model,
+                    "messages": messages,
+                    "temperature": 0.3,
+                    "stream": True,  # Enable streaming
+                }
+
+                logger.info(f"Sending streaming request to OpenAI: {self.model}")
+
+                async with client.stream(
+                    "POST",
+                    self.api_url,
+                    headers={
+                        "Authorization": f"Bearer {self.api_key}",
+                        "Content-Type": "application/json",
+                    },
+                    json=payload
+                ) as response:
+                    response.raise_for_status()
+                    logger.info(f"OpenAI streaming started, status: {response.status_code}")
+
+                    # Read and process the stream line by line
+                    async for line in response.aiter_lines():
+                        if not line.strip():
+                            continue
+
+                        # OpenAI sends lines prefixed with "data: "
+                        if line.startswith("data: "):
+                            data_str = line[6:]  # Remove "data: " prefix
+
+                            # Stream ends with [DONE]
+                            if data_str == "[DONE]":
+                                logger.info("OpenAI streaming completed")
+                                break
+
+                            try:
+                                # Parse the JSON chunk
+                                chunk_data = json.loads(data_str)
+
+                                # Extract content delta
+                                if "choices" in chunk_data and len(chunk_data["choices"]) > 0:
+                                    delta = chunk_data["choices"][0].get("delta", {})
+                                    content = delta.get("content", "")
+
+                                    if content:
+                                        yield content
+
+                            except json.JSONDecodeError as e:
+                                logger.warning(f"Failed to parse chunk: {data_str[:100]}")
+                                continue
+
+        except httpx.HTTPStatusError as e:
+            logger.error(f"OpenAI HTTP error: {e.response.status_code}")
+            logger.error(f"Response body: {e.response.text}")
+            raise Exception(
+                f"OpenAI API error: {e.response.status_code} - {e.response.text}"
+            )
+
+        except httpx.HTTPError as e:
+            logger.error(f"OpenAI HTTP error: {str(e)}")
+            raise Exception(f"Failed to connect to OpenAI: {str(e)}")
+
+        except Exception as e:
+            logger.error(f"Unexpected error in chat streaming: {str(e)}")
+            raise
 
 
 # Singleton instance

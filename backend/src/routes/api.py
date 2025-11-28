@@ -43,8 +43,22 @@ async def get_document(filename: str) -> DocumentResponse:
 async def send_chat_message(request: ChatRequest) -> ChatResponse:
     """
     Send message to AI and get response.
-    
+
     Args:
         request: Chat request with message
     """
     return await chat_controller.send_message(request)
+
+
+@router.post("/chat/stream")
+async def send_chat_message_stream(request: ChatRequest):
+    """
+    Send message to AI and stream response token by token.
+
+    Args:
+        request: Chat request with message and optional context
+
+    Returns:
+        StreamingResponse with Server-Sent Events
+    """
+    return await chat_controller.send_message_stream(request)

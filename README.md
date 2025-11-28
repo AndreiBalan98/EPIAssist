@@ -45,6 +45,28 @@ npm run dev
 - Frontend runs on `http://localhost:3000`
 - Frontend proxies `/api` to backend
 
+## Deployment
+
+### Backend (Render)
+- Deployed at: `https://epiassist.onrender.com`
+- Auto-deploys from `main` branch
+- Environment variables set in Render dashboard
+
+### Frontend (Vercel)
+- Auto-deploys from `main` branch
+- Environment variable `VITE_API_URL` set via `vercel.json`
+- Uses `.env.production` for production builds
+
+### Environment Configuration
+
+**Local Development:**
+- Frontend uses `/api` proxy → `http://localhost:8000`
+- Create `frontend/.env` with local settings
+
+**Production:**
+- Frontend connects directly to `https://epiassist.onrender.com/api`
+- Uses `frontend/.env.production` automatically
+
 ## Documentation
 
 - [Backend README](./backend/README.md)
