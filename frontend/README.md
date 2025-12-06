@@ -1,6 +1,6 @@
 # EPI Assist - Frontend
 
-React + Vite medical documentation viewer with clean, minimal design.
+React + Vite medical documentation viewer with AI chat.
 
 ## Structure
 
@@ -8,23 +8,23 @@ React + Vite medical documentation viewer with clean, minimal design.
 frontend/
 ├── public/
 ├── src/
-│   ├── components/       # Reusable components
-│   │   ├── SplashScreen.tsx
-│   │   ├── DocumentViewer.tsx
-│   │   ├── DocumentList.tsx
-│   │   └── ChatInput.tsx
-│   ├── pages/            # Page components
-│   │   └── Home.tsx
-│   ├── hooks/            # Custom hooks
-│   │   └── useDocuments.ts
-│   ├── services/         # API clients
-│   │   └── api.ts
-│   ├── utils/            # Utilities
-│   │   └── logger.ts
-│   ├── assets/           # Static assets
-│   ├── App.tsx           # Root component
-│   ├── main.tsx          # DOM mount
-│   └── index.css         # Global styles
+│   ├── components/
+│   │   ├── ChatInput.tsx         # AI chat input (floating)
+│   │   ├── DocumentSelector.tsx  # Document picker (top-left)
+│   │   ├── DocumentViewer.tsx    # Markdown renderer
+│   │   ├── ErrorBoundary.tsx     # Error handling
+│   │   ├── FloatingTOC.tsx       # Table of contents (right)
+│   │   ├── SkeletonLoader.tsx    # Loading state
+│   │   └── SplashScreen.tsx      # Initial splash
+│   ├── hooks/
+│   │   └── useDocuments.ts       # Document operations
+│   ├── pages/
+│   │   └── Home.tsx              # Main page
+│   ├── services/
+│   │   └── api.ts                # Backend API client
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
 ├── index.html
 ├── vite.config.ts
 ├── package.json
@@ -33,10 +33,11 @@ frontend/
 
 ## Features
 
-- **Splash Screen**: 1s fade-out on load
-- **Document Viewer**: A4-width centered content
-- **Document List**: Left sidebar, minimalist
-- **Chat Input**: Bottom blue circle → input bar (no functionality yet)
+- **Splash Screen**: Fade-out on load
+- **Document Viewer**: A4-width centered markdown
+- **Document Selector**: Floating top-left, expands on hover
+- **Table of Contents**: Floating right, low opacity
+- **AI Chat**: Floating bottom center, expandable input
 
 ## Setup
 
@@ -50,7 +51,7 @@ npm install
 # Development
 npm run dev
 
-# Build
+# Build for production
 npm run build
 
 # Preview build
@@ -62,26 +63,35 @@ npm run lint
 
 ## Environment Variables
 
-Create `.env`:
+Create `.env` from example:
+```bash
+cp .env.example .env
 ```
-VITE_API_URL=/api
+
+For development, leave empty (uses proxy to localhost:8000).
+For production, set full backend URL:
+```env
+VITE_API_URL=https://your-backend.com/api
 ```
 
 ## Architecture
 
-- **Feature-based components**: Each in own folder
+- **Feature-based components**: Each component in own file
 - **Custom hooks**: Shared logic in `hooks/`
-- **Service layer**: API calls abstracted
-- **Type safety**: Full TypeScript
+- **Service layer**: API calls abstracted in `services/`
+- **Path aliases**: `@components`, `@services`, `@hooks`, `@utils`
+
+## AI Chat Flow
+
+1. User types message in chat input
+2. Message sent to backend `/api/chat`
+3. Backend processes with OpenAI
+4. Response displayed in markdown
+
+No document context is sent - all AI logic handled server-side.
 
 ## Styling
 
-- TailwindCSS for utility classes
-- Custom CSS for markdown rendering
+- TailwindCSS utility classes
+- Custom prose styles for markdown
 - Minimal, clean design
-
-## Testing
-
-```bash
-npm run test
-```

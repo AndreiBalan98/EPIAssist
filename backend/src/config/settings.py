@@ -12,8 +12,8 @@ class Settings(BaseSettings):
     # Logging
     log_level: str = "INFO"
     
-    # Paths
-    docs_dir: Path = Path(__file__).parent.parent.parent.parent / "docs"
+    # Paths - now points to docs/clean for markdown files
+    docs_dir: Path = Path(__file__).parent.parent.parent.parent / "docs" / "clean"
     
     # CORS
     cors_origins: list[str] = ["http://localhost:3000"]
@@ -23,10 +23,6 @@ class Settings(BaseSettings):
     openai_model: str = "gpt-4o-mini"
     openai_timeout: int = 30
     openai_max_tokens: int = 20000
-    rate_limit_requests: int = 10
-    rate_limit_window: int = 60
-    api_key_enabled: bool = False
-    api_keys: list[str] = []
     
     class Config:
         env_file = ".env"

@@ -39,3 +39,6 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# Raw documents (PDFs) - too large for git
+docs/raw/

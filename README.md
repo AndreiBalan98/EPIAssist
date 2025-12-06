@@ -6,11 +6,13 @@ Medical legislation assistant for healthcare professionals - clean, modular arch
 
 ```
 /
-├── backend/          # FastAPI server
-├── frontend/         # React + Vite
-├── docs/            # Markdown documents
-├── ai/              # AI instructions
-└── README.md        # This file
+├── backend/              # FastAPI server
+├── frontend/             # React + Vite
+├── docs/
+│   ├── raw/              # Original PDF documents (gitignored)
+│   ├── clean/            # Processed markdown files
+│   └── database/         # Future: PostgreSQL structure docs
+└── README.md
 ```
 
 ## Quick Start
@@ -21,6 +23,7 @@ cd backend
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+cp .env.example .env      # Edit with your OPENAI_API_KEY
 uvicorn src.server:app --reload
 ```
 
@@ -49,3 +52,4 @@ npm run dev
 
 - [Backend README](./backend/README.md)
 - [Frontend README](./frontend/README.md)
+- [Docs README](./docs/README.md)

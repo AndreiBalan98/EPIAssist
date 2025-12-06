@@ -8,14 +8,14 @@ logger = setup_logger(__name__)
 
 
 class ChatController:
-    """Handle chat requests with document context."""
+    """Handle chat requests."""
     
     async def send_message(self, request: ChatRequest) -> ChatResponse:
         """
-        Process chat message with optional document context.
+        Process chat message.
         
         Args:
-            request: Chat request with message and optional context
+            request: Chat request with message
         
         Returns:
             ChatResponse with AI response
@@ -31,36 +31,13 @@ class ChatController:
             )
         
         try:
-            # Log context if provided
-            if request.context:
-                path_str = " > ".join(request.context.path)
-                content_len = len(request.context.content)
-                logger.info(
-                    f"Processing chat with context: {path_str} "
-                    f"({content_len} chars)"
-                )
-            else:
-                logger.info(
-                    f"Processing chat without context "
-                    f"({len(request.message)} chars)"
-                )
+            logger.info(f"Processing chat ({len(request.message)} chars)")
             
-            # Convert context to dict for service
-            context_dict = None
-            if request.context:
-                context_dict = {
-                    'path': request.context.path,
-                    'content': request.context.content
-                }
-            
-            response = await chat_service.send_message(
-                request.message, 
-                context_dict
-            )
+            response = await chat_service.send_message(request.message)
             return ChatResponse(response=response)
         
         except Exception as e:
-            logger.error(f"Failed to process chat message: {str(e)}")
+            logger.error(f"Failed to process chat: {str(e)}")
             raise HTTPException(
                 status_code=500,
                 detail="Failed to get AI response"

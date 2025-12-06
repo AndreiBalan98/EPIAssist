@@ -17,14 +17,8 @@ interface DocumentListResponse {
   documents: string[];
 }
 
-export interface DocumentContext {
-  path: string[];
-  content: string;
-}
-
 interface ChatRequest {
   message: string;
-  context?: DocumentContext;
 }
 
 interface ChatResponse {
@@ -35,8 +29,6 @@ class ApiService {
   private client: AxiosInstance;
 
   constructor() {
-    // In production: use full backend URL
-    // In development: use proxy (/api)
     const baseURL = import.meta.env.VITE_API_URL || 
                     (import.meta.env.DEV ? '/api' : 'https://epiassist.onrender.com/api');
     
@@ -44,13 +36,12 @@ class ApiService {
     
     this.client = axios.create({
       baseURL,
-      timeout: 30000, // 30s for AI responses
+      timeout: 30000,
       headers: {
         'Content-Type': 'application/json',
       },
     });
 
-    // Log all requests in development
     if (import.meta.env.DEV) {
       this.client.interceptors.request.use(request => {
         console.log('API Request:', request.method?.toUpperCase(), request.url);
@@ -77,17 +68,9 @@ class ApiService {
     return data;
   }
 
-  // Send chat message with optional context
-  async sendChatMessage(
-    message: string, 
-    context?: DocumentContext
-  ): Promise<string> {
+  // Send chat message - simple prompt, no context
+  async sendChatMessage(message: string): Promise<string> {
     const requestData: ChatRequest = { message };
-    
-    if (context) {
-      requestData.context = context;
-    }
-
     const { data } = await this.client.post<ChatResponse>('/chat', requestData);
     return data.response;
   }
