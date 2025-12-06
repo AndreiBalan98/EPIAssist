@@ -18,9 +18,15 @@ class Settings(BaseSettings):
     # CORS
     cors_origins: list[str] = ["http://localhost:3000"]
     
-    # OpenAI - REQUIRED
+    # OpenAI
     openai_api_key: str = ""
     openai_model: str = "gpt-4o-mini"
+    openai_timeout: int = 30
+    openai_max_tokens: int = 20000
+    rate_limit_requests: int = 10
+    rate_limit_window: int = 60
+    api_key_enabled: bool = False
+    api_keys: list[str] = []
     
     class Config:
         env_file = ".env"

@@ -2,6 +2,7 @@
 from fastapi import APIRouter
 from ..controllers.documents import documents_controller
 from ..controllers.chat import chat_controller
+from fastapi import APIRouter, Request
 from ..models.schemas import (
     StatusResponse, 
     DocumentResponse, 
