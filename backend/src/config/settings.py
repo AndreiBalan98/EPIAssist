@@ -1,10 +1,15 @@
 """Application configuration and settings."""
 from pathlib import Path
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
     """App settings loaded from environment variables."""
+    
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        extra="ignore"  # Ignore extra fields in .env
+    )
     
     # Environment
     env: str = "development"
@@ -23,9 +28,6 @@ class Settings(BaseSettings):
     openai_model: str = "gpt-4o-mini"
     openai_timeout: int = 30
     openai_max_tokens: int = 20000
-    
-    class Config:
-        env_file = ".env"
     
     def validate_required(self) -> None:
         """Validate that required settings are present."""
