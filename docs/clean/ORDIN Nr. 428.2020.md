@@ -1,12 +1,19 @@
-ORDIN pentru aprobarea Listei cuprinzând dispozitivele medicale şi materialele sanitare pentru a asigura prevenţia şi tratarea afecţiunilor asociate infecţiei cu SARS - COV - 2, a căror distribuţie în afara teritoriului României se suspendă temporar, precum şi a unor măsuri pentru asigurarea medicamentelor cuprinse în Catalogul naţional al preţurilor medicamentelor autorizate de punere pe piaţă în România (Canamed)
-NOTĂ:
+# ORDIN 
+**pentru aprobarea Listei cuprinzând dispozitivele medicale şi materialele sanitare pentru a asigura prevenţia şi tratarea afecţiunilor asociate infecţiei cu SARS - COV - 2, a căror distribuţie în afara teritoriului României se suspendă temporar, precum şi a unor măsuri pentru asigurarea medicamentelor cuprinse în Catalogul naţional al preţurilor medicamentelor autorizate de punere pe piaţă în România (Canamed)**
+
+**NOTĂ:**
 Conform art. 5 din Ordinul M.S. nr. 672/2020 , prezentul ordin se abrogă la 23 aprilie 2020.
+
 Ministrul sănătăţii,
-Victor Sebastian Costache
+**Victor Sebastian Costache**
 Bucureşti, 12 martie 2020.
-Nr. 428.
-ANEXĂ
-Văzând Referatul de aprobare nr. VSC 3.434 din 12.03.2020 al Direcţiei politica medicamentului şi a dispozitivelor medicale, având în vedere prevederile art. 804 alin. (21) şi (3) din Legea nr. 95/2006 sănătăţii, republicată, cu modificările şi completările ulterioare, ţinând cont de dispoziţiile art. 4 alin. (3) pct. 1 din Legea nr. 134/2019 privind reforma în domeniul privind reorganizarea Agenţiei Naţionale a Medicamentului şi a Dispozitivelor Medicale, precum şi pentru modificarea unor acte normative, ţinând cont de dispoziţiile Hotărârii Grupului de suport tehnico - ştiinţific privind gestionarea bolilor înalt contagioase pe teritoriul României din cadrul Comitetului Naţional pentru Situaţii Speciale de Urgenţă nr. 9 din 10.03.2020, în temeiul art. 7 alin. (4) din Hotărârea Guvernului nr. 144/2010 privind organizarea şi funcţionarea Ministerului Sănătăţii, cu modificările şi completările ulterioare, ministrul sănătăţii emite următorul ordin:
+**Nr. 428.**
+
+# ANEXĂ
+Văzând Referatul de aprobare nr. VSC 3.434 din 12.03.2020 al Direcţiei politica medicamentului şi a dispozitivelor medicale, având în vedere prevederile art. 804 alin. (21) şi (3) din Legea nr. 95/2006 sănătăţii, republicată, cu modificările şi completările ulterioare, ţinând cont de dispoziţiile art. 4 alin. (3) pct. 1 din Legea nr. 134/2019 privind reforma în domeniul privind reorganizarea Agenţiei Naţionale a Medicamentului şi a Dispozitivelor Medicale, precum şi pentru modificarea unor acte normative, ţinând cont de dispoziţiile Hotărârii Grupului de suport tehnico - ştiinţific privind gestionarea bolilor înalt contagioase pe teritoriul României din cadrul Comitetului Naţional pentru Situaţii Speciale de Urgenţă nr. 9 din 10.03.2020, în temeiul art. 7 alin. (4) din Hotărârea Guvernului nr. 144/2010 privind organizarea şi funcţionarea Ministerului Sănătăţii, cu modificările şi completările ulterioare, 
+
+ministrul sănătăţii emite următorul ordin:
+
 Art. 1.
 (1) Se aprobă Lista cuprinzând dispozitivele medicale şi materialele sanitare pentru a asigura prevenţia şi tratarea afecţiunilor asociate infecţiei cu SARS - COV - 2, a căror distribuţie în afara teritoriului României se suspendă temporar pe o perioadă de 6 luni de la data intrării în vigoare, prevăzută în anexa care face parte integrantă din prezentul ordin.
 (2) Prin derogare de la prevederile alin. (1), se exceptează livrările în afara teritoriului României a dispozitivelor medicale şi materialelor sanitare fabricate în România către acei parteneri comerciali cu sediul în afara României cu care operatorul economic român are încheiat un contract de tip manufacturing sau lohn.
@@ -15,6 +22,7 @@ a) o copie tradusă într-o limbă de circulaţie internaţională a licenţei/c
 b) o declaraţie pe propria răspundere conform căreia dispozitivele medicale şi materialele sanitare livrate nu sunt destinate pieţei din România şi au ca destinaţie finală ţara menţionată în documentele de livrare.
 (4) Transportul ansamblelor şi subansamblelor de echipamente medicale, fabricate în România pentru beneficiarii externi, nu se supune interdicţiei prevăzute la alin. (1).
 (articol modificat prin art. I pct. 1 din Ordinul M.S. nr. 492/2020 , în vigoare de la 25 martie 2020)
+
 Art. 2.
 (1) Se suspendă temporar distribuţia în afara teritoriului României, pe o perioadă de 6 luni de la data intrării în vigoare a prezentului ordin, a medicamentelor cuprinse în Catalogul naţional al preţurilor medicamentelor autorizate de punere pe piaţă în România (Canamed) la data prezentului ordin, cu modificările şi completările ulterioare.
 (2) Se exceptează de la prevederile alin. (1) medicamentele fabricate de către producătorii cu sediul în România, inclusiv cele fabricate sub contract, precum şi medicamentele care tranzitează teritoriul României şi care sunt destinate altor pieţe din afara teritoriului României. (alineat modificat prin art. I pct. 2 din Ordinul M.S. nr. 492/2020, în vigoare de la 25 martie 2020)
@@ -24,12 +32,19 @@ b) o declaraţie pe propria răspundere conform căreia medicamentele livrate nu
 (alineat introdus prin art. I pct. 3 din Ordinul M.S. nr. 492/2020, în vigoare de la 25 martie 2020)
 (4) Pot fi exportate medicamentele prevăzute la alin. (2) numai în situaţia în care ANMDMR a vizat declaraţiile de export conform Ordinului ministrului sănătăţii publice nr. 894/2006 pentru aprobarea Reglementărilor privind exportul medicamentelor de uz uman, cu modificările ulterioare, şi ale Ordinului ministrului sănătăţii publice nr. 1.809/2006 pentru aprobarea Normelor privind avizarea declaraţiei de export al medicamentelor de uz uman, cu respectarea prevederilor prezentului ordin.
 (alineat introdus prin art. I pct. 3 din Ordinul M.S. nr. 492/2020, în vigoare de la 25 martie 2020)
+
 Art. 2-1. - În înţelesul prezentului ordin, prin export se înţelege orice livrare în ţări terţe, iar prin livrări în afara teritoriul României se înţelege atât livrările intracomunitare, cât şi livrările în ţări terţe. (articol introdus prin art. I pct. 4 din Ordinul M.S. nr. 492/2020, în vigoare de la 25 martie 2020)
+
 Art. 3. - Nerespectarea dispoziţiilor prezentului ordin se sancţionează potrivit prevederilor art. 875 alin. (1) lit. k) din Legea nr. 95/2006 privind reforma în domeniul sănătăţii, republicată, cu modificările şi completările ulterioare.
+
 Art. 4. - Prezentul ordin se publică în Monitorul Oficial al României, Partea I.
-ANEXĂ
-I. Dispozitive medicale
-Echipamente de diagnostic sau tratament prin radiaţii ionizante, medicină nucleară, rezonanţă magnetică şi ultrasunete
+
+# ANEXĂ
+
+## I. Dispozitive medicale
+
+**Echipamente de diagnostic sau tratament prin radiaţii ionizante, medicină nucleară, rezonanţă magnetică şi ultrasunete**
+
 1 Aparate de radiologie fixă
 2 Aparate de radiologie mobilă
 3 Computer tomograf
@@ -40,7 +55,9 @@ Echipamente de diagnostic sau tratament prin radiaţii ionizante, medicină nucl
 8 Simulator pentru radioterapie
 9 Echipamente pentru medicină nucleară şi radioterapie
 10 Masă de radiologie
-Echipamente pentru anestezie şi terapie intensivă
+
+**Echipamente pentru anestezie şi terapie intensivă**
+
 11 Aparat de anestezie
 12 Aparat de ventilaţie
 13 Defibrilator
@@ -48,8 +65,10 @@ Echipamente pentru anestezie şi terapie intensivă
 15 Pat ATI
 16 Injectomate
 17 Pompe de administrat lichide
-Echipamente cardiovasculare
-Stenturi şi accesorii
+
+**Echipamente cardiovasculare**
+**Stenturi şi accesorii**
+
 18 Ac puncţie Seldinger
 19 Seturi introducătoare pentru abord femural
 20 Seturi introducătoare pentru abord radial
@@ -99,39 +118,48 @@ Stenturi şi accesorii
 64 Stent farmacologic activ cu polimer biodegradabil
 65 Stent farmacologic activ cu polimer fix
 66 Stent specific pentru dilatări artere renale şi artere coronariene cu diametru mare
-2 Dispozitive vasculare periferice şi aortice şi proteze cardiace valvulare
-Valvă mecanică cu două hemidiscuri pentru poziţia aortică
+
+**Dispozitive vasculare periferice şi aortice şi proteze cardiace valvulare**
+**Valvă mecanică cu două hemidiscuri pentru poziţia aortică**
+
 67 1.1 Valvă mecanică cu două hemidiscuri cu poziţionare aortică, inel de sutură standard
 68 1.2 Valvă mecanică cu două hemidiscuri cu poziţionare aortică, inel de sutură de dimensiune redusă
 69 1.3 Valvă mecanică cu două hemidiscuri cu poziţionare aortică, total supraanulară
 70 2.1 Valvă mecanică cu două hemidiscuri cu poziţionare mitrală
 71 2.2 Valvă mecanică cu două hemidiscuri cu poziţionare mitrală, dimensiune unică adaptabilă pentru dimensiuni variabile pentru inel mitral
-Valve biologice din pericard bovin
+
+**Valve biologice din pericard bovin**
 72 3.1 Valve biologice din pericard bovin
-Conducte cu valvă mecanică cu două hemidiscuri pentru poziţia aortică
+
+**Conducte cu valvă mecanică cu două hemidiscuri pentru poziţia aortică**
 73 4.1. Conducte cu valvă mecanică cu două hemidiscuri pentru poziţia aortică, cu proteză liniară
 74 4.2. Conducte cu valvă mecanică cu două hemidiscuri pentru poziţia aortică, cu proteză cu sinusuri valsalva
-Valve aortice transcateter
+
+**Valve aortice transcateter**
 75 5.1 Valvă aortică transcateter abord transfemural
 76 5.2 Valvă aortică transcateter abord transapical
-Inele de anuloplastie valvă mitrală şi tricuspidă
+
+**Inele de anuloplastie valvă mitrală şi tricuspidă**
 77 6.1 Inel anuloplastie semiflexibil pentru valvă mitrală
 78 6.2 Inel anuloplastie semirigid pentru valvă mitrală
 79 6.3 Inel anuloplastie semirigid pentru valvă tricuspidă
 80 6.4 Inel anuloplastie insuficienţă mitrală tip III b
 81 6.5 Inel anuloplastie cardiomiopatie dilatativă
-Stentgrafturi aortice pentru disecţii şi anevrisme
+
+**Stentgrafturi aortice pentru disecţii şi anevrisme**
 82 7.1 Stentgraft toracic hibrid
 83 7.2 Stent toracic autoexpandabil
 84 7.3 Stentgraft toracic autoexpandabil
 85 7.4 Stentgraft abdominal bifurcat autoexpandabil
-Proteze vasculare ţesute
+
+**Proteze vasculare ţesute**
 86 8.1 Proteză vasculară pentru aorta toracică •12•34/30
 87 8.2 Proteză vasculară bifurcată colagenată
 88 8.3 Proteză liniară colagenată Ć 8 mm
 89 8.4 Proteză vasculară bifurcată colagenată impregnată cu argint
 90 8.5 Proteză vasculară liniară colagenată impregnată cu argint 8 mm/70 cm
-Proteze vasculare din PTFE
+
+**Proteze vasculare din PTFE**
 91 9.1 Proteză vasculară liniară PTFE, dreapta
 92 9.2 Proteză vasculară conică PTFE, dreapta, cu spirală normală
 93 9.3 Proteză vasculară conică PTFE, dreapta, cu spirală normală pentru fistulă
@@ -139,7 +167,8 @@ Proteze vasculare din PTFE
 10.1. Valve biologice din cuspe aortice porcine cu stent
 11.1. Stentgraft toracic
 12.1. Stentgraft abdominal bifurcat
-Stimulatoare implantabile şi accesorii
+
+**Stimulatoare implantabile şi accesorii**
 95 Stimulatoare cardiace unicamerale (tipul A - bazal, tipul B - avansat, tipul C - compatibil RMN)
 96 Stimulatoare cardiace bicamerale (tipul A - bazal, tipul B - avansat, tipul C - compatibil RMN)
 97 Stimulatoare cardiace tricamerale (tipul A - bazal, tipul B - avansat, tipul C - compatibil RMN)
@@ -152,27 +181,34 @@ Stimulatoare implantabile şi accesorii
 104 Sonde de stimulare cardiacă epicardică
 105 Sonde implantabile de defibrilare (tipul A - bazal şi tipul B - compatibil RMN)
 106 Kit introducător de sinus coronar şi Kit introducător peel - away
-Echipamente pentru endoscopie
+
+**Echipamente pentru endoscopie**
 107 Sistem complet pentru endoscopie
 108 Trusă pentru videoendoscopie digestivă
-Echipamente de explorare complexă cu ultrasunete
+
+**Echipamente de explorare complexă cu ultrasunete**
 109 Ecograf
 110 Ecograf doppler
 111 Sisteme de neuronavigaţie ultrasonografică
 112 Sistem integrat de neuronavigaţie ultrasonografică
-Echipamente pentru diagnostic
+
+**Echipamente pentru diagnostic**
 113 Electrocardiograf
 114 Electroencefalograf
-Echipamente pentru neonatologie
+
+**Echipamente pentru neonatologie**
 115 Incubator nou - născuţi
 116 Masă radiantă pentru resuscitare
-Echipamente pentru urologie
+
+**Echipamente pentru urologie**
 117 Litotriptor extracorporeal
-Echipamente pentru transport intraspitalicesc şi de utilizare în UPU/CPU
+
+**Echipamente pentru transport intraspitalicesc şi de utilizare în UPU/CPU**
 118 Pat pentru transfer şi resuscitare
 119 Targă pentru transport pacienţi
 120 Cărucior pentru transport pacienţi
-Dispozitive medicale de diagnostic
+
+**Dispozitive medicale de diagnostic**
 121 Teste pentru diagnosticul infecţiei HIV/SIDA
 122 Teste de rezistenţă genotipică la ARV
 123 Medii solide de cultură Lownstein - Jensen
@@ -186,10 +222,13 @@ Dispozitive medicale de diagnostic
 131 Kit pentru identificarea genetică a speciilor din Complexul Mycobacterium tuberculosis
 132 Kit pentru identificarea genetică a speciilor de micobacterii netuberculoase comune
 133 Lame portobiect pentru microscopie
-Echipamente de protecţie
+
+**Echipamente de protecţie**
 134 Echipamente de protecţie pentru echipajele de intervenţie prespitalicească
-II. Materiale sanitare
-A Truse pentru traheostomie
+
+## II. Materiale sanitare
+
+### A Truse pentru traheostomie
 1 Truse pentru traheostomie percutană cu forceps
 2 Truse pentru traheostomie percutană cu forceps
 3 Truse pentru traheostomie percutană cu forceps
@@ -202,7 +241,8 @@ A Truse pentru traheostomie
 10 Canule de traheostomie nr. 8
 11 Canule de traheostomie nr. 9
 12 Canule de traheostomie nr. 10
-B Dispozitive de intubaţie
+
+### B Dispozitive de intubaţie
 1 Sonde de intubaţie orotraheală fără balonaş 2,0
 2 Sonde de intubaţie orotraheală fără balonaş 2,5
 3 Sonde de intubaţie orotraheală fără balonaş 3,0
@@ -258,7 +298,8 @@ B Dispozitive de intubaţie
 53 Filtre antibacteriene şi virale cu umidificare pentru nou - născut
 54 Mandrene pentru sonde de intubaţie cu dimensiuni între 2,5 şi 4,5
 55 Mandrene pentru sonde de intubaţie mai mari de 5,0
-C Dispozitive alternative intubaţiei
+
+### C Dispozitive alternative intubaţiei
 1 Trusă de intubaţie traheo/esofagiană cu dublu lumen, dimensiunea 37 FR
 2 Trusă de intubaţie traheo/esofagiană cu dublu lumen, dimensiunea 41 FR
 3 Mască laringiană nr. 1
@@ -273,7 +314,8 @@ C Dispozitive alternative intubaţiei
 12 Bujie cu canal oxigenare/exchanger, dimensiunea 11 CH
 13 Bujie cu canal oxigenare/exchanger, dimensiunea 14 Ch
 14 Bujie cu canal oxigenare/exchanger, dimensiunea 19 CH
-D Măşti oxigen
+
+### D Măşti oxigen
 1 Măşti oxigen simple pentru adult
 2 Măşti oxigen simple pentru copil
 3 Măşti oxigen cu rezervor pentru adult
@@ -287,7 +329,8 @@ D Măşti oxigen
 11 Mască de ventilaţie noninvazivă nr. 4
 12 Mască de ventilaţie noninvazivă nr. 5
 13 Mască de ventilaţie noninvazivă nr. 6
-E Pipe Guedel
+
+### E Pipe Guedel
 1 Pipe Guedel nr. 000
 2 Pipe Guedel nr. 00
 3 Pipe Guedel nr. 0
@@ -297,7 +340,8 @@ E Pipe Guedel
 7 Pipe Guedel nr. 4
 8 Pipe Guedel nr. 5
 9 Pipe Guedel nr. 6
-F Sonde de aspiraţie traheală
+
+### F Sonde de aspiraţie traheală
 1 Sonde de aspiraţie traheală flexibilă, dimensiunea CH 4
 2 Sonde de aspiraţie traheală flexibilă, dimensiunea CH 5
 3 Sonde de aspiraţie traheală flexibilă, dimensiunea CH 6
@@ -310,14 +354,17 @@ F Sonde de aspiraţie traheală
 10 Sonde de aspiraţie traheală flexibilă, dimensiunea CH 16
 11 Sonde de aspiraţie traheală flexibilă, dimensiunea CH 18
 12 Sonde de aspiraţie rigidă tip Yankaeur
-G Canule nazale pentru administrarea oxigenului
+
+### G Canule nazale pentru administrarea oxigenului
 1 Canule nazale pentru administrarea oxigenului pentru adult
 2 Canule nazale pentru administrarea oxigenului pentru copil
-H Set balon ventilaţie (resuscitator)
+
+### H Set balon ventilaţie (resuscitator)
 1 Set balon ventilaţie (resuscitator) pentru adult, 1500 ml + mască pentru adult
 2 Set balon ventilaţie (resuscitator) pentru copil, 500 - 700 ml + mască pentru copil
 3 Set balon ventilaţie (resuscitator) pentru nou - născut + mască pentru nou - născut
-I Dispozitive de drenaj toracic
+
+### I Dispozitive de drenaj toracic
 1 Truse de drenaj toracic cu valve Heimlich, dimensiunea 8 FR
 2 Truse de drenaj toracic cu valve Heimlich, dimensiunea 14 FR
 3 Truse de drenaj toracic cu valve Heimlich, dimensiunea 20 FR
@@ -331,7 +378,8 @@ I Dispozitive de drenaj toracic
 11 Tuburi de drenaj toracic, dimensiuni: 36 FR
 12 Tuburi de drenaj toracic, dimensiuni: 40 FR
 13 Dispozitiv de colectare drenaj toracic tricameral
-J Dispozitive de monitorizare EKG
+
+### J Dispozitive de monitorizare EKG
 1 Electrozi EKG UF pentru monitorizare de scurtă durată pentru adult
 2 Electrozi EKG UF pentru monitorizare de scurtă durată pentru copil
 3 Electrozi EKG UF pentru monitorizare de lungă durată pentru adult
@@ -339,14 +387,16 @@ J Dispozitive de monitorizare EKG
 5 Gel EKG
 6 Gel defibrilare
 7 Set de drenaj suprapubian
-K Sonde Blackemore
+
+### K Sonde Blackemore
 1 Sondă Blackemore de scurtă durată, mărimea 14 CH
 2 Sondă Blackemore de scurtă durată, mărimea 16 CH
 3 Sondă Blackemore de scurtă durată, mărimea 18 CH
 4 Sondă Blackemore de scurtă durată, mărimea 21 CH
 5 Sondă Blackemore de lungă durată din poliuretan, dimensiuni: 26 CH
 6 Sondă Blackemore de lungă durată din poliuretan, dimensiuni: 28 CH
-L Materiale folosite în traume
+
+### L Materiale folosite în traume
 1 Guler cervical reglabil adult
 2 Guler cervical reglabil pediatric
 3 Comprese nesterile 10/10
@@ -394,7 +444,8 @@ L Materiale folosite în traume
 45 Vată sub gips 10/3
 46 Vată sub gips 20/3
 47 Tampoane absorbante 2 x 2 x 2 cm
-M Sistemul circulator
+
+### M Sistemul circulator
 1 Ace de unică folosinţă, G18 x 11/2, 1,10 x 40 mm (roz)
 2 Ace de unică folosinţă, G19 x 11/2, 1,10 x 40 mm (galben)
 3 Ace de unică folosinţă, G21 x 11/2, 0,80 x 40 mm (verde)
@@ -440,7 +491,8 @@ M Sistemul circulator
 43 Pâlnii otice (pentru otoscop) cu orificiu de 4 mm
 44 Teacă de protecţie senzor termometru bucal
 45 Capişon termometru auricular
-N Sondaje
+
+### N Sondaje
 1 Pahar recoltor pentru urină
 2 Sonde vezicale neonatologie, CH 6 cu mandren
 3 Sonde vezicale neonatologie, CH 8 cu mandren
@@ -492,7 +544,8 @@ N Sondaje
 49 Prezervative urinare XL
 50 Gel lubrifiant steril
 51 Trusă pentru sondaj vezical
-O Altele
+
+### O Altele
 1 Cearşaf de unică folosinţă
 2 Chilot absorbant de unică folosinţă pentru adult
 3 Chilot absorbant de unică folosinţă pentru copil nr. 4
@@ -544,6 +597,7 @@ O Altele
 49 Burete pentru igienizarea pacientului
 50 Test rapid de sarcină
 51 Test rapid glicemie
-Lista actelor modificatoare:
+
+# Lista actelor modificatoare:
 1. 25 martie 2020 - Ordinul M.S. nr. 492/2020 privind modificarea şi completarea Ordinului ministrului sănătăţii nr. 428/2020 pentru aprobarea Listei cuprinzând dispozitivele medicale şi materialele sanitare pentru a asigura prevenţia şi tratarea afecţiunilor asociate infecţiei cu SARS COV - 2, a căror distribuţie în afara teritoriului României se suspendă temporar, precum şi a unor măsuri pentru asigurarea medicamentelor cuprinse în Catalogul naţional al preţurilor medicamentelor autorizate de punere pe piaţă în România (Canamed), publicat în Monitorul Oficial nr. 247 din 25 martie 2020.
 2. 23 aprilie 2020 - Ordinul M.S. nr. 672/2020 pentru aprobarea Listei cuprinzând dispozitivele medicale necesare pentru a asigura prevenţia şi tratarea afecţiunilor asociate infecţiei cu SARS CoV - 2, a căror distribuţie se suspendă temporar, precum şi a unor măsuri pentru asigurarea medicamentelor cu risc crescut de discontinuitate pe piaţa naţională, publicat în Monitorul Oficial nr. 332 din 23 aprilie 2020
