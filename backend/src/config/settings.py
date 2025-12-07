@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     docs_dir: Path = Path(__file__).parent.parent.parent.parent / "docs" / "clean"
     
     # CORS
-    cors_origins: list[str] = ["http://localhost:3000"]
+    cors_origins: list[str] = ["*"]
     
     # OpenAI
     openai_api_key: str = ""
