@@ -12,8 +12,7 @@ Workflow:
    - Send to LLM with user query
    - LLM generates markdown response with citations
 
-This ensures responses are grounded in actual document content
-with proper source references.
+LOGGING: All prompts and responses are logged to console for debugging.
 """
 import httpx
 import asyncio
@@ -32,6 +31,45 @@ from ..utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 
+
+# =============================================================================
+# Logging Helpers - Print everything to console
+# =============================================================================
+
+def log_separator(title: str, char: str = "=", length: int = 80):
+    """Print a visual separator with title."""
+    print(f"\n{char * length}")
+    print(f"  {title}")
+    print(f"{char * length}\n")
+
+
+def log_prompt(label: str, content: str, max_preview: int = None):
+    """Log a prompt with optional truncation for preview."""
+    print(f"\n{'─' * 60}")
+    print(f"📝 {label}")
+    print(f"{'─' * 60}")
+    
+    if max_preview and len(content) > max_preview:
+        print(content[:max_preview])
+        print(f"\n... [TRUNCATED - {len(content)} total chars] ...")
+    else:
+        print(content)
+    
+    print(f"{'─' * 60}\n")
+
+
+def log_response(label: str, content: str):
+    """Log an LLM response."""
+    print(f"\n{'─' * 60}")
+    print(f"🤖 {label}")
+    print(f"{'─' * 60}")
+    print(content)
+    print(f"{'─' * 60}\n")
+
+
+# =============================================================================
+# Chat Service
+# =============================================================================
 
 class ChatService:
     """
@@ -71,42 +109,68 @@ class ChatService:
         start_time = time.time()
         
         try:
+            # =================================================================
+            # LOG: User's original message
+            # =================================================================
+            log_separator("NEW CHAT REQUEST", "█")
+            print(f"⏰ Timestamp: {time.strftime('%Y-%m-%d %H:%M:%S')}")
+            print(f"📨 User Message ({len(message)} chars):")
+            print(f"\n   \"{message}\"\n")
+            
             logger.info(f"Processing message ({len(message)} chars): {message[:100]}...")
             
             # =================================================================
             # PASS 1: Section Selection
             # =================================================================
-            logger.info("=== PASS 1: Section Selection ===")
+            log_separator("PASS 1: SECTION SELECTION", "=")
             
             section_ids = await self._select_relevant_sections(message)
+            
+            print(f"\n✅ Pass 1 Result: {len(section_ids)} sections selected")
+            print(f"   Section IDs: {section_ids}\n")
             
             logger.info(f"Pass 1 complete: {len(section_ids)} sections selected: {section_ids}")
             
             # Handle case: no relevant sections found
             if not section_ids:
                 logger.warning("No relevant sections found for query")
-                return NO_SECTIONS_FOUND_RESPONSE.format(user_query=message)
+                response = NO_SECTIONS_FOUND_RESPONSE.format(user_query=message)
+                log_separator("FINAL RESPONSE (No sections found)", "█")
+                print(response)
+                return response
             
             # =================================================================
             # PASS 2: Answer Generation
             # =================================================================
-            logger.info("=== PASS 2: Answer Generation ===")
+            log_separator("PASS 2: ANSWER GENERATION", "=")
             
             # Build context with full content of selected sections
             context = document_structure_service.build_context_for_answer(section_ids)
+            
+            print(f"📄 Context built: {len(context)} chars from {len(section_ids)} sections")
             
             logger.debug(f"Context built ({len(context)} chars) for {len(section_ids)} sections")
             
             # Generate answer
             response = await self._generate_answer(message, context)
             
+            # =================================================================
+            # LOG: Final Response
+            # =================================================================
             elapsed_ms = int((time.time() - start_time) * 1000)
+            
+            log_separator("FINAL RESPONSE TO USER", "█")
+            print(response)
+            print(f"\n⏱️  Total processing time: {elapsed_ms}ms")
+            log_separator("END OF REQUEST", "█")
+            
             logger.info(f"Chat complete in {elapsed_ms}ms - Response: {len(response)} chars")
             
             return response
             
         except Exception as e:
             logger.error(f"Error in chat processing: {str(e)}", exc_info=True)
+            print(f"\n❌ ERROR: {str(e)}\n")
             raise
     
     async def _select_relevant_sections(self, user_query: str) -> list[int]:
@@ -122,21 +186,42 @@ class ChatService:
         # Build document structure with summaries
         structure = document_structure_service.build_structure_for_prompt()
         
-        logger.debug(f"Document structure built: {len(structure)} chars")
-        
-        # Build prompt
+        # Build prompts
+        system_prompt = SECTION_SELECTION_SYSTEM_PROMPT
         user_prompt = SECTION_SELECTION_USER_TEMPLATE.format(
             documents_structure=structure,
             user_query=user_query
         )
         
+        # =================================================================
+        # LOG: Pass 1 Prompts
+        # =================================================================
+        log_prompt(
+            "PASS 1 - SYSTEM PROMPT", 
+            system_prompt
+        )
+        
+        log_prompt(
+            "PASS 1 - USER PROMPT (with document structure)", 
+            user_prompt,
+            max_preview=3000  # Truncate for readability, structure can be long
+        )
+        
+        logger.debug(f"Document structure built: {len(structure)} chars")
+        
         # Call LLM with low temperature for consistent JSON
         try:
             response_text = await self._call_openai(
-                system_prompt=SECTION_SELECTION_SYSTEM_PROMPT,
+                system_prompt=system_prompt,
                 user_prompt=user_prompt,
                 temperature=0.1,  # Low for consistent JSON output
+                pass_name="PASS 1"
             )
+            
+            # =================================================================
+            # LOG: Pass 1 Response
+            # =================================================================
+            log_response("PASS 1 - LLM JSON RESPONSE", response_text)
             
             logger.debug(f"Pass 1 raw response: {response_text[:500]}...")
             
@@ -147,6 +232,7 @@ class ChatService:
             
         except Exception as e:
             logger.error(f"Section selection failed: {str(e)}")
+            print(f"❌ Pass 1 failed: {str(e)}")
             return []
     
     def _parse_section_ids(self, response_text: str) -> list[int]:
@@ -171,6 +257,7 @@ class ChatService:
             
             if json_start == -1 or json_end == 0:
                 logger.warning("No JSON object found in response")
+                print("⚠️  No JSON object found in Pass 1 response")
                 logger.debug(f"Raw response: {response_text}")
                 return []
             
@@ -197,12 +284,15 @@ class ChatService:
                     valid_ids.append(int(sid))
                 else:
                     logger.warning(f"Invalid section ID: {sid} (type: {type(sid)})")
+                    print(f"⚠️  Invalid section ID skipped: {sid}")
             
+            print(f"✅ Parsed {len(valid_ids)} valid section IDs: {valid_ids}")
             logger.debug(f"Parsed section IDs: {valid_ids}")
             return valid_ids
             
         except json.JSONDecodeError as e:
             logger.error(f"JSON parse error: {e}")
+            print(f"❌ JSON parse error: {e}")
             logger.debug(f"Raw response: {response_text}")
             return []
     
@@ -217,18 +307,39 @@ class ChatService:
         Returns:
             Markdown-formatted answer with citations
         """
-        # Build prompt
+        # Build prompts
+        system_prompt = ANSWER_GENERATION_SYSTEM_PROMPT
         user_prompt = ANSWER_GENERATION_USER_TEMPLATE.format(
             context=context,
             user_query=user_query
         )
         
+        # =================================================================
+        # LOG: Pass 2 Prompts
+        # =================================================================
+        log_prompt(
+            "PASS 2 - SYSTEM PROMPT", 
+            system_prompt
+        )
+        
+        log_prompt(
+            "PASS 2 - USER PROMPT (with context)", 
+            user_prompt,
+            max_preview=5000  # Context can be very long
+        )
+        
         # Call LLM with slightly higher temperature for natural language
         response = await self._call_openai(
-            system_prompt=ANSWER_GENERATION_SYSTEM_PROMPT,
+            system_prompt=system_prompt,
             user_prompt=user_prompt,
             temperature=0.3,
+            pass_name="PASS 2"
         )
+        
+        # =================================================================
+        # LOG: Pass 2 Response
+        # =================================================================
+        log_response("PASS 2 - LLM FINAL RESPONSE", response)
         
         return response
     
@@ -238,6 +349,7 @@ class ChatService:
         user_prompt: str,
         temperature: float = 0.3,
         max_retries: int = 3,
+        pass_name: str = "LLM"
     ) -> str:
         """
         Make a call to OpenAI API with retry logic.
@@ -247,6 +359,7 @@ class ChatService:
             user_prompt: User message
             temperature: Sampling temperature (0.0-1.0)
             max_retries: Maximum retry attempts
+            pass_name: Name for logging (e.g., "PASS 1", "PASS 2")
             
         Returns:
             API response text
@@ -270,6 +383,10 @@ class ChatService:
                         "temperature": temperature,
                         "max_tokens": self.max_tokens,
                     }
+                    
+                    print(f"🔄 {pass_name} - Calling OpenAI (attempt {attempt + 1}/{max_retries})...")
+                    print(f"   Model: {self.model}, Temperature: {temperature}")
+                    print(f"   Prompt size: {len(user_prompt)} chars")
                     
                     logger.debug(
                         f"OpenAI request (attempt {attempt + 1}/{max_retries}) - "
@@ -295,14 +412,17 @@ class ChatService:
                     
                     ai_response = data["choices"][0]["message"]["content"]
                     
-                    # Log token usage if available
+                    # Log token usage
                     if "usage" in data:
                         usage = data["usage"]
-                        logger.info(
-                            f"OpenAI tokens - Prompt: {usage.get('prompt_tokens', '?')}, "
+                        token_info = (
+                            f"   Tokens - Prompt: {usage.get('prompt_tokens', '?')}, "
                             f"Completion: {usage.get('completion_tokens', '?')}, "
                             f"Total: {usage.get('total_tokens', '?')}"
                         )
+                        print(f"✅ {pass_name} - OpenAI response received")
+                        print(token_info)
+                        logger.info(token_info)
                     
                     return ai_response
                     
@@ -311,6 +431,7 @@ class ChatService:
                     # Rate limited - retry with exponential backoff
                     if attempt < max_retries - 1:
                         delay = base_delay * (2 ** attempt)
+                        print(f"⚠️  Rate limited. Retrying in {delay}s...")
                         logger.warning(f"Rate limited. Retrying in {delay}s...")
                         await asyncio.sleep(delay)
                         continue
@@ -319,10 +440,12 @@ class ChatService:
                         raise Exception("Rate limit exceeded. Please try again later.")
                 
                 logger.error(f"OpenAI HTTP error: {e.response.status_code}")
+                print(f"❌ OpenAI HTTP error: {e.response.status_code}")
                 raise Exception(f"OpenAI API error: {e.response.status_code}")
                 
             except httpx.TimeoutException:
                 logger.error("OpenAI request timed out")
+                print(f"⚠️  Request timed out (attempt {attempt + 1})")
                 if attempt < max_retries - 1:
                     logger.info("Retrying after timeout...")
                     continue
@@ -330,10 +453,12 @@ class ChatService:
                 
             except httpx.HTTPError as e:
                 logger.error(f"HTTP error: {str(e)}")
+                print(f"❌ HTTP error: {str(e)}")
                 raise Exception(f"Failed to connect to OpenAI: {str(e)}")
                 
             except Exception as e:
                 logger.error(f"Unexpected error: {str(e)}", exc_info=True)
+                print(f"❌ Unexpected error: {str(e)}")
                 raise
         
         raise Exception("Failed to get response after all retries")
