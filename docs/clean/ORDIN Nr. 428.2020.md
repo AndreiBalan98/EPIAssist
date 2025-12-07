@@ -9,7 +9,8 @@ Ministrul sănătăţii,
 Bucureşti, 12 martie 2020.
 **Nr. 428.**
 
-# ANEXĂ
+**ANEXĂ**
+
 Văzând Referatul de aprobare nr. VSC 3.434 din 12.03.2020 al Direcţiei politica medicamentului şi a dispozitivelor medicale, având în vedere prevederile art. 804 alin. (21) şi (3) din Legea nr. 95/2006 sănătăţii, republicată, cu modificările şi completările ulterioare, ţinând cont de dispoziţiile art. 4 alin. (3) pct. 1 din Legea nr. 134/2019 privind reforma în domeniul privind reorganizarea Agenţiei Naţionale a Medicamentului şi a Dispozitivelor Medicale, precum şi pentru modificarea unor acte normative, ţinând cont de dispoziţiile Hotărârii Grupului de suport tehnico - ştiinţific privind gestionarea bolilor înalt contagioase pe teritoriul României din cadrul Comitetului Naţional pentru Situaţii Speciale de Urgenţă nr. 9 din 10.03.2020, în temeiul art. 7 alin. (4) din Hotărârea Guvernului nr. 144/2010 privind organizarea şi funcţionarea Ministerului Sănătăţii, cu modificările şi completările ulterioare, 
 
 ministrul sănătăţii emite următorul ordin:
@@ -42,7 +43,6 @@ Art. 4. - Prezentul ordin se publică în Monitorul Oficial al României, Partea
 # ANEXĂ
 
 ## I. Dispozitive medicale
-
 **Echipamente de diagnostic sau tratament prin radiaţii ionizante, medicină nucleară, rezonanţă magnetică şi ultrasunete**
 
 1 Aparate de radiologie fixă
