@@ -8,6 +8,13 @@ Văzând Referatul de aprobare nr. V.V.V. 4.289 din 30 septembrie 2016, întocmi
 
 ---
 
+Ministrul sănătăţii,  
+**Vlad Vasile Voiculescu**  
+Bucureşti, 30 septembrie 2016  
+**Nr. 1.101**
+
+---
+
 ## ART. 1
 1. Se aprobă **Normele de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale în unităţile sanitare**, prevăzute în anexele nr. 1–4, care fac parte integrantă din prezentul ordin.  
 2. Normele prevăzute la alin. (1) cuprind:
@@ -67,11 +74,6 @@ La data intrării în vigoare a prezentului ordin se abrogă **Ordinul ministrul
 Prezentul ordin se publică în Monitorul Oficial al României, Partea I.
 
 ---
-
-Ministrul sănătăţii,  
-**Vlad Vasile Voiculescu**  
-Bucureşti, 30 septembrie 2016  
-**Nr. 1.101**
 
 # ANEXA 1
 **Organizarea activităţilor de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale în unităţile sanitare publice şi private cu paturi**
@@ -596,7 +598,7 @@ d) eficienţă şi eficacitate (impactul).
 
 ## B. Înregistrarea şi raportarea infecţiilor asociate asistenţei medicale
 
-a) Identificarea infecţiilor asociate asistenţei medicale constituie sarcina permanentă a unităţilor sanitare din sistemul sanitar de stat şi privat.  
+1. Identificarea infecţiilor asociate asistenţei medicale constituie sarcina permanentă a unităţilor sanitare din sistemul sanitar de stat şi privat.  
 2. Diagnosticul de infecţie asociată asistenţei medicale se va menţiona în toate actele medicale, de exemplu, foaia de observaţie clinică, fişa de consultaţie, registrul de consultaţie etc.  
 3. Responsabilitatea corectitudinii datelor înregistrate revine medicului în îngrijirea căruia se află pacientul.  
 4. Serviciul/Compartimentul de prevenire a infecţiilor asociate asistenţei medicale stabileşte un ritm de verificare în vederea depistării cazurilor nediagnosticate, neînregistrate şi neanunţate (ritm recomandat: minimum la 2 zile, maximum la 7 zile).  
@@ -607,7 +609,7 @@ a) Identificarea infecţiilor asociate asistenţei medicale constituie sarcina p
 9. Intervenţia în focar este responsabilitatea unităţii sanitare; aceasta poate solicita consultanţă direcţiei de sănătate publică judeţene şi a municipiului Bucureşti.
 
 ## I. Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale al unităţii sanitare
-a) La nivelul fiecărei secţii din unitatea sanitară se înfiinţează Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale, în format electronic - model prezentat în figura 1.
+1. La nivelul fiecărei secţii din unitatea sanitară se înfiinţează Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale, în format electronic - model prezentat în figura 1.
 2. Registrul cuprinde toate cazurile de suspiciune de infecţie asociată asistenţei medicale depistate prin oricare dintre metodele de supraveghere descrise, precum şi prin activitatea de screening al pacienţilor implementată, după caz.
 3. Secţiile transmit registrul de monitorizare către serviciul/compartimentul de prevenire a infecţiilor asociate asistenţei medicale săptămânal, în fiecare zi de luni pentru săptămâna precedentă.
 4. Clasificarea cazurilor va fi efectuată pe baza definiţiilor de caz de către serviciul/compartimentul de prevenire a infecţiilor asociate asistenţei medicale.
@@ -617,7 +619,7 @@ a) La nivelul fiecărei secţii din unitatea sanitară se înfiinţează Registr
 8. Serviciul/Compartimentul de supraveghere a bolilor transmisibile din cadrul direcţiei de sănătate publică judeţene şi a municipiului Bucureşti are responsabilitatea analizei datelor şi de a se autosesiza în situaţia apariţiei unui cumul de cazuri care sugerează existenţa unui focar într-o unitate sanitară.
 
 ## II. Raportarea pe Fişa cazului de infecţie asociată asistenţei medicale
-a) Toate cazurile de infecţii asociate asistenţei medicale care au fost confirmate se declară pe Fişa cazului de infecţie asociată asistenţei medicale - model prezentat în figura 2.
+1. Toate cazurile de infecţii asociate asistenţei medicale care au fost confirmate se declară pe Fişa cazului de infecţie asociată asistenţei medicale - model prezentat în figura 2.
 2. Fişa este completată de către medicul curant al cazului şi este însoţită de semnătură şi parafă.
 3. Fişele cazurilor de infecţii asociate asistenţei medicale se transmit lunar, in-folio, direcţiei de sănătate publică judeţene şi a municipiului Bucureşti, până la data de 5 a lunii pentru luna precedentă. În unităţile sanitare în care acest lucru este posibil se organizează baza de date electronică a unităţii, după formatul unic naţional, care va fi transmisă direcţiei de sănătate publică judeţene şi a municipiului Bucureşti.
 4. Direcţiile de sănătate publică judeţene şi a municipiului Bucureşti introduc fişele în baza de date naţională/alipesc bazele de date ale spitalelor; formatul electronic al bazei de date este pus la dispoziţie de către Institutul Naţional de Sănătate Publică.
@@ -745,7 +747,7 @@ Se consideră expunere cu risc:
   cu sânge, ţesuturi sau alte produse biologice contaminate vizibil cu sânge.
 
 ### c) Produse biologice
-a) spermă, secreţii vaginale;
+1. spermă, secreţii vaginale;
 2. fluide (lichid cefalorahidian, sinovial, pleural, peritoneal, pericardic, amniotic);
 3. concentrate de HIV (în laboratoare).
 
