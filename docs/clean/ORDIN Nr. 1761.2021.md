@@ -1,4 +1,4 @@
-# ORDIN Nr. 1.761 din 3 septembrie 2021 
+# ORDIN Nr. 1761 din 3 septembrie 2021 
 **pentru aprobarea Normelor tehnice privind curăţarea, dezinfecţia şi sterilizarea în unităţile sanitare publice şi private, evaluarea eficacităţii procedurilor de curăţenie şi dezinfecţie efectuate în cadrul acestora, procedurile recomandate pentru dezinfecţia mâinilor în funcţie de nivelul de risc, precum şi metodele de evaluare a derulării procesului de sterilizare şi controlul eficienţei acestuia**
 
 **Publicat în:** Monitorul Oficial Nr. 882 din 14 septembrie 2021

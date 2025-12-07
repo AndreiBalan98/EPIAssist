@@ -1,4 +1,4 @@
-# ORDIN Nr. 1101/2016 din 30 septembrie 2016
+# ORDIN Nr. 1101 din 30 septembrie 2016
 **privind aprobarea Normelor de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale în unităţile sanitare**
 
 **Emitent:** Ministerul Sănătăţii  

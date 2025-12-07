@@ -1,4 +1,4 @@
-# ORDIN 
+# ORDIN Nr. 428 din 12 martie 2020
 **pentru aprobarea Listei cuprinzând dispozitivele medicale şi materialele sanitare pentru a asigura prevenţia şi tratarea afecţiunilor asociate infecţiei cu SARS - COV - 2, a căror distribuţie în afara teritoriului României se suspendă temporar, precum şi a unor măsuri pentru asigurarea medicamentelor cuprinse în Catalogul naţional al preţurilor medicamentelor autorizate de punere pe piaţă în România (Canamed)**
 
 **NOTĂ:**

@@ -1,4 +1,4 @@
-# Ordinul nr. 961/2016 
+# ORDIN Nr. 961 din 19 august 2016
 **pentru aprobarea Normelor tehnice privind curățarea, dezinfecția și sterilizarea în unitățile sanitare publice și private, tehnicii de lucru și interpretare pentru testele de evaluare a eficienței procedurii de curățenie și dezinfecție, procedurilor recomandate pentru dezinfecția mâinilor, în funcție de nivelul de risc, metodelor de aplicare a dezinfectantelor chimice în funcție de suportul care urmează să fie tratat și a metodelor de evaluare a derulării și eficienței procesului de sterilizare**
 **În vigoare de la 02 septembrie 2016**
 ***Publicat în Monitorul Oficial, Partea I nr. 681 din 02 septembrie 2016. Nu există modificări până la 04 iulie 2017.***
