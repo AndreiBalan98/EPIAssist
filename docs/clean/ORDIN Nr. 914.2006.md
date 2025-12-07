@@ -2,68 +2,81 @@
 **pentru aprobarea normelor privind conditiile pe care trebuie sa le indeplineasca un spital in vederea obtinerii autorizatiei sanitare de functionare (actualizat pana la data de 22 septembrie 2006)**
 
 **EMITENT:**
-MINISTERUL SANATATII PUBLICE,
-**Gheorghe Eugen Nicolaescu**
-Bucuresti, 26 iulie 2006.
+Ministrul sănătăţii,  
+**Gheorghe Eugen Nicolaescu**  
+Bucuresti, 26 iulie 2006.  
 **Nr. 914.**
 
---- 
-
 *) Textul initial a fost publicat in MONITORUL OFICIAL nr. 695 din 15 august 2006. Aceasta este forma actualizata de S.C. "Centrul Teritorial de Calcul Electronic" S.A. Piatra Neamt pana la data de 22 septembrie 2006 cu modificarile si completarile aduse de ORDINUL nr. 1.144 din 15 septembrie 2006.
-Avand in vedere prevederile art. 175 alin. (1) al titlului VII "Spitale" din Legea nr. 95/2006 privind reforma in domeniul sanatatii, in temeiul Hotararii Guvernului nr. 862/2006 privind organizarea si functionarea Ministerului Sanatatii Publice, vazand Referatul de aprobare al Directiei de sanatate publica nr. E.N. 2.450/2006, ministrul sanatatii publice emite urmatorul ordin:
+Avand in vedere prevederile art. 175 alin. (1) al titlului VII "Spitale" din Legea nr. 95/2006 privind reforma in domeniul sanatatii, in temeiul Hotararii Guvernului nr. 862/2006 privind organizarea si functionarea Ministerului Sanatatii Publice, vazand Referatul de aprobare al Directiei de sanatate publica nr. E.N. 2.450/2006, 
+
+ministrul sanatatii publice emite urmatorul ordin:
 
 **ART. 1**
+
 Se aproba normele privind conditiile pe care trebuie sa le indeplineasca un spital in vederea obtinerii autorizatiei sanitare de functionare, prevazute in anexele nr. 1-4.
 
 **ART. 2**
+
 Anexele nr. 1-4 fac parte integranta din prezentul ordin.
 
 **ART. 3**
+
 Autoritatea de sanatate publica, Inspectia Sanitara de Stat din cadrul Ministerului Sanatatii Publice, ministerele cu retea sanitara proprie, autoritatile de sanatate publica judetene si a municipiului Bucuresti, inspectiile sanitare de stat judetene si a municipiului Bucuresti, spitalele publice si private vor duce la indeplinire prevederile prezentului ordin.
 
 **ART. 3^1**
+
 La data intrarii in vigoare a prezentului ordin se abroga orice alte prevederi contrare.
 Art. 3^1 a fost introdus de art. I pct. 1 din ORDINUL nr. 1.144 din 15 septembrie 2006 publicat in MONITORUL OFICIAL nr. 800 din 22 septembrie 2006.
 
 **ART. 4**
+
 Prezentul ordin se publica in Monitorul Oficial al Romaniei, Partea I.
 
 # ANEXA 1
 NORME privind procedura de autorizare sanitara de functionare a spitalului
 
-# ART. 1
+**ART. 1**
+
 Spitalul este unitatea sanitara cu paturi, de utilitate publica, cu personalitate juridica, care furnizeaza servicii medicale.
 
-# ART. 2
+**ART. 2**
+
 Indiferent de forma de proprietate, spitalul trebuie sa solicite si sa detina autorizatie sanitara de functionare.
 
-# ART. 3
+**ART. 3**
+
 Autorizarea sanitara de functionare a spitalelor se efectueaza de catre autoritatile de sanatate publica judetene, respectiv a municipiului Bucuresti, in conformitate cu procedurile prevazute in prezentele norme.
 
-# ART. 4
+**ART. 4**
+
 In sensul prezentelor norme urmatoarele notiuni se definesc dupa cum urmeaza:
 1. autorizarea sanitara a spitalului reprezinta procesul de analiza si investigatie sanitara ce are ca rezultat emiterea autorizatiei sanitare de functionare pentru spitalul care indeplineste din punct de vedere tehnic si juridic conditiile prevazute in prezentele norme pentru punerea in functiune si desfasurarea activitatii de asistenta spitaliceasca si sanatoriala;
 2. autorizatia sanitara este un act tehnic si juridic, eliberat de autoritatea locala de sanatate publica pentru un spital, prin care sunt stabilite conditiile si/sau parametrii de functionare ori de punere in functiune a activitatii de asistenta spitaliceasca si sanatoriala in acel spital;
 3. viza anuala reprezinta actul de constatare, eliberat in scris de autoritatea locala de sanatate publica, privind respectarea conformitatii cu autorizatia sanitara, eliberata anterior spitalului;
 4. programul de conformare reprezinta un plan de masuri cuprinzand etape care trebuie parcurse in intervale de timp precizate, prin prevederile autorizatiei sanitare, de catre spital, sub controlul autoritatii de sanatate publica, in scopul respectarii prezentelor norme.
 
-# ART. 5
+**ART. 5**
+
 Documentele necesare pentru solicitarea autorizatiei sanitare sunt:
 a) cerere;
 b) dosar tehnic, care va cuprinde: planul dimensionat cu structura interioara, dotarile necesare desfasurarii activitatii supuse autorizarii, prezentarea circuitelor functionale, modul de asigurare a iluminatului, ventilatiei, temperaturii ambiante, schita retelelor de utilitati sau modul de asigurare a acestora (apa potabila, apa calda menajera, evacuarea apelor uzate menajere si tehnologice, evacuarea deseurilor solide si a deseurilor periculoase rezultate din activitatea desfasurata);
 c) dovada de achitare a tarifului de autorizare sanitara.
 
-# ART. 6
+**ART. 6**
+
 (1) Cererea de autorizare si dosarul tehnic se depun la autoritatea de sanatate publica judeteana, respectiv a municipiului Bucuresti, in raza careia se gaseste spitalul.
 (2) In termen de 20 de zile de la inregistrarea cererii autoritatea de sanatate publica are obligatia sa solutioneze solicitarea in baza referatului de evaluare intocmit de specialistii proprii.
 
-# ART. 7
+**ART. 7**
+
 In urma evaluarii spitalului solicitarea se poate solutiona astfel:
 a) se elibereaza neconditionat autorizatia sanitara de functionare;
 b) se elibereaza autorizatia sanitara de functionare, conditionat de realizarea programului si calendarului de conformare stabilit in autorizatie;
 c) nu se elibereaza autorizatia sanitara de functionare, iar solicitantul este informat in scris privind neconformitatile cu dispozitiile legale pe care se intemeiaza refuzul de a emite autorizatia sanitara de functionare.
 
-# ART. 8
+**ART. 8**
+
 cat:
 (1) Autorizatia sanitara de functionare are valabilitate, pe durata sa, atat timp
     a) sunt respectate conditiile igienico-sanitare prevazute de autorizatia sanitara de functionare, prezentele norme si legislatia in vigoare aplicabila;
@@ -72,157 +85,198 @@ cat:
 (3) Intre doua vize anuale, in cazul in care elementele care au stat la baza autorizarii se modifica, spitalul va cere autoritatii de sanatate publica locale demararea procedurilor in vederea emiterii unei noi autorizatii sanitare de functionare.
 (4) Inspectia sanitara de stat poate proceda la retragerea autorizatiei sanitare de functionare in cazul oricarei modificari a obiectului de activitate si a structurii functionale a spitalului fata de ceea ce este prevazut in autorizatia sanitara de functionare sau in cazul nerespectarii programului de conformare.
 
-# ART. 9
+**ART. 9**
+
 (1) Din momentul retragerii autorizatiei sanitare de functionare activitatea pentru care a fost eliberata autorizatia sanitara de functionare se suspenda.
 (2) Pentru reluarea activitatii reprezentantul legal al spitalului solicita autoritatii de sanatate publica judetene, respectiv a municipiului Bucuresti, procedura de evaluare in vederea autorizarii, iar activitatea va fi reluata dupa emiterea noii autorizatii sanitare de functionare.
 
-ANEXA 2
+# ANEXA 2
 NORME privind organizarea functionala generala a spitalului
-ART. 1
+
+## ART. 1
 Conform normativelor pentru spitale, lista principalelor grupe si functiuni (sectoare), respectiv lista unitatilor functionale componente (compartimente), este urmatoarea:
-A. Sector spitalizare
-A1. Sectii medicale cu paturi compuse din unitati de ingrijire
-A2. Unitate de spitalizare de o zi (dupa caz)
-A3. Serviciul de primire si externare a bolnavilor
-B. Sector ambulatoriu (pentru pacienti neinternati)
-B1. Cabinete de consultatii si tratamente
-B2. Compartiment de evidenta medicala, programare, informare
-C. Servicii tehnico-medicale de diagnostic si tratament
-C1. Sector de interventii - tratamente aferente bolnavilor spitalizati
-C1a) Bloc operator
-C1b) Serviciu de anestezie si terapie intensiva (ATI)
-C1c) Bloc de nasteri
-C2. Sector de investigatii - explorari functionale (comun pentru bolnavi spitalizati si ambulatorii)
-C2a) Laborator de analize medicale
-C2b) Laborator de radiodiagnostic
-C2c) Laborator de explorari functionale
-C2d) Laborator de anatomie patologica
-C2e) Laborator de medicina nucleara (dupa caz)
-C3. Sector de terapie (pentru bolnavi spitalizati si ambulatorii)
-C3a) Serviciu de urgente
-C3b) Serviciu de recuperare medicala si fizioterapie
-C3c) Compartiment de epurare renala
-C3d) Compartiment de radioterapie (dupa caz)
-C3e) Compartiment de psihoterapie si ergonomie (dupa caz)
-C3f) Alte compartimente de terapie speciala in functie de structura medicala a spitalului
-C4. Servicii tehnico-medicale auxiliare (nu se adreseaza direct pacientilor)
-C4a) Serviciu de sterilizare centrala
-C4b) Farmacie
-C4c) Banca (punct) de sange, banci de tesuturi (dupa caz)
-C4d) Prosectura (morga)
-D. Servicii gospodaresti
-D1. Bucatarie, oficii alimentare si depozite de alimente
-D2. Spalatorie si depozite de lenjerie
-D3. Statie de dezinfectie (centrala de paturi)
-E. Conducere medicala si administratie
-E1. Conducere medicala
-E2. Birouri administrative
-E3. Serviciu de evidenta medicala si arhive
-E4. Compartiment de prelucrare a informatiilor si documentelor
-E5. Sala de intruniri
-F. Servicii anexe pentru personal
-F1. Vestiare pentru personalul medical si tehnic
-F2. Punct de documentare medicala (biblioteca)
-G. Spatii sociale si anexe pentru pacienti, apartinatori, vizitatori
-G1. Garderoba
-G2. Serviciu de informatii si relatii
-G3. Bufet si puncte de vanzare (florarie, cadouri, ziare)
-G4. Diverse prestatii - frizerie, coafura, posta (dupa caz)
-G5. Capela (dupa caz)
-H. Servicii tehnico-utilitare
-H1. Centrale si statii tehnice
-H1a) Centrala termica
-H1b) Uzina de apa si hidrofor
-H1c) Post de transformare si grup electrogen
-H1d) Centrale de ventilatie si tratare a aerului
-H1e) Centrala frigorifica (dupa caz)
-H1f) Statii pentru oxigen, aer comprimat, alte fluide medicinale
-H1g) Centrala telefonica
-H1h) Statii pentru comunicare interna (TV cu circuit inchis, cautare de persoane, radioficare)
-H1i) Statii de pompare si tratare efluenti
-H1j) Statii tehnice pentru masini ascensoare
-H1k) Statii tehnice aferente unor echipamente medicale
-H1l) Alte statii tehnice aferente instalatiilor (puncte de distributie, camere tablouri electrice, galerii de vizitare etc.)
-H2. Dispecerate pentru supraveghere, control si avertizare asupra functionarii echipamentelor si instalatiilor (dupa caz)
-H3. Serviciu de intretinere si service aparatura (ateliere)
-H4. Depozite diverse
-H5. Statie de colectare si tratare a deseurilor solide
-H6. Garaje
-H7. Control poarta
-ART. 2
+
+- A. Sector spitalizare
+- A1. Sectii medicale cu paturi compuse din unitati de ingrijire
+- A2. Unitate de spitalizare de o zi (dupa caz)
+- A3. Serviciul de primire si externare a bolnavilor
+
+- B. Sector ambulatoriu (pentru pacienti neinternati)
+- B1. Cabinete de consultatii si tratamente
+- B2. Compartiment de evidenta medicala, programare, informare
+
+- C. Servicii tehnico-medicale de diagnostic si tratament
+- C1. Sector de interventii - tratamente aferente bolnavilor spitalizati
+- C1a) Bloc operator
+- C1b) Serviciu de anestezie si terapie intensiva (ATI)
+- C1c) Bloc de nasteri
+- C2. Sector de investigatii - explorari functionale (comun pentru bolnavi spitalizati si ambulatorii)
+- C2a) Laborator de analize medicale
+- C2b) Laborator de radiodiagnostic
+- C2c) Laborator de explorari functionale
+- C2d) Laborator de anatomie patologica
+- C2e) Laborator de medicina nucleara (dupa caz)
+- C3. Sector de terapie (pentru bolnavi spitalizati si ambulatorii)
+- C3a) Serviciu de urgente
+- C3b) Serviciu de recuperare medicala si fizioterapie
+- C3c) Compartiment de epurare renala
+- C3d) Compartiment de radioterapie (dupa caz)
+- C3e) Compartiment de psihoterapie si ergonomie (dupa caz)
+- C3f) Alte compartimente de terapie speciala in functie de structura medicala a spitalului
+- C4. Servicii tehnico-medicale auxiliare (nu se adreseaza direct pacientilor)
+- C4a) Serviciu de sterilizare centrala
+- C4b) Farmacie
+- C4c) Banca (punct) de sange, banci de tesuturi (dupa caz)
+- C4d) Prosectura (morga)
+
+- D. Servicii gospodaresti
+- D1. Bucatarie, oficii alimentare si depozite de alimente
+- D2. Spalatorie si depozite de lenjerie
+- D3. Statie de dezinfectie (centrala de paturi)
+
+- E. Conducere medicala si administratie
+- E1. Conducere medicala
+- E2. Birouri administrative
+- E3. Serviciu de evidenta medicala si arhive
+- E4. Compartiment de prelucrare a informatiilor si documentelor
+- E5. Sala de intruniri
+
+- F. Servicii anexe pentru personal
+- F1. Vestiare pentru personalul medical si tehnic
+- F2. Punct de documentare medicala (biblioteca)
+
+- G. Spatii sociale si anexe pentru pacienti, apartinatori, vizitatori
+- G1. Garderoba
+- G2. Serviciu de informatii si relatii
+- G3. Bufet si puncte de vanzare (florarie, cadouri, ziare)
+- G4. Diverse prestatii - frizerie, coafura, posta (dupa caz)
+- G5. Capela (dupa caz)
+
+- H. Servicii tehnico-utilitare
+- H1. Centrale si statii tehnice
+- H1a) Centrala termica
+- H1b) Uzina de apa si hidrofor
+- H1c) Post de transformare si grup electrogen
+- H1d) Centrale de ventilatie si tratare a aerului
+- H1e) Centrala frigorifica (dupa caz)
+- H1f) Statii pentru oxigen, aer comprimat, alte fluide medicinale
+- H1g) Centrala telefonica
+- H1h) Statii pentru comunicare interna (TV cu circuit inchis, cautare de persoane, radioficare)
+- H1i) Statii de pompare si tratare efluenti
+- H1j) Statii tehnice pentru masini ascensoare
+- H1k) Statii tehnice aferente unor echipamente medicale
+- H1l) Alte statii tehnice aferente instalatiilor (puncte de distributie, camere tablouri electrice, galerii de vizitare etc.)
+- H2. Dispecerate pentru supraveghere, control si avertizare asupra functionarii echipamentelor si instalatiilor (dupa caz)
+- H3. Serviciu de intretinere si service aparatura (ateliere)
+- H4. Depozite diverse
+- H5. Statie de colectare si tratare a deseurilor solide
+- H6. Garaje
+- H7. Control poarta
+
+## ART. 2
 (1) Organizarea spatial-functionala a spitalelor in ansamblu, precum si cea a fiecaruia dintre sectoarele si compartimentele componente se fac tinandu-se seama de:
 a) categoriile de utilizatori;
 b) specificul activitatilor;
 c) conditionari tehnologice impuse de aparatura medicala si echipamentele (instalatiile) utilizate; si
 d) criterii de igiena si asepsie.
+
 (2) Atat la proiectarea, cat si la amenajarea spitalului se recomanda aplicarea simultana a criteriilor de organizare spatial-functionala, ceea ce conduce la un model general de zonare, model valid atat la spitalele generale, cat si la unele spitale de specialitate, dupa cum urmeaza:
+
 - zona "curata" din punct de vedere al conditiilor igienico-sanitare: cu compartimente adresate numai pacientilor spitalizati, cu cerinte severe privind igiena si asepsia, recomandabil a fi amplasate departe de circulatia principala a spitalului, include:
 a) blocul operator, serviciul ATI, blocul de nasteri, sterilizarea centralizata;
 b) sectiile medicale cu paturi;
+
 - zona "murdara" (sau cu subzone "murdare") din punct de vedere al conditiilor igienico-sanitare: este incadrata astfel intrucat constituie zona de interfata a spitalului in relatia cu serviciile tehnice si de prestatii ale localitatii, cu unitatile furnizoare de materiale si produse, cu diverse retele edilitare. Aceasta zona cuprinde compartimente strict separate de zonele cu cerinte de asepsie, inchise accesului pacientilor si altor categorii de personal in afara celui propriu, amplasate uzual la demisolul (parterul) cladirilor spitalicesti, precum si in constructii anexe izolate, si include urmatoarele:
 a) unele servicii tehnico-medicale (prosectura, farmacie);
 b) zona gospodareasca;
 c) servicii tehnice;
+
 - zona "neutra" din punct de vedere al conditiilor igienico-sanitare: este incadrata astfel intrucat reprezinta interfata spitalului, pe componenta medicala, in relatia cu pacientii, apartinatorii si vizitatorii si are deschidere directa spre caile de circulatie auto si pietonale din zona publica a incintei spitalicesti. Compartimentele incadrate in aceasta zona se recomanda a fi amplasate la parter sau mezanin si includ:
 a) serviciul de urgenta;
 b) sectia de spitalizare de o zi;
 c) ambulatoriul spitalului;
 d) serviciul de primire - internari si externari;
+
 - zona "intermediara" din punct de vedere al conditiilor igienico-sanitare: compartimentele grupate in aceasta zona ocupa pozitii intermediare in ierarhia bazata pe conditii igienico-sanitare, cu precizarea ca zona laboratoarelor si zona administratiei sunt segregate accesului pacientilor sau apartinatorilor, cu exceptia spatiilor de relatii (punctul de recoltare si, respectiv, secretariatul), si se vor amplasa periferic fata de zonele de circulatie principale ale acestor utilizatori. Zona neutra include urmatoarele compartimente si servicii:
 a) laboratoarele;
 b) serviciul centralizat si unitatile de explorari functionale;
 c) serviciul centralizat si unitatile de roentgendiagnostic;
 d) administratia si serviciile anexe pentru personal.
-ANEXA 3
+
+# ANEXA 3
 NORME privind structura functionala a compartimentelor si serviciilor din spital
-CAP. I
+
+## CAP. I
 Organizarea sectiilor medicale
 Sectia medicala de spitalizare
-ART. 1
+
+**ART. 1**
+
 Sectiile medicale de spitalizare asigura cazarea si ingrijirea curenta a bolnavilor pe perioada internarii in spital. Indiferent de profilul medical, sectiile de spitalizare au o structura functionala asemanatoare, cu exceptia celei de pediatrie (compartimentele pentru prematuri, sugari si copii mici) si a celei de obstetrica ginecologie (compartimentul obstetrica fiziologica si nou-nascuti).
-ART. 2
+
+**ART. 2**
+
 Sectia medicala de spitalizare va fi amplasata de preferinta pe un singur nivel. Se accepta amplasarea pe doua niveluri a sectiilor mari, care au in componenta compartimente relativ autonome.
-ART. 3
+
+**ART. 3**
+
 In componenta unei sectii medicale de spitalizare intra urmatoarele categorii de spatii:
 a) saloanele pacientilor si dotarile sanitare aferente;
 b) incaperi pentru asistenta medicala;
 c) incaperi pentru deservirea pacientilor;
 d) camera de garda cu grup sanitar si dus;
 e) diverse spatii pentru activitatile gospodaresti ale sectiei.
-ART. 4
+
+**ART. 4**
+
 In spitalele clinice pot fi amenajate spatii suplimentare, destinate activitatilor didactice (studentilor si cursantilor care isi desfasoara practica medicala sau specializarea la patul bolnavului).
-ART. 5
+
+**ART. 5**
+
 Salonul pentru pacienti adulti se va conforma urmatoarelor cerinte:
 a) capacitate maxima de 6 paturi in saloane curente si maximum doua paturi in rezerve;
 b) arie utila minima de 7 mp/pat in saloane curente, 8 mp/pat in rezerva;
 c) cubaj de 20 mc/pat de aer, in caz de ventilatie naturala.
-ART. 6
+
+**ART. 6**
+
 (1) Dotarea minima sanitara aferenta salonului va include:
 a) la saloanele cu 1-2 paturi: grup sanitar propriu/comun (dus, WC, lavoar);
 b) la saloanele cu 3-4 paturi: grup sanitar propriu, comun la doua saloane (dus, WC, lavoar);
 c) la saloanele cu 5-6 paturi: grup sanitar propriu (WC, lavoar);
 d) un dus la 15 asistati cand saloanele nu sunt prevazute cu dusuri. Salile de dusuri pot fi grupate pe unitati de ingrijire.
+
 (2) Pentru grupa de varsta 3-6 ani, sectia pediatrie, se prevad grupuri sanitare comune.
-ART. 7
+
+**ART. 7**
+
 Urmatoarele dotari minime sunt obligatorii in salon:
 a) priza de oxigen la doua paturi;
 b) corp de iluminat, priza si sonerie la fiecare pat;
 c) pat si noptiera cu dulap la fiecare pat;
 d) o masa cu scaune la fiecare salon.
-ART. 8
+
+**ART. 8**
+
 (1) Orientarea ferestrelor salonului ventilat natural va fi dupa cum urmeaza:
 a) favorabila sau acceptabila: sud-est, sud, nord-vest;
 b) se va evita orientarea ferestrelor spre nord si nord-est (vanturi dominante reci);
 c) se poate accepta orientarea spre vest si sud-vest, in cazul asigurarii unei protectii corespunzatoare a ferestrelor fata de excesul de insorire.
+
 (2) Conditionarile privind orientarea ferestrelor nu mai sunt imperative la sectiile de spitalizare de bolnavi acuti (durata mica de spitalizare: 10-12 zile) si la saloanele la care se face tratarea aerului (climatizare).
-ART. 9
+
+**ART. 9**
+
 (1) La amenajarea salonului se vor avea in vedere si urmatoarele criterii:
 a) paturile vor fi asezate paralel cu frontul ferestrei si vor fi accesibile pe ambele laturi lungi;
 b) distanta dintre doua paturi nu va fi mai mica de 0,70 m;
 c) distanta dintre pat si peretele exterior va fi de cel putin 0,80 m;
 d) distanta dintre pat si peretele paralel pe care se afla lavoarul va fi de minimum 1,30 m.
+
 (2) Pentru cel putin un pat dintr-un salon, circulatia libera aferenta va permite stationarea si deplasarea in carucior pentru persoanele cu handicap.
-ART. 10
+
+**ART. 10**
+
 In mod curent pentru activitati medicale din sectie se vor prevedea urmatoarele spatii:
 a) sali pentru tratamente-pansamente, fiecare cu suprafata de 16-18 mp;
 b) cabinete de consultatii, fiecare cabinet cu suprafata de 12-14 mp, amplasate numai la intrarea in sectie;
@@ -230,26 +284,38 @@ c) spatii de lucru pentru asistenti medicali (oficiu medical), cu posturi de sup
 d) incaperi pentru conducerea medicala a sectiei: medic-sef, asistent-sef, raport de garda, secretariat;
 e) grupuri sanitare si vestiare pentru personal;
 f) pentru unele dintre profilurile medicale, in cadrul sectiei se mai pot prevedea si alte spatii pentru activitati medicale: camere pentru investigatii, tratamente speciale, sali de interventie chirurgicala cu anexele respective si alte dotari in functie de specificul specialitatii.
-ART. 11
+
+**ART. 11**
+
 Incaperile necesare pentru deservirea pacientilor din componenta sectiei:
 a) oficiul alimentar cu anexele sale si sala de mese;
 b) camera pentru activitati de zi si primirea vizitatorilor, in functie de spatiile disponibile;
 c) camera de baie (dupa caz si grupul de dusuri, daca sunt solutionate centralizat).
-ART. 12
+
+**ART. 12**
+
 Obligatoriu, in componenta sectiei vor intra urmatoarele spatii pentru activitatile gospodaresti:
 a) camera de spalare-sterilizare a plostilor si a altor recipiente ("ploscar"): un ploscar la 25-30 de paturi;
 b) spatiu de colectare a rufelor murdare si boxa de curatenie;
 c) depozit de lenjerie curata.
-ART. 13
-(1) In fiecare sectie de spitalizare se desemneaza o subzona septica care la nevoie sa permita izolarea si cohortarea pacientilor contagiosi si dependenti de echipamentele sectiei sau imunodeficienti, cu respectarea precautiilor de izolare.
-(2) La spitalele clinice se recomanda diferentierea pe circulatie separata a zonei spatiilor destinate invatamantului si conducerii medicale a sectiei de zona saloanelor pentru bolnavi.
-ART. 14
-(1) Sectiile medicale pot fi organizate in sistemul unitatilor de ingrijire.
-(2) O sectie de spital poate cuprinde 2-4 unitati de ingrijire, din care cel putin una va fi destinata izolarii pacientilor cu risc septic.
-(3) Unitatea de ingrijire include o grupare de saloane si/sau de rezerve pentru bolnavi, cu un numar constant de paturi, pentru care asistenta medicala este acordata de o echipa compusa din 5-6 asistenti medicali, 2-3 ingrijitoare, repartizate pe ture, echipa fiind coordonata de un medic. In functie de profilul medical al spitalului, capacitatea unei unitati de ingrijire poate varia intre 20 si 35 de paturi.
-ART. 15 In sistemul de organizare a sectiilor pe unitati de ingrijire, anexele medicale si gospodaresti ale sectiei vor fi repartizate pe unitati de ingrijire (cate un cabinet medical, o sala de tratamente-pansamente, un post pentru asistenti medicali, un spatiu de igienizare, o camera de zi etc.), ramanand comune spatiile conducerii sectiei, oficiul alimentar, 1-2 incaperi destinate investigatiilor si tratamentelor speciale.
-CAP. II
-Organizarea sectiei de pediatrie
+
+**ART. 13**
+
+- (1) In fiecare sectie de spitalizare se desemneaza o subzona septica care la nevoie sa permita izolarea si cohortarea pacientilor contagiosi si dependenti de echipamentele sectiei sau imunodeficienti, cu respectarea precautiilor de izolare.
+- (2) La spitalele clinice se recomanda diferentierea pe circulatie separata a zonei spatiilor destinate invatamantului si conducerii medicale a sectiei de zona saloanelor pentru bolnavi.
+
+**ART. 14**
+
+- (1) Sectiile medicale pot fi organizate in sistemul unitatilor de ingrijire.
+- (2) O sectie de spital poate cuprinde 2-4 unitati de ingrijire, din care cel putin una va fi destinata izolarii pacientilor cu risc septic.
+- (3) Unitatea de ingrijire include o grupare de saloane si/sau de rezerve pentru bolnavi, cu un numar constant de paturi, pentru care asistenta medicala este acordata de o echipa compusa din 5-6 asistenti medicali, 2-3 ingrijitoare, repartizate pe ture, echipa fiind coordonata de un medic. In functie de profilul medical al spitalului, capacitatea unei unitati de ingrijire poate varia intre 20 si 35 de paturi.
+
+**ART. 15**
+
+In sistemul de organizare a sectiilor pe unitati de ingrijire, anexele medicale si gospodaresti ale sectiei vor fi repartizate pe unitati de ingrijire (cate un cabinet medical, o sala de tratamente-pansamente, un post pentru asistenti medicali, un spatiu de igienizare, o camera de zi etc.), ramanand comune spatiile conducerii sectiei, oficiul alimentar, 1-2 incaperi destinate investigatiilor si tratamentelor speciale.
+
+## CAP. II
+### Organizarea sectiei de pediatrie
 ART. 16
 (1) Ingrijirea pacientilor copii se face obligatoriu in compartimente distincte in functie de varsta: grupa sugari si copii de 1-3 ani, grupa copii prescolari (3-6 ani) si grupa copii scolari (6-14 ani).
 (2) Compartimentul destinat unei grupe de varsta constituie o unitate de ingrijire relativ autonoma, in cadrul careia pe langa spatiile de spitalizare, conformate dupa specificul varstei, se mai prevad:
@@ -296,7 +362,8 @@ c) umplerea biberoanelor, racirea, distributia acestora;
 d) anexe pentru depozitare;
 e) camera asistentei dieteticiene.
 (3) Biberoneria va avea dotarile sanitare specifice activitatilor desfasurate (autoclava, chiuveta, frigider, aragaz, masa destinata biberoanelor murdare, masa destinata biberoanelor sterile, casolete de transport etc.).
-Sectia (subsectia) de obstetrica fiziologica si nou-nascuti (maternitate)
+
+### Sectia (subsectia) de obstetrica fiziologica si nou-nascuti (maternitate)
 ART. 23
 (1) Sectiile de obstetrica-ginecologie din spitalele generale mici si mijlocii se organizeaza pe subsectii complet separate, de obstetrica si, respectiv, de ginecologie, pentru care se prevad anexe medicale, de deservire a pacientilor si gospodaresti distincte.
 (2) In spitalele mari sau in cele de specialitate, pentru cele doua profiluri se constituie sectii diferite.
@@ -313,7 +380,8 @@ ART. 25
 ART. 26
 (1) Sectia de obstetrica va fi amplasata la acelasi nivel si in legatura directa cu blocul de nasteri si sala de operatii pentru cezariene, recomandat fiind ca circuitul respectiv sa fie distinct de caile de circulatie comune ale spitalului.
 (2) La spitalele generale mici si mijlocii, blocul de nasteri se poate amplasa chiar in sectia (subsectia) de obstetrica.
-Serviciul de primire-internare a bolnavilor
+
+### Serviciul de primire-internare a bolnavilor
 ART. 27
 Acest serviciu se organizeaza ca serviciu unic pe spital si are rolul de a asigura:
 a) efectuarea formelor de internare;
@@ -370,7 +438,8 @@ Unitatea de externare
 ART. 36
 (1) Unitatea de externare se compune dintr-un spatiu prevazut cu boxe de imbracare, separate pe sexe si distincte pentru copii si nou-nascuti.
 (2) Daca externarea se face centralizat, unitatea se amplaseaza in afara circuitului de internare, dar in legatura cu depozitul de haine de oras si cu biroul de intocmire a documentelor de spitalizare.
-Serviciul de urgenta
+
+### Serviciul de urgenta
 ART. 37
 In functie de tipul de spitale, serviciul de urgenta va fi organizat sub forma de unitati de primire urgente (UPU) sau compartimente de primire urgente (CPU).
 a) Unitatea de primire urgente reprezinta o structura unica, cu personal propriu, destinata primirii, triajului clinic, investigatiilor, diagnosticului si tratamentului urgentelor critice si necritice sosite cu mijloacele de transport ale serviciului de ambulanta sau cu alte mijloace de transport. Unitatea de primire urgente se va organiza in cadrul spitalelor regionale, judetene si clinice de urgenta.
@@ -392,7 +461,8 @@ Structura minima va avea urmatoarele componente functionale:
 Art. 37 a fost modificat de art. I pct. 2 din ORDINUL nr. 1.144 din 15 septembrie 2006 publicat in MONITORUL OFICIAL nr. 800 din 22 septembrie 2006.
 ART. 38
 Amplasarea serviciului in cadrul spitalului va permite colaborarea directa cu serviciul de internari, precum si legaturi rapide cu blocul operator, serviciul de terapie intensiva, serviciile de roentgendiagnostic si explorari functionale, laboratorul de analize medicale.
-Compartimentul de spitalizare de o zi
+
+### Compartimentul de spitalizare de o zi
 ART. 39
 Compartimentul de spitalizare de o zi:
 a) se organizeaza in spitale mijlocii si mari, pentru o capacitate de 2-3% din numarul de paturi al spitalului, dar minim pentru 12 paturi;
@@ -402,7 +472,8 @@ ART. 40
 In compartimentul de spitalizare de o zi:
 a) cazarea pacientilor in compartiment se face in saloane de 2-3 paturi si rezerve;
 b) aferent acestor saloane se prevad: - cabinet de consultatii si tratamente (eventual sala de mici interventii); - post de lucru pentru asistenti medicali; - mic oficiu alimentar; - grupuri sanitare; - boxe de lenjerie si de curatenie etc.
-Sectorul ambulatoriu
+
+### Sectorul ambulatoriu
 ART. 41
 Sectorul ambulatoriu propriu spitalului acorda servicii medicale, in specialitatile pe care este profilat, pentru pacienti a caror conditie nu impune sau nu mai impune internarea.
 ART. 42
@@ -425,7 +496,8 @@ a) direct din exterior, situatie in care va fi dotat cu anexe specifice (gardero
 b) din holul intrarii principale a spitalului, caz in care pacientii vor beneficia de toate serviciile si anexele prevazute pentru vizitatori si insotitori.
 ART. 45
 Amplasarea sectorului ambulatoriu in cadrul spitalului va permite legaturi usor accesibile cu serviciile de investigatii-explorari si tratamente, precum si cu compartimentul de spitalizare de o zi.
-Blocul operator
+
+### Blocul operator
 ART. 46
 Blocul operator grupeaza toate salile de operatii necesare diverselor specialitati (profiluri) medicale. In spitalele generale, profilurile medicale care utilizeaza blocul operator sunt: chirurgia generala, ortopedia, traumatologia si arsii, cardiologia, gastroenterologia, urologia, obstetrica, ginecologia, oftalmologia, ORL, pediatria, oncologia si serviciul de urgenta.
 ART. 47
@@ -505,7 +577,8 @@ ART. 60
 Blocul operator va avea:
 a) legatura directa cu serviciul de anestezie - terapie intensiva si sterilizare centrala (daca nu are sterilizare proprie);
 b) asigurate legaturi usoare cu: blocul de nasteri (cand acesta nu are sala proprie de operatii cezariene), serviciul de roentgendiagnostic, serviciul de urgenta, laboratorul de anatomie patologica (pentru examene extemporanee) si sectiile de spitalizare.
-Serviciul de anestezie - terapie intensiva (ATI)
+
+### Serviciul de anestezie - terapie intensiva (ATI)
 ART. 61
 (1) Serviciul ATI centralizeaza toate cazurile medicale grave, care necesita supraveghere continua si ingrijire intensiva 24 de ore din 24.
 (2) Asistenta medicala se asigura de un personal inalt calificat, cu ajutorul unei aparaturi medicale specializate (pentru compensarea si monitorizarea functiilor vitale ale organismului bolnavilor).
@@ -544,7 +617,8 @@ ART. 67
 ART. 68
 (1) In mod curent, mai ales la spitalele mici si mijlocii, serviciul ATI se amplaseaza in imediata vecinatate a blocului operator, pe acelasi nivel cu acesta.
 (2) Serviciul ATI se poate amplasa si la nivel superior sau inferior fata de blocul operator (la spitalele mari si foarte mari), cu conditia realizarii unei legaturi directe, prin scara si ascensor.
-Serviciul de sterilizare centrala
+
+### Serviciul de sterilizare centrala
 ART. 69
 In spitale activitatile de sterilizare se centralizeaza cu precadere in cadrul serviciului de sterilizare centrala, cu urmatoarele exceptii obligatorii:
 a) sticlaria si materialele de laborator se sterilizeaza in interiorul laboratorului;
@@ -579,7 +653,8 @@ ART. 76
 (1) Serviciul de sterilizare centrala se amplaseaza cat mai aproape de blocul operator si trebuie sa aiba legaturi cat mai directe cu serviciul ATI, blocul de nasteri, serviciul de urgente, laboratoarele de explorari functionale, sectiile medicale cu paturi.
 (2) La spitalele cu profil chirurgical sau la cele generale cu procent mare de paturi de chirurgie, se recomanda alipirea statiei de sterilizare la blocul operator, cu crearea unui circuit specializat pentru relatia cu acesta.
 (3) La spitalele generale mari si foarte mari, daca marimea blocului operator o justifica, se poate amenaja o statie de sterilizare proprie blocului operator, separand activitatile de sterilizare de restul spitalului.
-Blocul de nasteri
+
+### Blocul de nasteri
 ART. 77
 In blocul de nasteri se efectueaza centralizat activitatea de asistenta medicala calificata a parturientelor pe parcursul nasterii.
 ART. 78
@@ -613,7 +688,8 @@ ART. 84
 Amplasarea blocului de nasteri se poate face conform urmatoarelor doua moduri:
 a) amplasarea in cadrul sectiei sau compartimentului de obstetrica (justificata la spitalele mici, dar si la spitalele generale mari, cu putine paturi de obstetrica);
 b) amplasarea in apropierea blocului operator si a celorlalte servicii tehnico medicale, pentru a inlesni cooperarea cu acestea, cooperare absolut necesara daca spitalul are mai mult de doua sectii de obstetrica. Aceasta solutie se aplica in mod curent la spitalele de specialitate (maternitati sau blocuri materno-infantile).
-Laboratorul de analize medicale
+
+### Laboratorul de analize medicale
 ART. 85
 In acest compartiment se centralizeaza activitatile de laborator necesare examinarii produselor biologice umane pentru o mai corecta apreciere a starii de sanatate sau a stadiului de imbolnavire a pacientilor. Laboratorul poate deservi atat pacientii internati in spital, cat si pe cei ambulatorii.
 ART. 86
@@ -688,7 +764,8 @@ ART. 105
 a) pentru radiologia de diagnostic si radiologia interventionala: Normele de securitate radiologica in practicile de radiologie de diagnostic si radiologie interventionala, aprobate prin Ordinul presedintelui Comisiei Nationale pentru Controlul Activitatilor Nucleare nr. 173/2003, modificat prin Ordinul presedintelui Comisiei Nationale pentru Controlul Activitatilor Nucleare nr. 291/2004;
 b) pentru radioterapie: Normele de securitate radiologica in practica de radioterapie, aprobate prin Ordinul presedintelui Comisiei Nationale pentru Controlul Activitatilor Nucleare nr. 94/2004;
 c) pentru medicina nucleara: Normele de securitate radiologica pentru practica de medicina nucleara, aprobate prin Ordinul presedintelui Comisiei Nationale pentru Controlul Activitatilor Nucleare nr. 358/2005.
-Serviciul (laboratorul) de explorari functionale si alte investigatii anatomofiziologice complexe
+
+### Serviciul (laboratorul) de explorari functionale si alte investigatii anatomofiziologice complexe
 ART. 106
 In cadrul acestui serviciu se grupeaza, centralizat pe spital, o mare varietate de tehnici de investigare, bazate pe utilizarea unor aparaturi specializate de inalta tehnologie si care permit obtinerea de date referitoare la potentialul functional al diferitelor organe si sisteme ale corpului uman.
 ART. 107
@@ -715,7 +792,8 @@ La spitalele mari si foarte mari unele unitati de explorari functionale se pot r
 ART. 112
 (1) Amplasarea serviciului de explorari functionale se va face in apropierea serviciului de roentgendiagnostic si a laboratorului de analize medicale.
 (2) Se va asigura o legatura directa cu serviciul de urgenta, cu sectorul ambulatoriu si cu compartimentul de spitalizare de o zi.
-Laboratoarele de medicina nucleara
+
+### Laboratoarele de medicina nucleara
 ART. 113
 Procedurile medicale care utilizeaza pentru diagnostic si/sau terapie substante radiofarmaceutice (izotopi) se izoleaza de restul activitatilor medicale, constituind un serviciu distinct in cadrul spitalului: laboratorul de medicina nucleara. Acest serviciu se organizeaza in spitalele generale mari si foarte mari, precum si in unele spitale de specialitate, cum ar fi cele de oncologie, endocrinologie, reumatologie etc.
 ART. 114
@@ -741,7 +819,8 @@ ART. 117
 (1) Laboratorul de medicina nucleara se amplaseaza la parterul sau la demisolul constructiei, sub acesta urmand a fi solutionat un spatiu tehnic propriu, delimitat fata de alte spatii comune sau de alte functiuni ale cladirii.
 (2) In afara accesului dinspre caile de circulatie interioare ale spitalului, laboratorul de medicina nucleara va beneficia de un acces propriu direct din exterior, pentru aprovizionarea cu produse radiofarmaceutice si pentru expedierea deseurilor nedezactivate.
 (3) Nu sunt contraindicatii in ceea ce priveste amplasarea altor functiuni spitalicesti in spatiile aflate alaturi sau deasupra incaperilor laboratorului.
-Serviciul de fizioterapie si recuperare medicala
+
+### Serviciul de fizioterapie si recuperare medicala
 ART. 118
 Procedurile de fizioterapie si recuperare medicala, mai amplu sau mai putin dezvoltate, sunt nelipsite in structura spitalelor moderne, fie ca tratament asociat, fie ca tratament principal in cazul spitalelor de specialitate. Amploarea si structura serviciului sunt in functie de capacitatea spitalului, de profilul acestuia si, dupa caz, de asocierea dispensarului policlinic.
 ART. 119
@@ -801,7 +880,8 @@ ART. 127
 (2) Nu se permite ca serviciul sa fie traversat de caile de circulatie generala ale spitalului.
 (3) Daca serviciul are in componenta un compartiment de hidroterapie este recomandabila amplasarea lui la nivelul inferior (demisol sau parter), respectiv peste subsolul tehnic prin care se face distribuirea instalatiilor si vizitarea lor.
 (4) Se poate adopta si amplasarea serviciului pe doua niveluri, caz in care la nivelul superior se amplaseaza compartimentele uscate (electroterapie, pneumoterapie, cultura fizica medicala, psihoterapie), asigurandu-se o circulatie verticala proprie (scara) intre cele doua niveluri.
-Laboratorul de anatomie patologica si prosectura
+
+### Laboratorul de anatomie patologica si prosectura
 ART. 128
 Serviciul este destinat efectuarii de examene anatomopatologice ale pacientilor decedati (autopsie, analize de organe, tesuturi si produse biologice), dar si pentru examinari ale unor tesuturi prelevate de la pacienti vii (biopsii, punctii, extirpari chirurgicale).
 ART. 129
@@ -839,7 +919,8 @@ Incaperile vor fi prevazute cu instalatii de apa calda si rece, instalatii elect
 ART. 134
 (1) Amplasarea serviciului se face in asa fel incat sa se asigure un acces direct din exterior pentru apartinatori si pentru preluarea cadavrelor. In zona acestui acces se va prevedea un spatiu pentru stationarea masinii mortuare, ferit vederii dinspre saloanele bolnavilor.
 (2) Accesul dinspre spital va fi amenajat cu un filtru igienico-sanitar, care sa asigure izolarea circuitului intern al serviciului de restul cailor de circulatie din spital. Dinspre acest acces se vor asigura legaturi directe cu blocul operator si nodul de circulatie verticala al sectorului de spitalizare.
-Farmacia
+
+### Farmacia
 ART. 135
 (1) Farmacia este serviciul care asigura asistenta cu medicamente de uz uman a bolnavilor internati. uz
 (2) Farmacia asigura receptia calitativa si cantitativa a medicamentelor si a altor produse de uz uman, conservarea acestora, eliberarea medicamentelor si a altor produse de uman conform condicilor de prescrieri, asigura prepararea si eliberarea preparatelor magistrale si oficinale.
@@ -888,7 +969,8 @@ ART. 143
 (2) Farmacia trebuie sa aiba o buna legatura cu toate serviciile medicale ale spitalului, de aceea va fi cat mai usor accesibila dinspre nodul de circulatie verticala.
 (3) Pentru a permite accesul direct din exterior, amplasarea favorabila este la parter sau la etajul 1.
 (4) In cazul amplasarii farmaciei la etajul 1, intre spatiul de receptie accesibil din exterior si restul farmaciei se va asigura o legatura directa, proprie, prin ascensorul de materiale si scara.
-Blocul alimentar (bucatarie)
+
+### Blocul alimentar (bucatarie)
 ART. 144
 Prepararea alimentelor se face centralizat pentru pacientii si insotitorii internati, precum si pentru personalul care serveste masa la spital, bucataria dimensionandu-se in functie de numarul de portii.
 ART. 145
@@ -940,7 +1022,8 @@ Blocul alimentar va fi dotat cu recipiente necesare pentru colectarea, depozitar
 ART. 156
 (1) Blocul alimentar se va amplasa in asa fel incat legaturile acestuia cu sectiile de spitalizare sau cu cantina personalului sa nu traverseze alte zone gospodaresti pentru care cerintele de igiena sunt mai putin severe.
 (2) Blocul alimentar se poate amplasa fie in cladirea principala a spitalului (la parter sau demisol), cu luarea masurilor corespunzatoare privind protectia spatiilor spitalicesti fata de degajarile de abur si mirosuri (ventilatie, sas-ecluza la accesul in spital), fie intr-o cladire separata, caz in care legatura cu spitalul se va asigura printr-un coridor inchis.
-Spalatoria
+
+### Spalatoria
 ART. 157
 De regula, spalatoria se organizeaza ca un serviciu unic pe spital pentru urmatoarele activitati: primire, dezinfectie, spalare, calcare, reparare, depozitare rufe. La organizarea spatial-functionala a spalatoriei se vor respecta urmatoarele cerinte:
 a) separarea obligatorie a circuitelor de rufe murdare si rufe curate;
@@ -970,12 +1053,12 @@ ART. 161
 Circuitul interior al spalatoriei nu va fi traversat de alte circuite ale spitalului. Modul de amplasare a utilajelor si instalatiilor aferente va avea in vedere asigurarea conditiilor pentru intretinere usoara si rapida (reparatii, curatare).
 ART. 162
 Spalatoria se poate amplasa fie la parterul sau demisolul cladirii principale a spitalului (la primul nivel peste subsolul tehnic), caz in care se vor asigura toate masurile pentru a nu permite patrunderea in spatiile medicale a aburului si mirosurilor, fie in pavilion separat (eventual cu alte functiuni gospodaresti), caz in care comunicarea cu cladirea spitalului se va face printr-un coridor de legatura.
-Depozitele centrale
+
+### Depozitele centrale
 ART. 163
 In cadrul unitatii sanitare trebuie sa existe un spatiu central de depozitare a materialelor.
 ART. 164
-(1)
-Depozitul central de materiale trebuie sa fie conceput si amenajat corespunzator.
+(1) Depozitul central de materiale trebuie sa fie conceput si amenajat corespunzator.
 (2) Depozitul central de materiale se recomanda sa fie o constructie separata de cladirea unitatii sanitare.
 (3) Daca se apeleaza la spatiile existente, incaperile se vor amenaja astfel incat sa raspunda cerintelor de mai jos.
 (4) Pentru incaperile amenajate ca depozit in subsoluri tehnice se va asigura o buna hidroizolatie si termoizolatie conductelor care traverseaza incaperile.
@@ -1023,7 +1106,8 @@ ART. 178
 Fiecare unitate sanitara va intocmi si va pastra in mod obligatoriu un catalog al materialelor folosite.
 ART. 179
 Spatiile de depozitare a materialelor din cadrul sectiilor unitatii sanitare (sublocalizari) vor fi amenajate corespunzator.
-ANEXA 4
+
+# ANEXA 4
 NORME privind asigurarea conditiilor generale de igiena
 ART. 1
 Incinta spitalului (toate cladirile si anexele care asigura desfasurarea activitatii) trebuie sa fie:
