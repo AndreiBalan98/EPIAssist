@@ -7,23 +7,25 @@ MINISTERUL SANATATII PUBLICE,
 Bucuresti, 26 iulie 2006.
 **Nr. 914.**
 
+--- 
+
 *) Textul initial a fost publicat in MONITORUL OFICIAL nr. 695 din 15 august 2006. Aceasta este forma actualizata de S.C. "Centrul Teritorial de Calcul Electronic" S.A. Piatra Neamt pana la data de 22 septembrie 2006 cu modificarile si completarile aduse de ORDINUL nr. 1.144 din 15 septembrie 2006.
 Avand in vedere prevederile art. 175 alin. (1) al titlului VII "Spitale" din Legea nr. 95/2006 privind reforma in domeniul sanatatii, in temeiul Hotararii Guvernului nr. 862/2006 privind organizarea si functionarea Ministerului Sanatatii Publice, vazand Referatul de aprobare al Directiei de sanatate publica nr. E.N. 2.450/2006, ministrul sanatatii publice emite urmatorul ordin:
 
-# ART. 1
+**ART. 1**
 Se aproba normele privind conditiile pe care trebuie sa le indeplineasca un spital in vederea obtinerii autorizatiei sanitare de functionare, prevazute in anexele nr. 1-4.
 
-# ART. 2
+**ART. 2**
 Anexele nr. 1-4 fac parte integranta din prezentul ordin.
 
-# ART. 3
+**ART. 3**
 Autoritatea de sanatate publica, Inspectia Sanitara de Stat din cadrul Ministerului Sanatatii Publice, ministerele cu retea sanitara proprie, autoritatile de sanatate publica judetene si a municipiului Bucuresti, inspectiile sanitare de stat judetene si a municipiului Bucuresti, spitalele publice si private vor duce la indeplinire prevederile prezentului ordin.
 
-# ART. 3^1
+**ART. 3^1**
 La data intrarii in vigoare a prezentului ordin se abroga orice alte prevederi contrare.
 Art. 3^1 a fost introdus de art. I pct. 1 din ORDINUL nr. 1.144 din 15 septembrie 2006 publicat in MONITORUL OFICIAL nr. 800 din 22 septembrie 2006.
 
-# ART. 4
+**ART. 4**
 Prezentul ordin se publica in Monitorul Oficial al Romaniei, Partea I.
 
 # ANEXA 1

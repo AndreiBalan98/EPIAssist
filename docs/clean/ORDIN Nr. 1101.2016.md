@@ -4,10 +4,6 @@
 **Emitent:** Ministerul Sănătăţii  
 **Publicat în:** Monitorul Oficial nr. 791 din 7 octombrie 2016
 
-Văzând Referatul de aprobare nr. V.V.V. 4.289 din 30 septembrie 2016, întocmit de Direcţia generală de asistenţă medicală şi sănătate publică din cadrul Ministerului Sănătăţii, având în vedere prevederile art. 8 alin. (1) lit. a) şi art. 166 din Legea nr. 95/2006 privind reforma în domeniul sănătăţii, republicată, cu modificările şi completările ulterioare, în temeiul prevederilor art. 7 alin. (4) din Hotărârea Guvernului nr. 144/2010 privind organizarea şi funcţionarea Ministerului Sănătăţii, cu modificările şi completările ulterioare, ministrul sănătăţii emite următorul ordin:
-
----
-
 Ministrul sănătăţii,  
 **Vlad Vasile Voiculescu**  
 Bucureşti, 30 septembrie 2016  
@@ -15,7 +11,10 @@ Bucureşti, 30 septembrie 2016
 
 ---
 
-## ART. 1
+Văzând Referatul de aprobare nr. V.V.V. 4.289 din 30 septembrie 2016, întocmit de Direcţia generală de asistenţă medicală şi sănătate publică din cadrul Ministerului Sănătăţii, având în vedere prevederile art. 8 alin. (1) lit. a) şi art. 166 din Legea nr. 95/2006 privind reforma în domeniul sănătăţii, republicată, cu modificările şi completările ulterioare, în temeiul prevederilor art. 7 alin. (4) din Hotărârea Guvernului nr. 144/2010 privind organizarea şi funcţionarea Ministerului Sănătăţii, cu modificările şi completările ulterioare, ministrul sănătăţii emite următorul ordin:
+
+**ART. 1**
+
 1. Se aprobă **Normele de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale în unităţile sanitare**, prevăzute în anexele nr. 1–4, care fac parte integrantă din prezentul ordin.  
 2. Normele prevăzute la alin. (1) cuprind:
     - **a)** Organizarea activităţilor de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale în unităţile sanitare publice şi private cu paturi – anexa nr. 1  
@@ -23,54 +22,44 @@ Bucureşti, 30 septembrie 2016
     - **c)** Metodologia de supraveghere a expunerii accidentale a personalului care lucrează în domeniul sanitar la produse biologice – anexa nr. 3  
     - **d)** Precauţiunile standard – măsuri minime obligatorii pentru prevenirea şi limitarea infecţiilor asociate asistenţei medicale – anexa nr. 4
 
----
+**ART. 2**
 
-## ART. 2
 Definiţiile de caz utilizate pentru supravegherea infecţiilor asociate asistenţei medicale sunt cele prevăzute în Decizia 2012/506/UE.
 
----
+**ART. 3**
 
-## ART. 3
 Depistarea/identificarea, înregistrarea şi declararea/raportarea infecţiilor asociate asistenţei medicale de către orice unitate sanitară sunt obligatorii.
 
----
+**ART. 4**
 
-## ART. 4
 Fiecare unitate sanitară elaborează anual un **program propriu de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale.**
 
----
+**ART. 5**
 
-## ART. 5
 Fondurile necesare îndeplinirii activităţilor din programul prevăzut la art. 4 vor fi asigurate din bugetul de venituri şi cheltuieli al unităţii şi vor fi **afişate pe site-ul unităţii**, defalcat pe tip de cheltuieli (teste screening pacienţi, teste de autocontrol, dezinfectanţi, controlul microbiologic al personalului etc.).
 
----
+**ART. 6**
 
-## ART. 6
 Costurile aferente activităţilor de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale se vor regăsi în valoarea serviciilor medicale decontate de fiecare plătitor/asigurător/finanţator aflat în relaţie contractuală cu unităţile sanitare, pentru fiecare dintre pacienţii eligibili asistaţi.
 
----
+**ART. 7**
 
-## ART. 7
 În toate unităţile sanitare, activitatea de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale face parte din **obligaţiile profesionale ale personalului** şi va fi înscrisă în fişa postului fiecărui salariat.
 
----
+**ART. 8**
 
-## ART. 8
 Orice daună adusă pacienţilor prin nerespectarea prevederilor prezentului ordin sau a normativelor profesionale privind asigurarea calităţii asistenţei medicale acordate pacienţilor, în scopul prevenirii infecţiilor asociate asistenţei medicale, atrage **responsabilitatea individuală sau instituţională**, în condiţiile prevăzute de legislaţia în vigoare.
 
----
+**ART. 9**
 
-## ART. 9
 Direcţiile/Serviciile de specialitate din cadrul Ministerului Sănătăţii, Institutul Naţional de Sănătate Publică, direcţiile de sănătate publică judeţene şi a municipiului Bucureşti, precum şi unităţile sanitare din sistemul public şi privat vor duce la îndeplinire prevederile prezentului ordin.
 
----
+**ART. 10**
 
-## ART. 10
 La data intrării în vigoare a prezentului ordin se abrogă **Ordinul ministrului sănătăţii publice nr. 916/2006** privind aprobarea Normelor de supraveghere, prevenire şi control al infecţiilor nosocomiale în unităţile sanitare.
 
----
+**ART. 11**
 
-## ART. 11
 Prezentul ordin se publică în Monitorul Oficial al României, Partea I.
 
 ---
@@ -81,7 +70,7 @@ Prezentul ordin se publică în Monitorul Oficial al României, Partea I.
 ## CAPITOLUL I  
 **Dispoziţii generale**
 
-1. Unităţile sanitare publice şi private cu paturi asigură organizarea şi funcţionarea serviciilor/compartimentelor de prevenire a infecţiilor asociate asistenţei medicale, după cum urmează:  
+1. Unităţil e sanitare publice şi private cu paturi asigură organizarea şi funcţionarea serviciilor/compartimentelor de prevenire a infecţiilor asociate asistenţei medicale, după cum urmează:  
 
     a) la nivelul tuturor unităţilor sanitare cu paturi, de stat sau private, se organizează servicii/compartimente specializate de prevenire a infecţiilor asociate asistenţei medicale;  
 
@@ -608,7 +597,7 @@ d) eficienţă şi eficacitate (impactul).
 8. Raportarea statistică a infecţiilor asociate asistenţei medicale va fi efectuată conform reglementărilor legale în vigoare.  
 9. Intervenţia în focar este responsabilitatea unităţii sanitare; aceasta poate solicita consultanţă direcţiei de sănătate publică judeţene şi a municipiului Bucureşti.
 
-## I. Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale al unităţii sanitare
+### I. Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale al unităţii sanitare
 1. La nivelul fiecărei secţii din unitatea sanitară se înfiinţează Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale, în format electronic - model prezentat în figura 1.
 2. Registrul cuprinde toate cazurile de suspiciune de infecţie asociată asistenţei medicale depistate prin oricare dintre metodele de supraveghere descrise, precum şi prin activitatea de screening al pacienţilor implementată, după caz.
 3. Secţiile transmit registrul de monitorizare către serviciul/compartimentul de prevenire a infecţiilor asociate asistenţei medicale săptămânal, în fiecare zi de luni pentru săptămâna precedentă.
@@ -618,7 +607,7 @@ d) eficienţă şi eficacitate (impactul).
 7. Serviciul/Compartimentul de supraveghere a bolilor transmisibile din cadrul direcţiei de sănătate publică judeţene şi a municipiului Bucureşti are responsabilitatea validării confirmării/infirmării cazurilor pe baza definiţiilor de caz, trimestrial.
 8. Serviciul/Compartimentul de supraveghere a bolilor transmisibile din cadrul direcţiei de sănătate publică judeţene şi a municipiului Bucureşti are responsabilitatea analizei datelor şi de a se autosesiza în situaţia apariţiei unui cumul de cazuri care sugerează existenţa unui focar într-o unitate sanitară.
 
-## II. Raportarea pe Fişa cazului de infecţie asociată asistenţei medicale
+### II. Raportarea pe Fişa cazului de infecţie asociată asistenţei medicale
 1. Toate cazurile de infecţii asociate asistenţei medicale care au fost confirmate se declară pe Fişa cazului de infecţie asociată asistenţei medicale - model prezentat în figura 2.
 2. Fişa este completată de către medicul curant al cazului şi este însoţită de semnătură şi parafă.
 3. Fişele cazurilor de infecţii asociate asistenţei medicale se transmit lunar, in-folio, direcţiei de sănătate publică judeţene şi a municipiului Bucureşti, până la data de 5 a lunii pentru luna precedentă. În unităţile sanitare în care acest lucru este posibil se organizează baza de date electronică a unităţii, după formatul unic naţional, care va fi transmisă direcţiei de sănătate publică judeţene şi a municipiului Bucureşti.
@@ -626,7 +615,7 @@ d) eficienţă şi eficacitate (impactul).
 5. Direcţiile de sănătate publică judeţene şi a municipiului Bucureşti transmit baza de date completată şi verificată către Institutul Naţional de Sănătate Publică - centrul regional la care sunt arondate, până la data de 15 a lunii pentru luna precedentă.
 6. Baza de date naţională este gestionată de Institutul Naţional de Sănătate Publică - Centrul Regional de Sănătate Publică Bucureşti, care are obligaţia analizei şi elaborării rapoartelor trimestriale şi anuale.
         
-Figura 1 - Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale al unităţii
+#### Figura 1 - Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale al unităţii
 
 Semnificaţia coloanelor din tabelul de mai jos este următoarea:
 
@@ -645,7 +634,7 @@ Semnificaţia coloanelor din tabelul de mai jos este următoarea:
     |____|______|____|______|____|__________|__________|___|___|___|___|___|___|___|
     *MDR = MRSA, ESBL, VRE, CRE/CPE, altele.
 
-Figura 2 - Fişa*) cazului de infecţie asociată asistenţei medicale
+#### Figura 2 - Fişa*) cazului de infecţie asociată asistenţei medicale
 
 *) Fişa este reprodusă în facsimil.
 
@@ -711,32 +700,32 @@ Figura 2 - Fişa*) cazului de infecţie asociată asistenţei medicale
 # ANEXA 3
 **METODOLOGIA de supraveghere a expunerii accidentale a personalului care lucrează în sistemul sanitar la produse biologice**
 
-## Scop
+**Scop**
 Reducerea riscului de infecţie postexpunere la sânge şi la alte produse biologice la personalul care lucrează în sistemul sanitar.
 
-## Obiective
+**Obiective**
 a) estimarea incidenţei expunerii accidentale la produse biologice a personalului care lucrează în sistemul sanitar;  
 b) ierarhizarea factorilor de risc (proceduri, dispozitive, timpul de lucru etc.);  
 c) evaluarea respectării precauţiunilor standard;  
 d) sensibilizarea personalului medical în sensul cunoaşterii riscului expunerii la sânge şi la alte produse biologice şi a aplicării măsurilor de prevenire a acestor expuneri accidentale şi a consecinţelor acestora;  
 e) aplicarea corectă a măsurilor profilactice primare şi secundare.
 
-## Tip de supraveghere
+**Tip de supraveghere**
 Pasivă – colectarea datelor privind expunerea la produse biologice a personalului medico-sanitar, de îngrijire şi auxiliar.
 
-## Colectarea datelor
+**Colectarea datelor**
 Datele privind raportarea expunerii accidentale la produse biologice sunt colectate pe baza:
 
 - fişei de raportare a expunerii accidentale a personalului medico-sanitar, de îngrijire şi auxiliar la produse biologice (figura 1);  
 - tabelului privind evidenţa vaccinărilor personalului medico-sanitar cu expunere accidentală la produse biologice (figura 2);  
 - fişei unităţii sanitare privind situaţia vaccinării antihepatită B a personalului medico-sanitar, de îngrijire şi auxiliar (figura 3).
 
-# Definiţii
+## Definiţii
 
-### a) Persoana care lucrează în sistemul sanitar
+a) Persoana care lucrează în sistemul sanitar
 Orice persoană (angajat, student, voluntar) ale cărei activităţi implică contactul cu pacienţi, sânge sau alte produse biologice provenite de la pacient, în cabinete, secţii, compartimente sau laboratoare.
 
-### b) Expunere cu risc de infecţie HIV, VHB, VHC
+b) Expunere cu risc de infecţie HIV, VHB, VHC
 Expunere care necesită profilaxie postexpunere profesională (PPEP).
 
 Se consideră expunere cu risc:
@@ -746,7 +735,7 @@ Se consideră expunere cu risc:
 - contact cutanat pe piele intactă, dar cu durată prelungită sau pe o suprafaţă întinsă,
   cu sânge, ţesuturi sau alte produse biologice contaminate vizibil cu sânge.
 
-### c) Produse biologice
+c) Produse biologice
 1. spermă, secreţii vaginale;
 2. fluide (lichid cefalorahidian, sinovial, pleural, peritoneal, pericardic, amniotic);
 3. concentrate de HIV (în laboratoare).
@@ -755,54 +744,54 @@ Se consideră expunere cu risc:
 aceste produse biologice nu sunt considerate cu risc de infecţie HIV şi nu impun măsuri
 de profilaxie antiretrovirală şi de supraveghere medicală PPEP.
 
-### d) Caz de expunere profesională
+d) Caz de expunere profesională
 Orice persoană care lucrează în sistemul sanitar şi care a suferit o expunere accidentală
 cu risc de infecţie HIV, VHB, VHC, prin contact cu sânge sau alte produse biologice considerate cu risc.
 
-## Populaţia-ţintă
+**Populaţia-ţintă**
 Persoanele care lucrează în sistemul sanitar: personalul medico-sanitar, de îngrijire,
 auxiliar, tehnic, persoane aflate într-o formă de învăţământ, voluntari.
 
-## Unităţile-ţintă
+**Unităţile-ţintă**
 Unităţile sanitare publice (indiferent de subordonare) şi unităţile sanitare private.
 
-# Atribuţii în unităţile sanitare cu paturi
+## Atribuţii în unităţile sanitare cu paturi
 
-## I. Compartimentul/Secţia în care a avut loc expunerea accidentală
+### I. Compartimentul/Secţia în care a avut loc expunerea accidentală
 
-### a) Persoana expusă accidental aplică imediat protocolul de management al expunerii accidentale la produse biologice:
+**a)** Persoana expusă accidental aplică imediat protocolul de management al expunerii accidentale la produse biologice:
 
-#### 1. Îngrijire de urgenţă:
+1. Îngrijire de urgenţă:
 - expunere cutanată: spălare cu apă şi săpun 5 minute;
 - expunere percutană: spălare cu apă şi săpun, urmată de aplicarea unui antiseptic cu timp de contact conform recomandărilor producătorului;
 - expunere mucoasă: spălare cu ser fiziologic sau cu apă 5 minute.
 
-#### 2. Chimioprofilaxie
+2. Chimioprofilaxie
 Pentru infecţia HIV, administrată în funcţie de tipul expunerii şi starea pacientului-sursă.
 
-#### 3. Vaccinare postexpunere:
+3. Vaccinare postexpunere:
 - în prima oră de la accident se prezintă la medicul şef de secţie/compartiment sau la medicul şef de gardă;
 - în termen de 24 de ore se prezintă la responsabilul serviciului/compartimentului de prevenire a infecţiilor asociate asistenţei medicale pentru consultanţă în vederea evaluării riscului;
 - în termen de maximum 48 de ore anunţă medicul de medicina muncii pentru luarea în evidenţă.
 
-### b) Medicul şef de secţie/compartiment sau medicul şef de gardă:
+**b)** Medicul şef de secţie/compartiment sau medicul şef de gardă:
 - completează şi transmite către serviciul/compartimentul de prevenire a infecţiilor asociate asistenţei medicale, în maximum 24 de ore de la producerea expunerii accidentale, fişa de raportare a expunerii accidentale a personalului medico-sanitar, de îngrijire şi auxiliar la produse biologice (figura 1);
 - înregistrează expunerea accidentală în registrul de evidenţă a expunerilor accidentale la produse biologice al secţiei;
 - asigură recoltarea eşantioanelor de sânge de la pacientul-sursă în maximum 2 ore de la producerea expunerii accidentale, respectând legislaţia privind testarea voluntară cu consiliere;
 - asigură recoltarea eşantioanelor de sânge de la personalul expus accidental în maximum 2 ore de la momentul expunerii, respectând legislaţia privind testarea voluntară cu consiliere;
 - asigură transportul eşantioanelor de sânge provenite de la pacientul-sursă la laboratorul unităţii cu paturi în care a avut loc expunerea.
 
-## II. Unitatea sanitară în care s-a produs expunerea accidentală
+### II. Unitatea sanitară în care s-a produs expunerea accidentală
 - asigură prelevarea şi testarea eşantioanelor de sânge provenite de la pacientul-sursă şi persoana expusă accidental la produse biologice, în funcţie de antecedentele cunoscute ale fiecăruia. Testele efectuate sunt: AgHBs, antiHBs, antiHBc, antiVHC, test HIV;
 - asigură evaluarea persoanei expuse accidental de către medicul infecţionist din spital sau trimiterea persoanei expuse către secţia/spitalul de boli infecţioase/consult interdisciplinar;
 - asigură vaccinarea antihepatită B, în cazul în care persoana expusă nu are marker care să indice faptul că a fost vaccinată sau a trecut prin boală;
 - pentru cazurile în care chimioprofilaxia pentru infecţia HIV este necesară, aceasta este asigurată de secţia/spitalul de boli infecţioase.
 
-## III. Laboratorul spitalului în care a avut loc expunerea accidentală
+### III. Laboratorul spitalului în care a avut loc expunerea accidentală
 - efectuează testele solicitate atât pentru persoana expusă, cât şi pentru pacientul-sursă;
 - comunică rezultatele testărilor serviciului/ compartimentului de prevenire a infecţiilor asociate asistenţei medicale în termen de 24 de ore.
 
-## IV. Serviciul/Compartimentul sau medicul responsabil pentru prevenirea infecţiilor asociate asistenţei medicale din spitalul în care a avut loc expunerea accidentală la produse biologice
+### IV. Serviciul/Compartimentul sau medicul responsabil pentru prevenirea infecţiilor asociate asistenţei medicale din spitalul în care a avut loc expunerea accidentală la produse biologice
 - răspunde de informarea personalului cu privire la obligativitatea raportării expunerii accidentale şi metodele de prevenire;
 - participă împreună cu medicul infecţionist la evaluarea riscului de infecţie şi consilierea cu privire la HIV, VHC, VHB;
 - înregistrează vaccinarea antihepatită B a persoanei expuse, în registrul de evidenţă a expunerii accidentale la produse biologice al secţiei;
@@ -812,7 +801,7 @@ Pentru infecţia HIV, administrată în funcţie de tipul expunerii şi starea p
 - transmite anual către direcţia de sănătate publică judeţeană şi a municipiului Bucureşti situaţia vaccinărilor antihepatitice B efectuate postexpunere accidentală, situaţie completată conform machetei prezentate în figura 2 de către medicul de medicina muncii;
 - întocmeşte şi transmite anual către direcţia de sănătate publică judeţeană şi a municipiului Bucureşti fişa unităţii sanitare privind situaţia vaccinării antihepatită B a personalului medicosanitar, de îngrijire şi auxiliar, conform machetei prezentate în figura 3.
 
-## V. Medicul de medicina muncii care deserveşte unitatea sanitară
+### V. Medicul de medicina muncii care deserveşte unitatea sanitară
 - înregistrează evenimentul în registrul propriu al expunerilor accidentale la produse biologice;
 - urmăreşte apariţia semnelor evocatorii de infecţie HIV/VHB/VHC;
 - urmăreşte seroconversia pentru HIV şi/sau VHB şi/sau VHC la persoana expusă, pe baza testelor efectuate imediat după expunere şi la 6 luni de la data expunerii sau, în cazul în care este posibil, prin determinarea viremiei HIV/VHC la 1 lună, cu respectarea confidenţialităţii, conform legislaţiei în vigoare;
@@ -820,20 +809,20 @@ Pentru infecţia HIV, administrată în funcţie de tipul expunerii şi starea p
 - raportează expunerile accidentale la produse biologice a personalului din sistemul sanitar către inspectoratul teritorial de muncă, în conformitate cu Legea securităţii şi sănătăţii în muncă nr. 319/2006, cu modificările ulterioare, şi cu Hotărârea Guvernului nr. 243/2013 privind cerinţele minime de securitate şi sănătate în muncă pentru prevenirea rănirilor provocate de obiecte ascuţite în activităţile din sectorul spitalicesc şi cel al asistenţei medicale;
 - face analiza semestrială a cazurilor de expunere accidentală profesională şi de seroconversie înregistrate în unitate.
 
-## VI. Atribuţiile direcţiilor de sănătate publică judeţene şi a municipiului Bucureşti
+### VI. Atribuţiile direcţiilor de sănătate publică judeţene şi a municipiului Bucureşti
 - centralizează trimestrial fişa de raportare a expunerii accidentale a personalului medicosanitar, de îngrijire şi auxiliar la produse biologice din toate unităţile sanitare,
 - analizează datele în conformitate cu metodologia transmisă de Institutul Naţional de Sănătate Publică - Centrul Regional de Sănătate Publică Bucureşti;
 - transmit trimestrial fişele de raportare a expunerii accidentale la produse biologice şi rezultatele analizei către Institutul Naţional de Sănătate Publică
 - centrul regional de sănătate publică la care sunt arondate;
 - colectează şi centralizează datele din fişa unităţii sanitare privind vaccinarea antihepatită B a personalului medico-sanitar, de îngrijire şi auxiliar (figura 3) şi transmit anual, până la data de 1 martie pentru anul precedent, datele centralizate la Institutul Naţional de Sănătate Publică - Centrul Regional de Sănătate Publică Bucureşti.
 
-## VII. Atribuţiile Institutului Naţional de Sănătate Publică
+### VII. Atribuţiile Institutului Naţional de Sănătate Publică
 - primeşte prin centrele sale regionale, de la direcţiile de sănătate publică judeţene, fişele de raportare a expunerii accidentale a personalului medico-sanitar, de îngrijire şi auxiliar la produse biologice şi efectuează analiza datelor la nivel regional şi naţional;
 - transmite Ministerului Sănătăţii raportul de analiză anual şi propuneri de intervenţii pentru limitarea expunerii;
 - elaborează ghiduri de proceduri în vederea limitării expunerii accidentale la produse biologice a personalului medico-sanitar, de îngrijire şi auxiliar din unităţile sanitare.
     
-Figura 1*)
-*) Figura 1 este reprodusă în facsimil.
+### Figura 1*)
+***) Figura 1 este reprodusă în facsimil.**
 
 Fişa raportării expunerii accidentale a personalului medico-sanitar, de îngrijire şi auxiliar la produse biologice
 
@@ -945,8 +934,8 @@ Fişa raportării expunerii accidentale a personalului medico-sanitar, de îngri
                                                         Data completării:
                                                         .../.../.........
 
-Figura 2
-Tabel privind situaţia vaccinărilor personalului medico-sanitar în urma expunerii accidentale la produse biologice
+### Figura 2
+**Tabel privind situaţia vaccinărilor personalului medico-sanitar în urma expunerii accidentale la produse biologice**
 
     Anul raportării ....................
     Judeţul ............................  Unitatea sanitară ....................
@@ -982,8 +971,8 @@ Tabel privind situaţia vaccinărilor personalului medico-sanitar în urma expun
                 Manager,                              Medic medicina muncii,
         ........................                  ..............................
 
-Figura 3
-Fişa unităţii sanitare privind vaccinarea antihepatită B a personalului medico-sanitar, de îngrijire şi auxiliar
+### Figura 3
+**Fişa unităţii sanitare privind vaccinarea antihepatită B a personalului medico-sanitar, de îngrijire şi auxiliar**
     
     Anul raportării ...................
     Judeţul ...........................  Unitatea sanitară ....................
@@ -1014,143 +1003,57 @@ Fişa unităţii sanitare privind vaccinarea antihepatită B a personalului medi
     medicale, ...............................................
 
 # ANEXA 4
-**PRECAUŢIUNILE STANDARD**  
-*Măsuri minime obligatorii pentru prevenirea şi limitarea infecţiilor asociate asistenţei medicale*
 
-Măsurile standard reprezintă măsurile minime de prevenire a infecţiei care se aplică tuturor pacienţilor îngrijiţi, indiferent de statutul de infecţiozitate suspectat sau confirmat, în orice cadru unde este asigurată asistenţă medicală.
+## PRECAUŢIUNILE STANDARD
 
-Aceste proceduri sunt concepute pentru protecţia personalului sanitar și pentru a preveni răspândirea infecţiilor în rândul pacienţilor.
+Măsuri minime obligatorii pentru prevenirea şi limitarea infecţiilor asociate asistenţei medicale
+Măsurile standard reprezintă măsurile minime de prevenire a infecţiei care se aplică tuturor pacienţilor îngrijiţi, indiferent de statutul de infecţiozitate suspectat sau confirmat al pacientului, în orice cadru unde este asigurată asistenţă medicală .
+Aceste proceduri sunt concepute atât pentru a proteja personalul sanitar, cât şi pentru a preveni răspândirea infecţiilor în rândul pacienţilor.
 
-## Măsurile standard includ:
+**Măsurile standard includ:**
+1. igiena mâinilor, care este esenţială pentru a reduce riscul de răspândire a infecţiilor. Utilizarea antisepticelor alcoolice este metoda preferată în toate situaţiile clinice, cu excepţia cazurilor când mâinile sunt vizibil murdare (de exemplu, sânge, alte fluide biologice) sau după examinarea pacienţilor cu infecţie cu Clostridium difficile sau norovirus, situaţii în care trebuie utilizate apa şi săpunul;
+2. utilizarea echipamentului individual de protecţie (de exemplu: mănuşi, halate, protectoare faciale), în funcţie de expunerea anticipată. Igiena mâinilor este întotdeauna etapa finală după îndepărtarea şi aruncarea echipamentului;
+3. practici sigure de injectare, proceduri specifice pentru a preveni transmiterea bolilor infecţioase de la un pacient la altul sau între un pacient şi personalul medical în timpul preparării şi administrării medicamentelor de uz parenteral;
+4. manipularea în condiţii de siguranţă a echipamentelor medicale sau contactul cu suprafeţele potenţial contaminate din imediata apropiere a pacientului, proceduri specifice pentru prevenirea transmiterii bolilor infecţioase de la un pacient la altul sau între un pacient şi personalul medical în timpul manipulării echipamentelor medicale şi contactul cu obiectele sau suprafeţele din mediu;
+5. igiena respiratorie şi eticheta de tuse (tehnica de tuse şi strănut cu utilizarea de batiste de nas de unică folosinţă cu poziţionarea la minimum 1 metru faţă de celelalte persoane, urmată de igiena mâinilor), ca element al precauţiilor standard care se adresează în primul rând pacienţilor şi însoţitorilor acestora cu simptomatologie de posibilă infecţie respiratorie care se aplică oricărei persoane cu asemenea manifestări când intră în unitatea sanitară. Acest element al precauţiilor standard este aplicat pentru prevenirea promptă a infecţiilor respiratorii şi trebuie aplicată la intrarea în unitatea sanitară (zonele de recepţie şi de triaj ale pacienţilor).
 
-### 1. Igiena mâinilor
-Esenţială pentru reducerea riscului de transmitere a infecţiilor.  
-Se utilizează **antiseptice alcoolice**, cu excepţia cazurilor când mâinile sunt vizibil murdare sau în contextul unor infecţii precum *Clostridium difficile* sau *norovirus*, când sunt necesare apa și săpunul.
+## Precauţiile adresate căii de transmitere
 
-### 2. Utilizarea echipamentului individual de protecţie
-Exemple: mănuşi, halate, protecţie facială.  
-Igiena mâinilor este obligatorie după îndepărtarea echipamentului.
+Măsuri de precauţie care se adresează căii de transmitere a agentului patogen sunt destinate să completeze precauţiile standard la pacienţii cu colonizări sau infecţii, probabile sau cunoscute, cu agenţi patogeni transmisibili sau cu patogeni importanţi din punct de vedere epidemiologic. Aceste măsuri de precauţie suplimentare sunt utilizate pentru situaţiile în care calea de transmitere nu este complet întreruptă prin utilizarea precauţiilor standard.
+Cele trei categorii de măsuri adresate căilor de transmitere includ:
+- Căile de transmitere pentru care pot fi necesare măsuri suplimentare de precauţie sunt:
 
-### 3. Practici sigure de injectare
-Proceduri pentru a preveni transmiterea infecţiilor în contextul preparării și administrării tratamentelor parenterale.
+1. Transmiterea prin contact:
+1.1. direct, când microorganismul se poate transmite de la o persoană la alta (contactul cu produse biologice): în timpul asistenţei medicale şi îngrijirii bolnavului de către cadrele medicale sau în contact cu membrii familiei sau cu alţi pacienţi;
+1.2. indirect, prin intermediul suprafeţelor/obiectelor contaminate care implică transferul unui microorganism printr-o contaminare intermediară (de exemplu, contaminarea obiectelor, echipamentului, mâncării), când:
+1.2.1. igiena mâinii personalului ce asigură actul medical/îngrijire este inadecvată;
+1.2.2. echipamentul nu este curăţat, dezinfectat sau sterilizat corespunzător între pacienţi;
+1.2.3. patogenii sunt transferaţi prin instrumentar.
 
-### 4. Manipularea în siguranţă a echipamentelor și a suprafeţelor contaminate
-Prevenirea transmiterii agenților patogeni prin contactul cu echipamente medicale sau obiecte din mediul pacientului.
+2. Transmiterea prin picături:
+2.1. picăturile infecţioase expulzate, atunci când se strănută sau se tuşeşte, sunt prea grele pentru a pluti în aer şi se transferă la mai puţin de 2 m de la sursă;
+2.2. răspândirea picăturilor poate fi:
+2.2.1. directă - se realizează când acestea ajung la nivelul mucoaselor sau sunt inhalate;
+2.2.2. indirectă - se realizează când acestea cad pe suprafeţe sau mâini şi sunt transmise pe mucoase sau alimente. Acest mod de transmitere este mai frecvent şi este descris în infecţiile respiratorii comune, gripă, infecţii cu virus sinciţial.
 
-### 5. Igiena respiratorie și eticheta tusei
-- folosirea de batiste de unică folosinţă,  
-- păstrarea distanţei minime de 1 metru,  
-- igiena mâinilor după tuse/strănut.  
+3. Transmiterea aeriană - transmitere care se realizează prin intermediul particulelor mici (</= 5 µm în mărime) care transportă microbii şi pot fi transferaţi prin intermediul curenţilor de aer pe o distanţă mai mare de 2 m de la sursă. Aceste particule sunt inhalate (de exemplu, în cazul varicelei zoster, rujeolei şi tuberculozei pulmonare).
 
-Aplicată în special persoanelor cu simptome respiratorii la intrarea în unitatea sanitară.
+## Măsurile suplimentare de precauţie care vizează calea de transmitere includ:
 
----
+1. pentru transmiterea prin contact:
+1.1. utilizarea echipamentului de protecţie când este posibil contactul cu un mediu contaminat cu microbi rezistenţi la antibiotice (de exemplu, enterococi rezistenţi la vancomicină (VRE), Staphylococcus aureus rezistent la meticilină MRSA) sau Clostridium difficile;
+1.2. pacientul se poate amplasa într-o rezervă singur sau într-un salon cu un alt pacient infectat cu acelaşi patogen;
+1.3. la intrarea în salon trebuie purtate mănuşi curate şi echipament de protecţie curat;
 
-# Precauţiile adresate căii de transmitere
+2. pentru transmiterea prin picături pacientul se amplasează într-o rezervă singur sau se cohortează într-un salon cu alţi pacienţi infectaţi cu acelaşi agent patogen.
+Este necesară purtarea de protectoare faciale când se lucrează la 1 - 2 metri de pacient. În situaţia în care este necesar transportul pacientului, acestuia i se aplică o mască.
 
-Acestea **completează** măsurile standard la pacienţii cu colonizări/infecţii cunoscute sau probabile cu agenţi transmisibili ori importanţi epidemiologic.
+3. pentru transmiterea aeriană - plasarea pacientului într-o cameră de izolare cu presiune negativă a aerului în raport cu coridoarele, aerul fiind evacuat direct spre exterior sau recirculat prin filtre HEPA de înaltă eficienţă cu 6 - 12 schimburi de aer pe oră.
+În rezervele cu antecameră (sasuri), riscul de circulaţie al aerului între cameră şi coridor este redus la minimum. Acest sistem este mai uşor de susţinut, dar dificil de amenajat din punct de vedere arhitectonic.
+În situaţia în care nu există astfel de facilităţi simpla plasare a pacientului singur într-o rezervă care să aibă grup sanitar şi duş reduce riscul de transmitere.
+Pentru bolile care au mai multe căi de transmitere se poate utiliza o combinaţie de măsuri de precauţie. Fie că aceste măsuri sunt utilizate singular sau în combinaţie, acestea trebuie utilizate întotdeauna în plus faţă de precauţiile standard.
 
-## Categorii principale:
-
-### 1. Transmiterea prin contact
-
-#### 1.1. Contact direct
-Transmitere prin atingere directă (ex. contact cu produse biologice) în timpul îngrijirii medicale sau în interacţiuni cu familia ori alţi pacienţi.
-
-#### 1.2. Contact indirect
-Transmitere prin intermediul obiectelor/suprafeţelor contaminate (echipamente, alimente etc.).
-
-##### 1.2.1. Exemple de situaţii
-- igiena mâinilor personalului este inadecvată.
-
-#### 1.2.2.
-- echipamentul nu este curăţat, dezinfectat sau sterilizat corespunzător între pacienţi.
-
-#### 1.2.3.
-- patogenii sunt transferaţi prin instrumentar.
-
----
-
-### 2. Transmiterea prin picături
-
-#### 2.1.
-Picăturile infecţioase expulzate la strănut sau tuse sunt prea grele pentru a pluti în aer și se transferă la mai puțin de 2 m de la sursă.
-
-#### 2.2. Răspândirea picăturilor poate fi:
-
-##### 2.2.1. Directă
-Când picăturile ajung la nivelul mucoaselor sau sunt inhalate.
-
-##### 2.2.2. Indirectă
-Când picăturile cad pe suprafeţe sau mâini și sunt transferate ulterior spre mucoase sau alimente.  
-Acest tip de transmitere este des întâlnit în:
-- infecţii respiratorii comune  
-- gripă  
-- infecţii cu virus sinciţial respirator (VSR)
-
----
-
-### 3. Transmiterea aeriană
-Transmitere realizată prin particule mici (≤ 5 µm) care pot fi transportate de curenţii de aer pe distanțe > 2 m de la sursă.  
-Exemple: **varicelă zoster, rujeolă, tuberculoză pulmonară**.
-
----
-
-# Măsuri suplimentare de precauţie pentru diferite căi de transmitere
-
-## 1. Pentru transmiterea prin contact:
-
-### 1.1. Echipament de protecţie
-Obligatoriu dacă există risc de contact cu microbi rezistenţi la antibiotice, precum:
-- **VRE** (Enterococi rezistenţi la vancomicină)
-- **MRSA** (Staphylococcus aureus rezistent la meticilină)
-- *Clostridium difficile*
-
-### 1.2. Amplasarea pacientului
-- într-o rezervă singur  
-sau  
-- într-un salon cu un alt pacient infectat cu acelaşi patogen.
-
-### 1.3. La intrarea în salon
-- se poartă mănuşi curate  
-- se poartă echipament de protecţie curat
-
----
-
-## 2. Pentru transmiterea prin picături
-- pacientul se amplasează într-o rezervă singur  
-sau  
-- se cohortează cu pacienţi infectaţi cu același agent.
-
-**Protecţie facială obligatorie** la 1–2 metri de pacient.  
-Dacă pacientul trebuie transportat → **i se pune mască**.
-
----
-
-## 3. Pentru transmiterea aeriană
-- pacientul este plasat într-o cameră de izolare cu **presiune negativă**  
-- aerul este evacuat spre exterior sau trecut prin **filtre HEPA**  
-- trebuie asigurate **6–12 schimburi de aer/oră**
-
-Rezervele cu antecameră reduc riscul de circulaţie al aerului între cameră și coridor, dar sunt dificil de amenajat.
-
-Dacă nu există astfel de facilităţi:
-- pacientul este izolat singur într-o rezervă cu grup sanitar și duş  
-→ riscul de transmitere scade semnificativ.
-
----
-
-# Combinaţii de măsuri
-Pentru bolile cu multiple căi de transmitere se utilizează combinaţii de măsuri suplimentare.  
-Indiferent de combinaţie, acestea **se aplică întotdeauna în plus faţă de precauţiile standard**.
-
-Este important de reţinut:
-
-Microorganismele care cauzează **infecţii asociate asistenţei medicale** pot fi transmise:
-
-- de la pacienţi infectaţi sau colonizaţi către alţi pacienţi  
-- către personalul medical, personalul de îngrijire sau personalul auxiliar
-
-Aplicarea corectă a măsurilor adecvate **reduce semnificativ transmiterea** acestor microorganisme.
-
-**Măsurile se aplică pe baza semnelor și simptomelor pacientului**, fără a aştepta confirmarea prin rezultate de laborator.
+## Este important de reţinut:
+Microorganismele care cauzează infecţii asociate asistenţei medicale pot să fie transmise de la pacienţi infectaţi sau colonizate la alţi pacienţi şi la personalului medical, de îngrijire sau auxiliar.
+Măsurile adecvate şi aplicate în mod corespunzător pot reduce transmiterea acestora.
+Măsurile se aplică în conformitate cu semnele şi simptomele pacientului şi în general nu se aşteaptă rezultatele de laborator.
