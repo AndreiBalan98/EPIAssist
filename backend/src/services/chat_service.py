@@ -427,6 +427,25 @@ class ChatService:
                     return ai_response
                     
             except httpx.HTTPStatusError as e:
+                # ============================================================
+                # DETAILED ERROR LOGGING
+                # ============================================================
+                error_body = "Could not read response body"
+                try:
+                    error_body = e.response.text
+                except:
+                    pass
+                
+                print(f"\n{'!'*60}")
+                print(f"❌ OpenAI HTTP Error: {e.response.status_code}")
+                print(f"{'!'*60}")
+                print(f"📋 Error Response Body:")
+                print(error_body)
+                print(f"{'!'*60}\n")
+                
+                logger.error(f"OpenAI HTTP error: {e.response.status_code}")
+                logger.error(f"OpenAI error body: {error_body}")
+                
                 if e.response.status_code == 429:
                     # Rate limited - retry with exponential backoff
                     if attempt < max_retries - 1:
@@ -439,9 +458,7 @@ class ChatService:
                         logger.error("Rate limit exceeded, no more retries")
                         raise Exception("Rate limit exceeded. Please try again later.")
                 
-                logger.error(f"OpenAI HTTP error: {e.response.status_code}")
-                print(f"❌ OpenAI HTTP error: {e.response.status_code}")
-                raise Exception(f"OpenAI API error: {e.response.status_code}")
+                raise Exception(f"OpenAI API error: {e.response.status_code} - {error_body}")
                 
             except httpx.TimeoutException:
                 logger.error("OpenAI request timed out")
