@@ -29,87 +29,44 @@ class DocumentListResponse(BaseModel):
 
 
 # =============================================================================
-# Document Structure Models (for RAG system)
+# Document Section Models (from data.json)
 # =============================================================================
 
-class SectionSummary(BaseModel):
+class DocumentSection(BaseModel):
     """
-    Represents a single section in a document structure.
-    Used for first-pass LLM context.
+    Represents a single section from data.json.
+    Maps directly to the JSON structure.
     """
-    section_id: str = Field(
-        ..., 
-        description="Unique identifier for the section, e.g., 'DOC1_S2_SS1'"
-    )
-    title: str = Field(
-        ..., 
-        description="Section title/heading"
-    )
-    level: int = Field(
-        ..., 
-        ge=1, 
-        le=6, 
-        description="Heading level (1-6)"
-    )
-    summary: str = Field(
-        ..., 
-        description="Brief summary of section content"
-    )
-    parent_id: Optional[str] = Field(
-        default=None, 
-        description="Parent section ID if nested"
-    )
+    id: int = Field(..., description="Unique numeric identifier")
+    ruta: str = Field(..., description="Hierarchical path: filename/header1/header2/...")
+    level: int = Field(..., ge=1, le=6, description="Heading level (1-6)")
+    titlu: str = Field(..., description="Section title/heading")
+    continut: str = Field(..., description="Section content (until next heading)")
+    rezumat: str = Field(..., description="AI-generated summary of the section")
 
 
-class DocumentStructure(BaseModel):
+class SectionForContext(BaseModel):
     """
-    Represents the summarized structure of a document.
-    Contains hierarchical sections with summaries.
+    Section prepared for LLM context (Pass 2).
+    Contains full content with route for citation.
     """
-    document_id: str = Field(
-        ..., 
-        description="Unique document identifier"
-    )
-    title: str = Field(
-        ..., 
-        description="Document title"
-    )
-    filename: str = Field(
-        ..., 
-        description="Original filename"
-    )
-    sections: list[SectionSummary] = Field(
-        default_factory=list, 
-        description="List of section summaries"
-    )
-
-
-class SectionContent(BaseModel):
-    """
-    Full content of a section (used in second pass).
-    """
-    section_id: str
-    title: str
-    content: str
-    document_title: str
-    document_id: str
+    id: int
+    ruta: str
+    titlu: str
+    continut: str
 
 
 # =============================================================================
 # LLM Response Models
 # =============================================================================
 
-class RelevantSectionsResponse(BaseModel):
+class SectionSelectionResponse(BaseModel):
     """
-    Response from first-pass LLM containing relevant section IDs.
+    Response from Pass 1 LLM - selected section IDs.
     """
-    section_ids: list[str] = Field(
-        default_factory=list, 
-        description="List of relevant section IDs"
-    )
-    reasoning: Optional[str] = Field(
-        default=None, 
-        description="Brief explanation of selection (optional)"
+    section_ids: list[int] = Field(
+        default_factory=list,
+        description="List of relevant section IDs (numeric)"
     )
 
 
@@ -125,19 +82,3 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     """Chat message response."""
     response: str
-
-
-class ChatResponseWithMetadata(BaseModel):
-    """
-    Extended chat response with source metadata.
-    For future use when we want to show sources in UI.
-    """
-    response: str
-    sources: list[str] = Field(
-        default_factory=list, 
-        description="List of source section IDs used"
-    )
-    processing_time_ms: Optional[int] = Field(
-        default=None, 
-        description="Total processing time in milliseconds"
-    )

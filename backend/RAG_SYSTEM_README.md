@@ -1,177 +1,132 @@
-# RAG Chat System - Implementation Notes
+# RAG System Integration Guide
 
-## Architecture Overview
+## Overview
 
-The chat system uses a **two-pass Retrieval-Augmented Generation (RAG)** approach:
+This update implements a two-pass RAG (Retrieval-Augmented Generation) system for the EPI Assist backend.
+
+## Files Modified
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                           USER QUERY                                     │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│                     PASS 1: SECTION SELECTION                            │
-│  ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐  │
-│  │ Document        │      │  LLM (GPT-4o)   │      │   JSON Output   │  │
-│  │ Structures      │──────│  + User Query   │──────│   Section IDs   │  │
-│  │ (Summaries)     │      │                 │      │   [ID1, ID2...] │  │
-│  └─────────────────┘      └─────────────────┘      └─────────────────┘  │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│                     SECTION CONTENT EXTRACTION                           │
-│  ┌─────────────────┐                           ┌─────────────────────┐  │
-│  │  Section IDs    │───────────────────────────│   Full Text of      │  │
-│  │  [ID1, ID2...]  │    TODO: Implement        │   Selected Sections │  │
-│  └─────────────────┘                           └─────────────────────┘  │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│                     PASS 2: ANSWER GENERATION                            │
-│  ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐  │
-│  │ Section         │      │  LLM (GPT-4o)   │      │   Markdown      │  │
-│  │ Contents        │──────│  + User Query   │──────│   Response      │  │
-│  │ (Full Text)     │      │  + Citations    │      │   with Sources  │  │
-│  └─────────────────┘      └─────────────────┘      └─────────────────┘  │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│                           FINAL RESPONSE                                 │
-│        (Markdown formatted, with source citations)                       │
-└─────────────────────────────────────────────────────────────────────────┘
+backend/src/
+├── config/
+│   └── prompts.py              # NEW: All LLM prompts
+├── models/
+│   └── schemas.py              # UPDATED: New models for data.json
+└── services/
+    ├── chat_service.py         # UPDATED: Two-pass RAG workflow
+    └── document_structure_service.py  # REWRITTEN: Reads from data.json
 ```
 
-## Files Modified/Created
+## Requirements
 
-### New Files
+1. **data.json file** must exist at: `docs/structured/data.json`
+   
+   Expected format:
+   ```json
+   [
+     {
+       "id": 1,
+       "ruta": "ORDIN Nr. 1101.2016/ANEXA 1/CAPITOLUL I",
+       "level": 2,
+       "titlu": "CAPITOLUL I",
+       "continut": "Full text content...",
+       "rezumat": "Summary of the section..."
+     }
+   ]
+   ```
 
-1. **`src/config/prompts.py`**
-   - All LLM prompts centralized
-   - `SECTION_SELECTION_SYSTEM_PROMPT` - First pass system prompt
-   - `SECTION_SELECTION_USER_TEMPLATE` - First pass user template
-   - `ANSWER_GENERATION_SYSTEM_PROMPT` - Second pass system prompt
-   - `ANSWER_GENERATION_USER_TEMPLATE` - Second pass user template
-   - `NO_CONTEXT_RESPONSE_TEMPLATE` - Fallback when no sections found
+2. **OpenAI API key** configured in `.env`:
+   ```
+   OPENAI_API_KEY=sk-...
+   OPENAI_MODEL=gpt-4o-mini
+   ```
 
-2. **`src/services/document_structure_service.py`**
-   - Manages document structure summaries
-   - Provides section content extraction (TODO)
-   - Formats data for LLM prompts
+## How It Works
 
-3. **`src/models/schemas.py`** (Extended)
-   - `SectionSummary` - Section metadata with summary
-   - `DocumentStructure` - Full document structure
-   - `SectionContent` - Section with full text
-   - `RelevantSectionsResponse` - First pass LLM output
+### Pass 1: Section Selection
+1. User sends a question
+2. System builds document structure with summaries (from `rezumat` field)
+3. LLM receives structure + question, returns JSON with relevant section IDs
+4. Format: `{"section_ids": [1, 5, 12]}`
 
-### Modified Files
+### Pass 2: Answer Generation
+1. System extracts full content (`continut`) of selected sections
+2. Each section includes its `ruta` for citation
+3. LLM generates markdown response with:
+   - Inline quotes: `"text citat" - Sursa`
+   - Footnotes: `text*` with `*Sursa: ruta` at end
 
-1. **`src/services/chat_service.py`** (Rewritten)
-   - `send_message()` - Now orchestrates two-pass RAG
-   - `_select_relevant_sections()` - Pass 1 implementation
-   - `_generate_answer()` - Pass 2 implementation
-   - `_call_openai()` - Generic OpenAI caller with retry
-   - `_parse_section_selection_response()` - JSON parser
+## Installation
 
-## TODO Items
+1. Replace the 4 files in your project:
+   ```bash
+   cp -r backend/src/* /path/to/your/project/backend/src/
+   ```
 
-The following items need implementation:
+2. Ensure `data.json` exists:
+   ```bash
+   ls docs/structured/data.json
+   ```
 
-### 1. Document Structure Generation
-```python
-# Location: document_structure_service.py
-# Currently: Mock data in _load_mock_data()
-# Needed: Parse actual markdown documents and generate:
-#   - Section hierarchy
-#   - Section summaries (possibly via LLM)
-#   - Section IDs
+3. Test the endpoint:
+   ```bash
+   curl -X POST http://localhost:8000/api/chat \
+     -H "Content-Type: application/json" \
+     -d '{"message": "Care sunt atribuțiile Comitetului director?"}'
+   ```
+
+## Workflow Diagram
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     USER QUERY                               │
+│        "Care sunt atribuțiile Comitetului director?"         │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                  PASS 1: SECTION SELECTION                   │
+│                                                              │
+│  Input:                                                      │
+│  - Document structure with [ID], titles, summaries           │
+│  - User query                                                │
+│                                                              │
+│  Output: {"section_ids": [5]}                                │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                  PASS 2: ANSWER GENERATION                   │
+│                                                              │
+│  Input:                                                      │
+│  - Full content of section [5] with ruta                     │
+│  - User query                                                │
+│                                                              │
+│  Output: Markdown with citations                             │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     FINAL RESPONSE                           │
+│                                                              │
+│  ## Atribuțiile Comitetului Director                         │
+│                                                              │
+│  Comitetul director are următoarele atribuții principale:*   │
+│                                                              │
+│  - Organizează Comitetul de prevenire...                     │
+│  - "aprobă planul anual de activitate" - ORDIN 1101/2016     │
+│                                                              │
+│  ---                                                         │
+│  *ORDIN Nr. 1101.2016/ANEXA 1/CAPITOLUL II/1. Atribuțiile... │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-### 2. Section Content Extraction
-```python
-# Location: document_structure_service.py → get_section_content()
-# Currently: Returns mock data
-# Needed: 
-#   - Map section_id to file location and line numbers
-#   - Extract actual text from markdown files
-#   - Handle section boundaries properly
-```
+## Logging
 
-### 3. Persistent Storage
-```python
-# Currently: In-memory storage
-# Needed:
-#   - Database schema for document structures
-#   - Caching layer for frequently accessed sections
-#   - Incremental updates when documents change
-```
+The system logs:
+- Selected section IDs from Pass 1
+- Context size in characters
+- OpenAI token usage
+- Total processing time
 
-## Testing the System
-
-### Quick Test
-```bash
-# 1. Start backend
-cd backend
-uvicorn src.server:app --reload
-
-# 2. Test endpoint
-curl -X POST http://localhost:8000/api/chat \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Care este durata maximă a concediului medical?"}'
-```
-
-### Expected Behavior
-
-1. **With relevant sections found:**
-   - Returns answer with `[Sursa: Document, Section]` citations
-   - Markdown formatted
-
-2. **Without relevant sections:**
-   - Returns `NO_CONTEXT_RESPONSE_TEMPLATE`
-   - Suggests query reformulation
-
-## Configuration
-
-No new environment variables required. Uses existing:
-- `OPENAI_API_KEY`
-- `OPENAI_MODEL`
-- `OPENAI_TIMEOUT`
-- `OPENAI_MAX_TOKENS`
-
-## Data Flow Example
-
-**User Query:** "Cât durează concediul medical?"
-
-**Pass 1 Response (JSON):**
-```json
-{
-  "section_ids": ["DOC1_S2_SS2", "DOC1_S3_SS1"],
-  "reasoning": "Secțiuni despre durata și calculul concediului medical"
-}
-```
-
-**Pass 2 Context (formatted):**
-```markdown
-### [DOC1_S2_SS2] Art. 13 - Durata concediului
-*Sursa: OUG 158/2005*
-
-Art. 13. - (1) Durata de acordare a concediului...
----
-```
-
-**Final Response:**
-```markdown
-## Durata Concediului Medical
-
-Conform legislației în vigoare, **durata maximă a concediului medical 
-este de 183 de zile** într-un an calendaristic, calculat de la prima 
-zi de îmbolnăvire [Sursa: OUG 158/2005, Art. 13].
-
-### Excepții
-Pentru boli grave (tuberculoză, cancer, SIDA), durata poate fi 
-extinsă până la **18 luni** [Sursa: OUG 158/2005, Art. 13, alin. 3].
-```
+Check logs at: `backend/logs/app.log`

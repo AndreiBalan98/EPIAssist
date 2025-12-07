@@ -1,19 +1,17 @@
 """
-Document Structure Service - manages document summaries and section extraction.
+Document Structure Service - loads and manages document sections from data.json.
 
-This service handles:
-1. Loading document structure summaries (for first LLM pass)
-2. Extracting full section content by ID (for second LLM pass)
-3. Formatting document context for LLM prompts
-
-TODO: Currently uses mock data. Will be replaced with actual document processing.
+Responsibilities:
+1. Load document sections from data.json at initialization
+2. Build hierarchical structure with summaries for Pass 1 (section selection)
+3. Extract full content for selected sections in Pass 2 (answer generation)
+4. Format context for LLM prompts
 """
+import json
+from pathlib import Path
 from typing import Optional
-from ..models.schemas import (
-    DocumentStructure,
-    SectionSummary,
-    SectionContent,
-)
+from ..models.schemas import DocumentSection, SectionForContext
+from ..config.settings import settings
 from ..utils.logger import setup_logger
 
 logger = setup_logger(__name__)
@@ -21,356 +19,242 @@ logger = setup_logger(__name__)
 
 class DocumentStructureService:
     """
-    Manages document structures and section extraction for the RAG system.
+    Manages document sections from data.json for the RAG system.
     
-    Responsibilities:
-    - Provide document structure summaries for section selection
-    - Extract full section content by ID
-    - Format context for LLM prompts
+    Data structure expected in data.json:
+    [
+        {
+            "id": 1,
+            "ruta": "ORDIN Nr. 1101.2016/ANEXA 1/CAPITOLUL I",
+            "level": 2,
+            "titlu": "CAPITOLUL I",
+            "continut": "Full text content...",
+            "rezumat": "Summary of the section..."
+        },
+        ...
+    ]
     """
     
     def __init__(self):
-        """Initialize document structure service."""
-        self._document_structures: dict[str, DocumentStructure] = {}
-        self._section_contents: dict[str, SectionContent] = {}
+        """Initialize service and load data.json."""
+        self._sections: dict[int, DocumentSection] = {}
+        self._sections_list: list[DocumentSection] = []
+        self._data_path = self._get_data_path()
         
-        # Load mock data for development
-        self._load_mock_data()
+        self._load_data()
         
         logger.info(
             f"Document structure service initialized with "
-            f"{len(self._document_structures)} documents"
+            f"{len(self._sections)} sections from {self._data_path}"
         )
     
-    def _load_mock_data(self) -> None:
+    def _get_data_path(self) -> Path:
         """
-        Load mock document structures for development/testing.
-        
-        TODO: Replace with actual document processing:
-        - Parse markdown documents
-        - Generate section summaries (possibly using LLM)
-        - Store in database for persistence
+        Get path to data.json file.
+        Located in docs/structured/data.json relative to project root.
         """
-        # Mock Document 1: OUG 158/2005 - Concedii medicale
-        doc1 = DocumentStructure(
-            document_id="DOC1",
-            title="OUG 158/2005 - Concedii și indemnizații de asigurări sociale de sănătate",
-            filename="oug_158_2005.md",
-            sections=[
-                SectionSummary(
-                    section_id="DOC1_S1",
-                    title="Capitolul I - Dispoziții generale",
-                    level=1,
-                    summary="Definește scopul ordonanței, categoriile de persoane asigurate și drepturile generale la concedii medicale.",
-                    parent_id=None
-                ),
-                SectionSummary(
-                    section_id="DOC1_S1_SS1",
-                    title="Art. 1 - Obiectul reglementării",
-                    level=2,
-                    summary="Reglementează acordarea concediilor medicale și a indemnizațiilor de asigurări sociale de sănătate.",
-                    parent_id="DOC1_S1"
-                ),
-                SectionSummary(
-                    section_id="DOC1_S1_SS2",
-                    title="Art. 2 - Persoane asigurate",
-                    level=2,
-                    summary="Enumeră categoriile de persoane care beneficiază de asigurare: salariați, PFA, șomeri, pensionari.",
-                    parent_id="DOC1_S1"
-                ),
-                SectionSummary(
-                    section_id="DOC1_S2",
-                    title="Capitolul II - Concediul medical",
-                    level=1,
-                    summary="Reglementează tipurile de concediu medical, durata, condițiile de acordare și documentele necesare.",
-                    parent_id=None
-                ),
-                SectionSummary(
-                    section_id="DOC1_S2_SS1",
-                    title="Art. 12 - Tipuri de concediu medical",
-                    level=2,
-                    summary="Descrie tipurile: boală, accident, maternitate, îngrijire copil bolnav, carantină, risc maternal.",
-                    parent_id="DOC1_S2"
-                ),
-                SectionSummary(
-                    section_id="DOC1_S2_SS2",
-                    title="Art. 13 - Durata concediului",
-                    level=2,
-                    summary="Durata maximă 183 zile/an, excepții pentru boli grave (până la 18 luni).",
-                    parent_id="DOC1_S2"
-                ),
-                SectionSummary(
-                    section_id="DOC1_S3",
-                    title="Capitolul III - Indemnizații",
-                    level=1,
-                    summary="Calculul și plata indemnizațiilor pentru concedii medicale.",
-                    parent_id=None
-                ),
-                SectionSummary(
-                    section_id="DOC1_S3_SS1",
-                    title="Art. 17 - Calculul indemnizației",
-                    level=2,
-                    summary="75% din media veniturilor pe ultimele 6 luni, 100% pentru urgențe/accidente de muncă.",
-                    parent_id="DOC1_S3"
-                ),
-            ]
-        )
+        # Navigate from backend/src/services/ to project root
+        project_root = Path(__file__).parent.parent.parent.parent
+        data_path = project_root / "docs" / "structured" / "data.json"
         
-        # Mock Document 2: Normele metodologice
-        doc2 = DocumentStructure(
-            document_id="DOC2",
-            title="Norme metodologice de aplicare a OUG 158/2005",
-            filename="norme_oug_158.md",
-            sections=[
-                SectionSummary(
-                    section_id="DOC2_S1",
-                    title="Capitolul I - Certificatul medical",
-                    level=1,
-                    summary="Procedura de eliberare, completare și vizare a certificatului de concediu medical.",
-                    parent_id=None
-                ),
-                SectionSummary(
-                    section_id="DOC2_S1_SS1",
-                    title="Secțiunea 1 - Eliberarea certificatului",
-                    level=2,
-                    summary="Medicii abilitați, formularul tipizat, numărul de exemplare.",
-                    parent_id="DOC2_S1"
-                ),
-                SectionSummary(
-                    section_id="DOC2_S1_SS2",
-                    title="Secțiunea 2 - Completarea certificatului",
-                    level=2,
-                    summary="Câmpuri obligatorii, coduri diagnostic, durata, semnături.",
-                    parent_id="DOC2_S1"
-                ),
-                SectionSummary(
-                    section_id="DOC2_S2",
-                    title="Capitolul II - Stagiul de cotizare",
-                    level=1,
-                    summary="Condiții de stagiu minim, dovada contribuțiilor, excepții.",
-                    parent_id=None
-                ),
-            ]
-        )
-        
-        # Mock Document 3: Legea 95/2006
-        doc3 = DocumentStructure(
-            document_id="DOC3",
-            title="Legea 95/2006 - Reforma în domeniul sănătății",
-            filename="legea_95_2006.md",
-            sections=[
-                SectionSummary(
-                    section_id="DOC3_S1",
-                    title="Titlul VIII - Asigurările sociale de sănătate",
-                    level=1,
-                    summary="Sistemul de asigurări de sănătate, CNAS, drepturi și obligații.",
-                    parent_id=None
-                ),
-                SectionSummary(
-                    section_id="DOC3_S1_SS1",
-                    title="Capitolul I - Dispoziții generale",
-                    level=2,
-                    summary="Principiile sistemului, persoane asigurate, contribuții.",
-                    parent_id="DOC3_S1"
-                ),
-            ]
-        )
-        
-        # Mock Document 4: Codul Muncii excerpts
-        doc4 = DocumentStructure(
-            document_id="DOC4",
-            title="Codul Muncii - Prevederi relevante",
-            filename="codul_muncii.md",
-            sections=[
-                SectionSummary(
-                    section_id="DOC4_S1",
-                    title="Capitolul III - Suspendarea contractului",
-                    level=1,
-                    summary="Cazuri de suspendare, efecte, reluarea activității.",
-                    parent_id=None
-                ),
-                SectionSummary(
-                    section_id="DOC4_S1_SS1",
-                    title="Art. 50 - Suspendare de drept",
-                    level=2,
-                    summary="Include concediul medical, carantina, forța majoră.",
-                    parent_id="DOC4_S1"
-                ),
-            ]
-        )
-        
-        # Store structures
-        self._document_structures = {
-            doc1.document_id: doc1,
-            doc2.document_id: doc2,
-            doc3.document_id: doc3,
-            doc4.document_id: doc4,
-        }
-        
-        # Create mock section contents
-        # TODO: These should be actual text from documents
-        self._section_contents = {
-            "DOC1_S2_SS2": SectionContent(
-                section_id="DOC1_S2_SS2",
-                title="Art. 13 - Durata concediului",
-                content="""Art. 13. - (1) Durata de acordare a concediului și a indemnizației pentru incapacitate temporară de muncă este de cel mult 183 de zile în interval de un an, socotit de la prima zi de îmbolnăvire.
-
-(2) Începând cu a 91-a zi, concediul medical se poate prelungi de către medicul specialist până la 183 de zile, cu avizul medicului expert al asigurărilor sociale.
-
-(3) Durata de acordare a concediului medical pentru tuberculoză, SIDA, neoplazii și alte boli grave poate fi de maximum 18 luni, în funcție de evoluția bolii.""",
-                document_title="OUG 158/2005",
-                document_id="DOC1"
-            ),
-            "DOC1_S3_SS1": SectionContent(
-                section_id="DOC1_S3_SS1",
-                title="Art. 17 - Calculul indemnizației",
-                content="""Art. 17. - (1) Cuantumul brut al indemnizației pentru incapacitate temporară de muncă se determină prin aplicarea procentului de 75% asupra mediei veniturilor lunare din ultimele 6 luni anterioare lunii pentru care se acordă concediul medical.
-
-(2) Pentru urgențe medico-chirurgicale și accidente de muncă, indemnizația este de 100% din media veniturilor.
-
-(3) Baza de calcul nu poate fi mai mare decât 12 salarii minime brute pe economie.""",
-                document_title="OUG 158/2005",
-                document_id="DOC1"
-            ),
-        }
-        
-        logger.debug(f"Loaded mock data: {len(self._document_structures)} documents")
+        logger.debug(f"Data path resolved to: {data_path}")
+        return data_path
     
-    async def get_all_document_structures(self) -> list[DocumentStructure]:
+    def _load_data(self) -> None:
         """
-        Get all document structures for first-pass LLM context.
+        Load sections from data.json file.
+        Builds indexed dictionary for fast lookup by ID.
+        """
+        if not self._data_path.exists():
+            logger.error(f"data.json not found at: {self._data_path}")
+            raise FileNotFoundError(
+                f"Document data file not found: {self._data_path}"
+            )
         
-        Returns:
-            List of all document structures with section summaries
-        """
-        return list(self._document_structures.values())
+        try:
+            with open(self._data_path, 'r', encoding='utf-8') as f:
+                raw_data = json.load(f)
+            
+            if not isinstance(raw_data, list):
+                raise ValueError("data.json must contain a JSON array")
+            
+            # Parse and index sections
+            for item in raw_data:
+                section = DocumentSection(**item)
+                self._sections[section.id] = section
+                self._sections_list.append(section)
+            
+            logger.info(f"Loaded {len(self._sections)} sections from data.json")
+            
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse data.json: {e}")
+            raise
+        except Exception as e:
+            logger.error(f"Error loading data.json: {e}")
+            raise
     
-    async def get_document_structure(
-        self, 
-        document_id: str
-    ) -> Optional[DocumentStructure]:
+    def get_section_by_id(self, section_id: int) -> Optional[DocumentSection]:
         """
-        Get structure for a specific document.
+        Get a single section by its ID.
         
         Args:
-            document_id: Document identifier
+            section_id: Numeric section identifier
             
         Returns:
-            Document structure or None if not found
+            DocumentSection or None if not found
         """
-        return self._document_structures.get(document_id)
+        return self._sections.get(section_id)
     
-    async def get_section_content(
-        self, 
-        section_id: str
-    ) -> Optional[SectionContent]:
+    def get_sections_by_ids(self, section_ids: list[int]) -> list[DocumentSection]:
         """
-        Get full content for a specific section.
-        
-        TODO: Implement actual content extraction from documents.
-        Currently returns mock data or None.
+        Get multiple sections by their IDs.
         
         Args:
-            section_id: Section identifier
+            section_ids: List of numeric section identifiers
             
         Returns:
-            Section content or None if not found
+            List of found sections (missing IDs are skipped with warning)
         """
-        # TODO: Extract actual section content from markdown documents
-        # This requires:
-        # 1. Mapping section_id to file location
-        # 2. Parsing markdown to find section boundaries
-        # 3. Extracting and returning the content
-        
-        return self._section_contents.get(section_id)
-    
-    async def get_sections_content(
-        self, 
-        section_ids: list[str]
-    ) -> list[SectionContent]:
-        """
-        Get content for multiple sections.
-        
-        Args:
-            section_ids: List of section identifiers
-            
-        Returns:
-            List of section contents (only found sections)
-        """
-        contents = []
-        
-        for section_id in section_ids:
-            content = await self.get_section_content(section_id)
-            if content:
-                contents.append(content)
+        sections = []
+        for sid in section_ids:
+            section = self._sections.get(sid)
+            if section:
+                sections.append(section)
             else:
-                logger.warning(f"Section content not found: {section_id}")
+                logger.warning(f"Section ID {sid} not found in data")
         
-        return contents
+        return sections
     
-    def format_structures_for_prompt(
-        self, 
-        structures: list[DocumentStructure]
-    ) -> str:
+    def get_all_sections(self) -> list[DocumentSection]:
         """
-        Format document structures for LLM first-pass prompt.
+        Get all sections.
         
-        Creates a hierarchical text representation with section IDs.
+        Returns:
+            List of all document sections
+        """
+        return self._sections_list.copy()
+    
+    def build_structure_for_prompt(self) -> str:
+        """
+        Build hierarchical document structure with summaries for Pass 1.
         
-        Args:
-            structures: List of document structures
-            
+        Format:
+        [ID] Level X: Titlu
+        Ruta: path/to/section
+        Rezumat: Summary text...
+        
         Returns:
             Formatted string for LLM prompt
         """
         lines = []
+        current_doc = None
         
-        for doc in structures:
-            lines.append(f"## {doc.title}")
-            lines.append(f"Document ID: {doc.document_id}")
-            lines.append("")
+        for section in self._sections_list:
+            # Extract document name from ruta (first part)
+            doc_name = section.ruta.split('/')[0] if '/' in section.ruta else section.ruta
             
-            for section in doc.sections:
-                indent = "  " * (section.level - 1)
-                lines.append(
-                    f"{indent}[{section.section_id}] {section.title}"
-                )
-                lines.append(f"{indent}  → {section.summary}")
+            # Add document separator when document changes
+            if doc_name != current_doc:
+                if current_doc is not None:
+                    lines.append("")
+                    lines.append("=" * 60)
                 lines.append("")
+                lines.append(f"📄 DOCUMENT: {doc_name}")
+                lines.append("=" * 60)
+                current_doc = doc_name
             
+            # Build section entry
+            indent = "  " * (section.level - 1)
+            level_indicator = "#" * section.level
+            
+            lines.append("")
+            lines.append(f"{indent}[{section.id}] {level_indicator} {section.titlu}")
+            lines.append(f"{indent}    Ruta: {section.ruta}")
+            lines.append(f"{indent}    Rezumat: {section.rezumat}")
+        
+        return "\n".join(lines)
+    
+    def build_context_for_answer(
+        self, 
+        section_ids: list[int]
+    ) -> str:
+        """
+        Build context with full content for Pass 2 (answer generation).
+        
+        Each section includes its full route for citation.
+        
+        Args:
+            section_ids: List of selected section IDs
+            
+        Returns:
+            Formatted context string for LLM
+        """
+        sections = self.get_sections_by_ids(section_ids)
+        
+        if not sections:
+            return "Nu au fost găsite secțiuni pentru ID-urile specificate."
+        
+        lines = []
+        
+        for section in sections:
+            lines.append(f"### [{section.id}] {section.titlu}")
+            lines.append(f"**Ruta pentru citare:** {section.ruta}")
+            lines.append("")
+            lines.append(section.continut)
+            lines.append("")
             lines.append("---")
             lines.append("")
         
         return "\n".join(lines)
     
-    def format_contents_for_prompt(
+    def get_sections_for_context(
         self, 
-        contents: list[SectionContent]
-    ) -> str:
+        section_ids: list[int]
+    ) -> list[SectionForContext]:
         """
-        Format section contents for LLM second-pass prompt.
+        Get sections prepared for context injection.
         
         Args:
-            contents: List of section contents
+            section_ids: List of selected section IDs
             
         Returns:
-            Formatted string for LLM prompt
+            List of SectionForContext objects
         """
-        if not contents:
-            return "Nu au fost găsite conținuturi pentru secțiunile selectate."
+        sections = self.get_sections_by_ids(section_ids)
         
-        lines = []
-        
-        for content in contents:
-            lines.append(f"### [{content.section_id}] {content.title}")
-            lines.append(f"*Sursa: {content.document_title}*")
-            lines.append("")
-            lines.append(content.content)
-            lines.append("")
-            lines.append("---")
-            lines.append("")
-        
-        return "\n".join(lines)
+        return [
+            SectionForContext(
+                id=s.id,
+                ruta=s.ruta,
+                titlu=s.titlu,
+                continut=s.continut
+            )
+            for s in sections
+        ]
+    
+    def reload_data(self) -> None:
+        """
+        Reload data from data.json.
+        Useful if the file has been updated.
+        """
+        logger.info("Reloading data.json...")
+        self._sections.clear()
+        self._sections_list.clear()
+        self._load_data()
+    
+    @property
+    def section_count(self) -> int:
+        """Get total number of sections."""
+        return len(self._sections)
+    
+    @property
+    def document_names(self) -> list[str]:
+        """Get list of unique document names."""
+        docs = set()
+        for section in self._sections_list:
+            doc_name = section.ruta.split('/')[0]
+            docs.add(doc_name)
+        return sorted(list(docs))
 
 
 # Singleton instance
