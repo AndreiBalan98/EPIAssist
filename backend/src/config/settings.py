@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     openai_model: str = "gpt-4o-mini"
     openai_timeout: int = 30
-    openai_max_tokens: int = 20000
+    openai_max_tokens: int = 50000
     
     def validate_required(self) -> None:
         """Validate that required settings are present."""
