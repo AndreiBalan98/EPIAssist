@@ -1,60 +1,79 @@
-ORDIN nr. 914 din 26 iulie 2006 (*actualizat*) pentru aprobarea normelor privind conditiile pe care trebuie sa le indeplineasca un spital in vederea obtinerii autorizatiei sanitare de functionare (actualizat pana la data de 22 septembrie 2006*)
-EMITENT:
+# ORDIN nr. 914 din 26 iulie 2006 (*actualizat*) 
+**pentru aprobarea normelor privind conditiile pe care trebuie sa le indeplineasca un spital in vederea obtinerii autorizatiei sanitare de functionare (actualizat pana la data de 22 septembrie 2006)**
+
+**EMITENT:**
 MINISTERUL SANATATII PUBLICE,
-Gheorghe Eugen Nicolaescu
+**Gheorghe Eugen Nicolaescu**
 Bucuresti, 26 iulie 2006.
-Nr. 914.
+**Nr. 914.**
+
 *) Textul initial a fost publicat in MONITORUL OFICIAL nr. 695 din 15 august 2006. Aceasta este forma actualizata de S.C. "Centrul Teritorial de Calcul Electronic" S.A. Piatra Neamt pana la data de 22 septembrie 2006 cu modificarile si completarile aduse de ORDINUL nr. 1.144 din 15 septembrie 2006.
 Avand in vedere prevederile art. 175 alin. (1) al titlului VII "Spitale" din Legea nr. 95/2006 privind reforma in domeniul sanatatii, in temeiul Hotararii Guvernului nr. 862/2006 privind organizarea si functionarea Ministerului Sanatatii Publice, vazand Referatul de aprobare al Directiei de sanatate publica nr. E.N. 2.450/2006, ministrul sanatatii publice emite urmatorul ordin:
-ART. 1
+
+# ART. 1
 Se aproba normele privind conditiile pe care trebuie sa le indeplineasca un spital in vederea obtinerii autorizatiei sanitare de functionare, prevazute in anexele nr. 1-4.
-ART. 2
+
+# ART. 2
 Anexele nr. 1-4 fac parte integranta din prezentul ordin.
-ART. 3
+
+# ART. 3
 Autoritatea de sanatate publica, Inspectia Sanitara de Stat din cadrul Ministerului Sanatatii Publice, ministerele cu retea sanitara proprie, autoritatile de sanatate publica judetene si a municipiului Bucuresti, inspectiile sanitare de stat judetene si a municipiului Bucuresti, spitalele publice si private vor duce la indeplinire prevederile prezentului ordin.
-ART. 3^1
+
+# ART. 3^1
 La data intrarii in vigoare a prezentului ordin se abroga orice alte prevederi contrare.
 Art. 3^1 a fost introdus de art. I pct. 1 din ORDINUL nr. 1.144 din 15 septembrie 2006 publicat in MONITORUL OFICIAL nr. 800 din 22 septembrie 2006.
-ART. 4
+
+# ART. 4
 Prezentul ordin se publica in Monitorul Oficial al Romaniei, Partea I.
-ANEXA 1
+
+# ANEXA 1
 NORME privind procedura de autorizare sanitara de functionare a spitalului
-ART. 1
+
+# ART. 1
 Spitalul este unitatea sanitara cu paturi, de utilitate publica, cu personalitate juridica, care furnizeaza servicii medicale.
-ART. 2
+
+# ART. 2
 Indiferent de forma de proprietate, spitalul trebuie sa solicite si sa detina autorizatie sanitara de functionare.
-ART. 3
+
+# ART. 3
 Autorizarea sanitara de functionare a spitalelor se efectueaza de catre autoritatile de sanatate publica judetene, respectiv a municipiului Bucuresti, in conformitate cu procedurile prevazute in prezentele norme.
-ART. 4
+
+# ART. 4
 In sensul prezentelor norme urmatoarele notiuni se definesc dupa cum urmeaza:
 1. autorizarea sanitara a spitalului reprezinta procesul de analiza si investigatie sanitara ce are ca rezultat emiterea autorizatiei sanitare de functionare pentru spitalul care indeplineste din punct de vedere tehnic si juridic conditiile prevazute in prezentele norme pentru punerea in functiune si desfasurarea activitatii de asistenta spitaliceasca si sanatoriala;
 2. autorizatia sanitara este un act tehnic si juridic, eliberat de autoritatea locala de sanatate publica pentru un spital, prin care sunt stabilite conditiile si/sau parametrii de functionare ori de punere in functiune a activitatii de asistenta spitaliceasca si sanatoriala in acel spital;
 3. viza anuala reprezinta actul de constatare, eliberat in scris de autoritatea locala de sanatate publica, privind respectarea conformitatii cu autorizatia sanitara, eliberata anterior spitalului;
 4. programul de conformare reprezinta un plan de masuri cuprinzand etape care trebuie parcurse in intervale de timp precizate, prin prevederile autorizatiei sanitare, de catre spital, sub controlul autoritatii de sanatate publica, in scopul respectarii prezentelor norme.
-ART. 5
+
+# ART. 5
 Documentele necesare pentru solicitarea autorizatiei sanitare sunt:
 a) cerere;
 b) dosar tehnic, care va cuprinde: planul dimensionat cu structura interioara, dotarile necesare desfasurarii activitatii supuse autorizarii, prezentarea circuitelor functionale, modul de asigurare a iluminatului, ventilatiei, temperaturii ambiante, schita retelelor de utilitati sau modul de asigurare a acestora (apa potabila, apa calda menajera, evacuarea apelor uzate menajere si tehnologice, evacuarea deseurilor solide si a deseurilor periculoase rezultate din activitatea desfasurata);
 c) dovada de achitare a tarifului de autorizare sanitara.
-ART. 6
+
+# ART. 6
 (1) Cererea de autorizare si dosarul tehnic se depun la autoritatea de sanatate publica judeteana, respectiv a municipiului Bucuresti, in raza careia se gaseste spitalul.
 (2) In termen de 20 de zile de la inregistrarea cererii autoritatea de sanatate publica are obligatia sa solutioneze solicitarea in baza referatului de evaluare intocmit de specialistii proprii.
-ART. 7
+
+# ART. 7
 In urma evaluarii spitalului solicitarea se poate solutiona astfel:
 a) se elibereaza neconditionat autorizatia sanitara de functionare;
 b) se elibereaza autorizatia sanitara de functionare, conditionat de realizarea programului si calendarului de conformare stabilit in autorizatie;
 c) nu se elibereaza autorizatia sanitara de functionare, iar solicitantul este informat in scris privind neconformitatile cu dispozitiile legale pe care se intemeiaza refuzul de a emite autorizatia sanitara de functionare.
-ART. 8
+
+# ART. 8
 cat:
 (1) Autorizatia sanitara de functionare are valabilitate, pe durata sa, atat timp
-a) sunt respectate conditiile igienico-sanitare prevazute de autorizatia sanitara de functionare, prezentele norme si legislatia in vigoare aplicabila;
-b) sunt mentinute elementele declarate in dosarul tehnic, conditiile de structura functionala si cele care se refera la obiectul de activitate din solicitarea initiala pentru care a fost emisa autorizatia.
+    a) sunt respectate conditiile igienico-sanitare prevazute de autorizatia sanitara de functionare, prezentele norme si legislatia in vigoare aplicabila;
+    b) sunt mentinute elementele declarate in dosarul tehnic, conditiile de structura functionala si cele care se refera la obiectul de activitate din solicitarea initiala pentru care a fost emisa autorizatia.
 (2) Autorizatia sanitara de functionare a spitalului se vizeaza anual de catre autoritatea de sanatate publica judeteana, respectiv a municipiului Bucuresti.
 (3) Intre doua vize anuale, in cazul in care elementele care au stat la baza autorizarii se modifica, spitalul va cere autoritatii de sanatate publica locale demararea procedurilor in vederea emiterii unei noi autorizatii sanitare de functionare.
 (4) Inspectia sanitara de stat poate proceda la retragerea autorizatiei sanitare de functionare in cazul oricarei modificari a obiectului de activitate si a structurii functionale a spitalului fata de ceea ce este prevazut in autorizatia sanitara de functionare sau in cazul nerespectarii programului de conformare.
-ART. 9
+
+# ART. 9
 (1) Din momentul retragerii autorizatiei sanitare de functionare activitatea pentru care a fost eliberata autorizatia sanitara de functionare se suspenda.
 (2) Pentru reluarea activitatii reprezentantul legal al spitalului solicita autoritatii de sanatate publica judetene, respectiv a municipiului Bucuresti, procedura de evaluare in vederea autorizarii, iar activitatea va fi reluata dupa emiterea noii autorizatii sanitare de functionare.
+
 ANEXA 2
 NORME privind organizarea functionala generala a spitalului
 ART. 1
