@@ -1,20 +1,38 @@
-ORDIN Nr. 1.761 din 3 septembrie 2021 pentru aprobarea Normelor tehnice privind curăţarea, dezinfecţia şi sterilizarea în unităţile sanitare publice şi private, evaluarea eficacităţii procedurilor de curăţenie şi dezinfecţie efectuate în cadrul acestora, procedurile recomandate pentru dezinfecţia mâinilor în funcţie de nivelul de risc, precum şi metodele de evaluare a derulării procesului de sterilizare şi controlul eficienţei acestuia
-Publicat în: Monitorul Oficial Nr. 882 din 14 septembrie 2021
+# ORDIN Nr. 1.761 din 3 septembrie 2021 
+**pentru aprobarea Normelor tehnice privind curăţarea, dezinfecţia şi sterilizarea în unităţile sanitare publice şi private, evaluarea eficacităţii procedurilor de curăţenie şi dezinfecţie efectuate în cadrul acestora, procedurile recomandate pentru dezinfecţia mâinilor în funcţie de nivelul de risc, precum şi metodele de evaluare a derulării procesului de sterilizare şi controlul eficienţei acestuia**
+
+**Publicat în:** Monitorul Oficial Nr. 882 din 14 septembrie 2021
+
 Ministrul sănătăţii,
-Monica-Emanuela Althamer,
+**Monica-Emanuela Althamer**,
 secretar de stat
-Văzând Referatul de aprobare nr. IM 8.228 din 3.09.2021 al Direcţiei generale de asistenţă medicală, medicină de urgenţă şi programe de sănătate publică din cadrul Ministerului Sănătăţii, având în vedere dispoziţiile art. 8 alin. (1) lit. a) şi art. 166 din Legea nr. 95/2006 privind reforma în domeniul sănătăţii, republicată, cu modificările şi completările ulterioare, în temeiul prevederilor art. 7 alin. (4) din Hotărârea Guvernului nr. 144/2010 privind organizarea şi funcţionarea Ministerului Sănătăţii, cu modificările şi completările ulterioare, ministrul sănătăţii emite următorul ordin:
-Art. 1
+
+Văzând Referatul de aprobare nr. IM 8.228 din 3.09.2021 al Direcţiei generale de asistenţă medicală, medicină de urgenţă şi programe de sănătate publică din cadrul Ministerului Sănătăţii, având în vedere dispoziţiile art. 8 alin. (1) lit. a) şi art. 166 din Legea nr. 95/2006 privind reforma în domeniul sănătăţii, republicată, cu modificările şi completările ulterioare, în temeiul prevederilor art. 7 alin. (4) din Hotărârea Guvernului nr. 144/2010 privind organizarea şi funcţionarea Ministerului Sănătăţii, cu modificările şi completările ulterioare, 
+
+ministrul sănătăţii emite următorul ordin:
+
+**Art. 1**
+
 Se aprobă Normele tehnice privind curăţarea, dezinfecţia şi sterilizarea în unităţile sanitare publice şi private, prevăzute în anexa nr. 1 la prezentul ordin.
-Art. 2
+
+**Art. 2**
+
 Evaluarea eficacităţii procedurilor de curăţenie şi dezinfecţie efectuate în cadrul unităţilor sanitare publice şi private se realizează conform anexei nr. 2 la prezentul ordin.
-Art. 3
+
+**Art. 3**
+
 Se aprobă procedurile recomandate pentru dezinfecţia mâinilor, în funcţie de nivelul de risc, prevăzute în anexa nr. 3 la prezentul ordin.
-Art. 4
+
+**Art. 4**
+
 Se aprobă metodele de evaluare a derulării procesului de sterilizare şi controlul eficienţei acestuia, prevăzute în anexa nr. 4 la prezentul ordin.
-Art. 5
+
+**Art. 5**
+
 Comisia Naţională pentru Produse Biocide (CNPB) avizează produsele biocide ale căror avize se publică în Registrul naţional al produselor biocide, pe site-ul dedicat al Ministerului Sănătăţii.
-Art. 6
+
+**Art. 6**
+
 (1) Produsele biocide, precum şi produsele biocide încadrate ca dispozitive medicale, utilizate în unităţile sanitare, conform Ordinului ministrului sănătăţii, al ministrului mediului şi pădurilor şi al preşedintelui Autorităţii Naţionale Sanitare Veterinare şi pentru Siguranţa Alimentelor nr. 10/368/11/2010 privind aprobarea procedurii de avizare a produselor biocide care sunt plasate pe piaţă pe teritoriul României sau Hotărârii Guvernului nr. 617/2014 privind stabilirea cadrului instituţional şi a unor măsuri pentru punerea în aplicare a Regulamentului (UE) nr. 528/2012 al Parlamentului European şi al Consiliului din 22 mai 2012 privind punerea la dispoziţie pe piaţă şi utilizarea produselor biocide, cu modificările şi completările ulterioare, sau care deţin autorizaţie unională, conform Regulamentului (UE) nr. 528/2012 al Parlamentului European şi al Consiliului privind punerea la dispoziţie pe piaţă şi utilizarea produselor biocide în funcţie de scopul utilizării, trebuie să prezinte efect bactericid, levuricid, fungicid, micobactericid, virulicid şi sporicid.
 (2) La achiziţia produselor biocide, unităţile sanitare publice şi private trebuie să solicite avizul eliberat de către CNPB.
 (3) La achiziţia produselor biocide, încadrate ca dispozitive medicale, utilizate de unităţile sanitare publice şi private, acestea trebuie să solicite:
@@ -29,13 +47,27 @@ c) tip 4 (pentru igiena în zonele de distribuţie şi preparare a alimentelor);
 d) tip 14 (pentru deratizare);
 e) tip 18 (pentru dezinsecţie);
 f) tip 22 (pentru îmbălsămare).
-Art. 7 - La data intrării în vigoare a prezentului ordin se abrogă Ordinul ministrului sănătăţii nr. 961/2016 pentru aprobarea Normelor tehnice privind curăţarea, dezinfecţia şi sterilizarea în unităţile sanitare publice şi private, tehnicii de lucru şi interpretare pentru testele de evaluare a eficienţei procedurii de curăţenie şi dezinfecţie, procedurilor recomandate pentru dezinfecţia mâinilor, în funcţie de nivelul de risc, metodelor de aplicare a dezinfectantelor chimice în funcţie de suportul care urmează să fie tratat şi a metodelor de evaluare a derulării şi eficienţei procesului de sterilizare, publicat în Monitorul Oficial al României, Partea I, nr. 681 din 2 septembrie 2016, cu modificările ulterioare.
-Art. 8 - Anexele nr. 1 - 4 fac parte integrantă din prezentul ordin.
-Art. 9 - Direcţiile de specialitate din cadrul Ministerului Sănătăţii, direcţiile de sănătate publică judeţene şi a municipiului Bucureşti, precum şi unităţile sanitare publice şi private de pe teritoriul României vor duce la îndeplinire prevederile prezentului ordin.
-Art. 10 - Prezentul ordin se publică în Monitorul Oficial al României, Partea I.
-Anexa Nr. 1
+
+**Art. 7**
+
+La data intrării în vigoare a prezentului ordin se abrogă Ordinul ministrului sănătăţii nr. 961/2016 pentru aprobarea Normelor tehnice privind curăţarea, dezinfecţia şi sterilizarea în unităţile sanitare publice şi private, tehnicii de lucru şi interpretare pentru testele de evaluare a eficienţei procedurii de curăţenie şi dezinfecţie, procedurilor recomandate pentru dezinfecţia mâinilor, în funcţie de nivelul de risc, metodelor de aplicare a dezinfectantelor chimice în funcţie de suportul care urmează să fie tratat şi a metodelor de evaluare a derulării şi eficienţei procesului de sterilizare, publicat în Monitorul Oficial al României, Partea I, nr. 681 din 2 septembrie 2016, cu modificările ulterioare.
+
+**Art. 8**
+
+Anexele nr. 1 - 4 fac parte integrantă din prezentul ordin.
+
+**Art. 9**
+
+Direcţiile de specialitate din cadrul Ministerului Sănătăţii, direcţiile de sănătate publică judeţene şi a municipiului Bucureşti, precum şi unităţile sanitare publice şi private de pe teritoriul României vor duce la îndeplinire prevederile prezentului ordin.
+
+**Art. 10**
+
+Prezentul ordin se publică în Monitorul Oficial al României, Partea I.
+
+# Anexa Nr. 1
 NORME TEHNICE privind curăţarea, dezinfecţia şi sterilizarea în unităţile sanitare publice şi private
-Cap. I
+
+## Cap. I
 Definiţii
 Art. 1
 În sensul prezentelor norme, termenii de mai jos au următoarele semnificaţii:
@@ -60,7 +92,8 @@ Art. 2
 (1) Unităţile sanitare publice şi private sunt obligate să elaboreze un program de curăţenie şi dezinfecţie, care să cuprindă proceduri operaţionale şi activităţi de monitorizare a acestora.
 (2) Programul include operaţiile de dezinfecţie curentă, ciclică sau periodică şi terminală.
 (3) Implementarea şi monitorizarea programului de curăţenie şi dezinfecţie revin personalului unităţii sanitare, care, conform legislaţiei în vigoare, este responsabil cu prevenirea şi limitarea infecţiilor asociate îngrijirilor medicale din unitate.
-Cap. II
+
+## Cap. II
 Curăţarea
 Art. 3
 (1) Curăţarea este metoda prin care se asigură îndepărtarea fizică/chimică a microorganismelor de pe suprafeţe, obiecte sau tegumente, odată cu îndepărtarea prafului şi a substanţelor organice. Curăţarea nu înlocuieşte dezinfecţia.
@@ -101,7 +134,8 @@ Art. 7
 (1) Întreţinerea ustensilelor folosite (cărucioare pentru curăţenie, găleţi, talpă mop, perii etc.) pentru efectuarea curăţeniei se face după fiecare operaţie de curăţare, precum şi la sfârşitul zilei de lucru.
 (2) Ustensilele utilizate se spală, se curăţă, se dezinfectează şi se usucă, respectându-se procedurile operaţionale de curăţenie şi dezinfecţie stabilite la nivelul unităţii sanitare.
 (3) Personalul care execută operaţiile de curăţare şi dezinfecţie a ustensilelor folosite pentru curăţenie trebuie să poarte echipament de protecţie conform precauţiilor standard definite în Ordinul ministrului sănătăţii nr. 1.101/2016 privind aprobarea Normelor de supraveghere, prevenire şi limitare a infecţiilor asociate asistenţei medicale în unităţile sanitare.
-Cap. III
+
+## Cap. III
 Dezinfecţia
 Art. 8
 (1) În orice activitate de dezinfecţie se aplică măsurile de protecţie a muncii, conform prevederilor legislaţiei în vigoare, pentru a preveni accidentele şi intoxicaţiile.
@@ -212,7 +246,8 @@ c) ora începerii fiecărei proceduri (ciclu) de dezinfecţie;
 d) lista dispozitivelor medicale imersate la fiecare procedură;
 e) ora încheierii fiecărei proceduri;
 f) numele şi semnătura persoanei responsabile de efectuarea procedurii.
-Cap. IV
+
+## Cap. IV
 Sterilizarea
 Art. 24
 Sterilizarea face parte din categoria procedurilor speciale ale cărei rezultate depind de buna funcţionare a aparaturii utilizate, păstrarea corespunzătoare a materialelor sterilizate şi aplicarea corectă a procedurilor de sterilizare.
@@ -347,7 +382,8 @@ Art. 68
 (3) Este interzisă sterilizarea cu oxid de etilenă a materialului medico-chirurgical a cărui compatibilitate de etilen oxid nu este cunoscută.
 (4) Este interzisă resterilizarea cu oxid de etilenă a echipamentului medical constituit din părţi de policlorură de vinil sterilizat iniţial cu radiaţii ionizante sau raze gamma.
 (5) Este interzis a se fuma produse din tutun, ţigări electronice sau produse din tutun încălzit, în încăperile unde se utilizează oxidul de etilenă; aceste încăperi trebuie ventilate în permanenţă direct cu aer proaspăt (din exterior).
-Anexa Nr. 2
+
+# Anexa Nr. 2
 EVALUAREA eficacităţii procedurilor de curăţenie şi dezinfecţie
 Art. 1
 (1) Testele bacteriologice bazate pe cultivare se efectuează doar în cadrul investigaţiilor epidemiologice şi în evaluarea punctuală a impactului măsurilor de control al infecţiilor sau al modificărilor protocoalelor de lucru, fiind recomandate de către serviciul/compartimentul sau medicul responsabil pentru prevenirea infecţiilor asociate asistenţei medicale.
@@ -367,8 +403,10 @@ Art. 6
 Testarea eficacităţii procedurilor de curăţenie şi dezinfecţie se realizează de către personalul serviciului/ compartimentului de prevenire a infecţiilor asociate asistenţei medicale. Interpretarea rezultatelor testărilor microbiologice efectuate în cadrul investigărilor în focar se face în colaborare cu şeful laboratorului/compartimentului de microbiologie din cadrul laboratorului de analize clinice al unităţii sanitare sau al laboratorului extern contractat.
 Art. 7
 În cadrul activităţii de control în sănătatea publică realizată în unităţile sanitare publice şi private, exercitată de către personalul de specialitate împuternicit din cadrul Inspecţiei Sanitare de Stat din cadrul Ministerului Sănătăţii şi al direcţiilor de sănătate publică judeţene şi a municipiului Bucureşti, după caz, conform normelor generale şi specifice elaborate de către instituţiile abilitate şi aprobate prin ordin al ministrului sănătăţii, se prelevează probe în vederea testării eficacităţii procedurilor de curăţenie şi dezinfecţie.
-Anexa Nr. 3
+
+# Anexa Nr. 3
 PROCEDURILE recomandate pentru dezinfecţia mâinilor, în funcţie de nivelul de risc
+
 Art. 1
 Produsele biocide încadrate în tipul 1 de produs sunt utilizate pentru:
 a) dezinfecţia igienică şi chirurgicală a mâinilor prin spălare;
@@ -424,9 +462,11 @@ Indicaţii
 - înainte de orice intervenţie chirurgicală;
 - înaintea tuturor manevrelor care necesită o asepsie de tip chirurgical (minim invazive)
 Volumul de dezinfectant utilizat va fi conform recomandărilor producătorului. Se vor folosi doar produse avizate pentru dezinfecţia chirurgicală a mâinilor.
-Anexa Nr. 4
+
+# Anexa Nr. 4
 METODE de evaluare a derulării procesului de sterilizare şi controlul eficienţei acestuia
-1. Indicatorii de evaluare a eficienţei procesului de sterilizare
+
+## 1. Indicatorii de evaluare a eficienţei procesului de sterilizare
 A. Indicatori fizici (presiune, timp şi temperatură) cuprinşi în diagrama sterilizatorului
 B. Indicatori chimici (ISO 11140):
 a) indicatori de tip 1 (externi) - indică expunerea la procesul de sterilizare şi fac diferenţa între materialele procesate şi neprocesate;
@@ -434,7 +474,8 @@ b) indicatori de tip 2 - pentru penetrarea aburului Bowie-Dick, respectiv testul
 c) indicatori de tip 4 (multiparametru) - care testează unul sau mai mulţi parametri ai ciclului de sterilizare, indicatori interni care se utilizează pentru fiecare ambalaj/container supus sterilizării cu plasmă şi formaldehidă;
 d) indicatori de tip 5 (integratori) - care testează toţi parametrii ciclului de sterilizare (presiune, timp, temperatură), indicatori interni care se utilizează pentru fiecare ambalaj/container supus sterilizării cu abur sau oxid de etilenă
 C. Indicatori biologici (ISO 11138-1-8)
-2. Frecvenţa utilizării testelor de verificare a sterilizării
+
+## 2. Frecvenţa utilizării testelor de verificare a sterilizării
 A. Pentru fiecare ciclu de sterilizare evaluarea eficacităţii sterilizării se realizează astfel:
 a) pe tot parcursul ciclului complet de sterilizare se urmăreşte pe panoul de comandă şi se notează temperatura şi presiunea atinse pentru fiecare fază a ciclului sau se analizează diagrama. Datele fiecărui ciclu de sterilizare trebuie să fie notate/imprimate vizibil şi arhivate;
 b) se citeşte virarea culorii indicatorului de proces;
@@ -444,7 +485,8 @@ B. Evaluarea eficacităţii sterilizării se realizează:
 a) zilnic, prin testul Bowie & Dick, care controlează calitatea penetrării aburului;
 b) dacă se efectuează sterilizarea instrumentarului cu lumen, se controlează calitatea penetrării aburului cu ajutorul testului Helix, la fiecare şarjă de sterilizare;
 c) zilnic, cu indicator biologic (ISO 11138-1-8) în prima şarjă şi pentru fiecare şarjă care conţine materiale sau dispozitive implantabile.
-3. Modalitatea de utilizare a indicatorilor chimici în evaluarea proceselor de sterilizare este următoarea:
+
+## 3. Modalitatea de utilizare a indicatorilor chimici în evaluarea proceselor de sterilizare este următoarea:
 A. Indicatori chimici de proces (tip 1) - diferenţiază logistic pachetele procesate de cele neprocesate şi se prezintă în mai multe forme: bandă adezivă cu indicatori, marker de culoare pe pungile de împachetat sau sigilii, etichete indicatoare sau orice altă formă în conformitate cu standardul EN ISO 11140 şi actualizările sale. Indicatorii chimici de proces se plasează pe fiecare pachet/container/pungă. Virarea indicatorului doar identifică pachetele procesate şi nu garantează o sterilizare corectă, folosirea acestui indicator nefiind suficientă pentru un control eficient al sterilizării.
 B. Indicatorii chimici multiparametru (tip 4) - monitorizează toţi parametrii fizici şi chimici ai ciclului de sterilizare:
 a) plasmă: timp, temperatură, concentraţia de peroxid de hidrogen;
@@ -459,7 +501,8 @@ D. Indicatori chimici utilizaţi pentru teste specifice (tip 2) conform EN ISO 1
 a) Testul Bowie & Dick - pentru evidenţierea aerului rezidual şi a gazelor inerte din camera de sterilizare, pentru autoclavele cu prevacuum, respectiv verificarea penetrabilităţii aburului, aceasta reprezentând esenţa procesului de sterilizare cu abur. Constă într-un suport hârtie/plastic impregnat cu cerneală indicatoare specifică sau orice altă prezentare conformă cu standardul EN ISO 11140 şi standardul ISO 18472 pentru testul la rezistometru.
 b) Testul tip Helix - pentru evidenţierea aerului rezidual şi a gazelor inerte din camera de sterilizare, pentru autoclavele cu prevacuum, respectiv verificarea penetrabilităţii aburului în dispozitivele canulate, aceasta reprezentând esenţa procesului de sterilizare cu abur. Constă într-un sistem format dintr-o capsulă, în care se introduce indicatorul chimic, conectat la un tub care simulează dispozitivul canulat sau orice altă formă, în conformitate cu standardul EN 867-5.
 c) Testul PCD reprezintă testul pentru validarea globală a procesului de sterilizare conform standardului EN 14937 şi este compus dintr-un dispozitiv de validare a procesului (PCD) şi unul dintre indicatorii de mai sus, respectiv test Bowie-Dick sau Helix. Testul PCD reprezintă o simulare a penetrării aburului în cele mai inaccesibile zone în cazul instrumentelor foarte complexe.
-4. Interpretarea rezultatelor testelor de verificare a sterilizării
+
+## 4. Interpretarea rezultatelor testelor de verificare a sterilizării
 A. Indicatori chimici de proces:
 a) virarea culorii la indicatorii chimici de proces (tip 1)
 B. Indicatori chimici integratori sau multiparametru:
@@ -480,7 +523,8 @@ d) descrierea procedurii de lucru:
 (v) pentru documentare se păstrează hârtia folosită pentru test la loc întunecos;
 (vi) în caz de neconformitate a testului Bowie & Dick se anunţă imediat tehnicianul autorizat şi se opreşte utilizarea autoclavului până la remedierea problemei apărute. După remediere se va efectua obligatoriu un nou test Bowie & Dick pentru verificare;
 (vii) în cazul testelor Bowie & Dick Helix PCD, modalitatea de lucru este conform indicatorilor producătorului.
-5. Indicatori biologici
+
+## 5. Indicatori biologici
 A. Indicatorii biologici constau în teste biologice pentru controlul eficacităţii sterilizării care conţin spori din familia Bacillus stearothermophilus, de exemplu, Geobacillus stearothermophilus (ATCC® 7953™) şi Bacillus Atrophaeus (ATCC® 9372™), care se prezintă sub formă de:
 a) fiole de plastic termorezistent ce au în interior un strip impregnat cu Geobacillus stearothermophilus (ATCC® 7953™) pentru sterilizarea cu abur sub presiune, plasmă şi formaldehidă;
 b) fiole de plastic care au în interior un strip impregnat cu Bacillus Atrophaeus (ATCC® 9372™) pentru sterilizarea cu oxid de etilenă.
