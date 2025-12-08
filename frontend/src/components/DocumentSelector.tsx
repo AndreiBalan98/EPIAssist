@@ -1,5 +1,7 @@
 /**
  * Floating document selector - top-left corner, expands on hover.
+ * Desktop: hover to expand (original behavior)
+ * Mobile: controlled by parent via drawer
  */
 import { useState, useRef, useEffect } from 'react';
 
@@ -7,12 +9,17 @@ interface DocumentSelectorProps {
   documents: string[];
   selectedDocument: string | null;
   onSelect: (filename: string) => void;
+  // Mobile mode props
+  isMobileMode?: boolean;
+  onMobileSelect?: () => void; // Called after selection to close drawer
 }
 
 export const DocumentSelector = ({ 
   documents, 
   selectedDocument, 
-  onSelect 
+  onSelect,
+  isMobileMode = false,
+  onMobileSelect
 }: DocumentSelectorProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const closeTimerRef = useRef<NodeJS.Timeout | null>(null);
@@ -25,11 +32,13 @@ export const DocumentSelector = ({
   };
 
   const handleMouseEnter = () => {
+    if (isMobileMode) return;
     clearTimer();
     setIsExpanded(true);
   };
 
   const handleMouseLeave = () => {
+    if (isMobileMode) return;
     closeTimerRef.current = setTimeout(() => {
       setIsExpanded(false);
     }, 1000);
@@ -37,20 +46,50 @@ export const DocumentSelector = ({
 
   const handleDocumentSelect = (filename: string) => {
     onSelect(filename);
-    // Keep expanded briefly after selection
-    clearTimer();
-    closeTimerRef.current = setTimeout(() => {
-      setIsExpanded(false);
-    }, 500);
+    
+    if (isMobileMode) {
+      // In mobile mode, notify parent to close drawer
+      onMobileSelect?.();
+    } else {
+      // Desktop: keep expanded briefly after selection
+      clearTimer();
+      closeTimerRef.current = setTimeout(() => {
+        setIsExpanded(false);
+      }, 500);
+    }
   };
 
   useEffect(() => {
     return () => clearTimer();
   }, []);
 
+  // Mobile mode: render just the list (parent handles drawer wrapper)
+  if (isMobileMode) {
+    return (
+      <div className="p-4">
+        <div className="space-y-1">
+          {documents.map((doc) => (
+            <button
+              key={doc}
+              onClick={() => handleDocumentSelect(doc)}
+              className={`w-full text-left px-3 py-3 rounded-lg text-sm transition-colors ${
+                selectedDocument === doc
+                  ? 'bg-blue-50 text-blue-700 font-medium'
+                  : 'text-gray-700 hover:bg-gray-50 active:bg-gray-100'
+              }`}
+            >
+              {doc.replace('.md', '')}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // Desktop mode: original floating behavior (hidden on mobile via CSS)
   return (
     <div
-      className="fixed top-6 left-6 z-30"
+      className="fixed top-6 left-6 z-30 hidden lg:block"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

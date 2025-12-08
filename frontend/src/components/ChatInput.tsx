@@ -1,7 +1,8 @@
 /**
- * Chat input - blue circle that expands on hover.
- * Single isOpen state controls everything - input, response, loading.
- * Stays open while loading, closes together on mouse leave.
+ * Chat input - blue circle that expands on hover/tap.
+ * Desktop: hover to expand
+ * Mobile: tap to expand, tap outside to close
+ * Responsive width when expanded.
  */
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
@@ -22,6 +23,8 @@ export const ChatInput = () => {
   const [error, setError] = useState<string | null>(null);
   
   const closeTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   // Clear close timer
   const clearCloseTimer = () => {
@@ -31,14 +34,22 @@ export const ChatInput = () => {
     }
   };
 
-  // Handle mouse enter - open everything
+  // Check if device supports touch
+  const isTouchDevice = () => {
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  };
+
+  // Handle mouse enter - open everything (desktop only)
   const handleMouseEnter = () => {
+    if (isTouchDevice()) return;
     clearCloseTimer();
     setIsOpen(true);
   };
 
-  // Handle mouse leave - close after delay (unless loading or typing)
+  // Handle mouse leave - close after delay (desktop only)
   const handleMouseLeave = () => {
+    if (isTouchDevice()) return;
+    
     // Don't close while loading
     if (loading) return;
     
@@ -50,13 +61,38 @@ export const ChatInput = () => {
     }, 1000);
   };
 
+  // Handle tap on bubble (mobile)
+  const handleBubbleTap = () => {
+    if (!isTouchDevice()) return;
+    
+    if (!isOpen) {
+      setIsOpen(true);
+      // Focus input after animation
+      setTimeout(() => inputRef.current?.focus(), 300);
+    }
+  };
+
+  // Handle tap outside to close (mobile)
+  useEffect(() => {
+    if (!isTouchDevice()) return;
+
+    const handleTouchOutside = (e: TouchEvent) => {
+      if (!isOpen) return;
+      if (loading) return;
+      if (message.trim() !== '') return;
+      
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('touchstart', handleTouchOutside);
+    return () => document.removeEventListener('touchstart', handleTouchOutside);
+  }, [isOpen, loading, message]);
+
   // Handle text change
   const handleTextChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newValue = e.target.value;
-    setMessage(newValue);
-    
-    // If user clears input and mouse is outside, start close timer
-    // (handleMouseLeave will be called naturally if mouse is outside)
+    setMessage(e.target.value);
   };
 
   // Handle form submit
@@ -68,7 +104,7 @@ export const ChatInput = () => {
     const userMessage = message.trim();
     setLoading(true);
     setError(null);
-    clearCloseTimer(); // Ensure it stays open during loading
+    clearCloseTimer();
 
     // Add user message to conversation
     const newConversation: Message[] = [
@@ -123,13 +159,16 @@ export const ChatInput = () => {
 
   return (
     <div 
-      className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center"
+      ref={containerRef}
+      className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center
+        w-[calc(100%-2rem)] sm:w-auto
+        max-w-2xl"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       {/* Response / Loading / Error area */}
       {showResponseArea && (
-        <div className="mb-4 max-w-2xl w-full bg-white rounded-lg shadow-lg p-6 max-h-96 overflow-y-auto">
+        <div className="mb-4 w-full bg-white rounded-lg shadow-lg p-4 sm:p-6 max-h-80 sm:max-h-96 overflow-y-auto">
           {loading ? (
             <LoadingIndicator />
           ) : error ? (
@@ -147,24 +186,26 @@ export const ChatInput = () => {
 
       {/* Input area - expanded or collapsed */}
       <div
+        onClick={handleBubbleTap}
         className={`transition-all duration-300 ease-out ${
           isOpen 
-            ? 'w-[500px] h-12 bg-white' 
-            : 'w-14 h-14 bg-blue-500'
-        } rounded-full shadow-lg cursor-pointer flex items-center ${
+            ? 'w-full sm:w-[500px] h-12 bg-white rounded-full' 
+            : 'w-14 h-14 bg-blue-500 rounded-full'
+        } shadow-lg cursor-pointer flex items-center ${
           loading ? 'opacity-70' : ''
         }`}
       >
         {isOpen ? (
-          <form onSubmit={handleSubmit} className="w-full px-6">
+          <form onSubmit={handleSubmit} className="w-full px-4 sm:px-6">
             <input
+              ref={inputRef}
               type="text"
               value={message}
               onChange={handleTextChange}
               placeholder={loading ? "Se procesează..." : "Pune o întrebare..."}
-              className="w-full outline-none text-gray-700 placeholder-gray-400"
+              className="w-full outline-none text-gray-700 placeholder-gray-400 text-sm sm:text-base"
               disabled={loading}
-              autoFocus
+              autoFocus={!isTouchDevice()}
             />
           </form>
         ) : (

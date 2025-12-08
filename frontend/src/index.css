@@ -33,28 +33,28 @@ body {
 }
 
 .prose h1 {
-  @apply text-3xl font-bold text-gray-900 mt-8 mb-4;
+  @apply text-2xl sm:text-3xl font-bold text-gray-900 mt-6 sm:mt-8 mb-3 sm:mb-4;
 }
 
 .prose h2 {
-  @apply text-2xl font-semibold text-gray-900 mt-6 mb-3;
+  @apply text-xl sm:text-2xl font-semibold text-gray-900 mt-5 sm:mt-6 mb-2 sm:mb-3;
 }
 
 .prose h3 {
-  @apply text-xl font-semibold text-gray-900 mt-4 mb-2;
+  @apply text-lg sm:text-xl font-semibold text-gray-900 mt-3 sm:mt-4 mb-2;
 }
 
 .prose p {
-  @apply mb-4 leading-relaxed;
+  @apply mb-3 sm:mb-4 leading-relaxed;
 }
 
 .prose ul,
 .prose ol {
-  @apply mb-4 ml-6;
+  @apply mb-3 sm:mb-4 ml-4 sm:ml-6;
 }
 
 .prose li {
-  @apply mb-2;
+  @apply mb-1.5 sm:mb-2;
 }
 
 .prose strong {
@@ -62,13 +62,29 @@ body {
 }
 
 .prose code {
-  @apply bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm;
+  @apply bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-xs sm:text-sm;
 }
 
 .prose pre {
-  @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto my-4;
+  @apply bg-gray-900 text-gray-100 p-3 sm:p-4 rounded-lg overflow-x-auto my-3 sm:my-4;
 }
 
 .prose pre code {
   @apply bg-transparent text-gray-100 p-0;
+}
+
+/* Prevent text selection on UI elements for better mobile experience */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 1023px) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
 }
