@@ -5,6 +5,7 @@
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { api } from '@services/api';
+import { LoadingIndicator } from '@components/LoadingIndicator';
 import axios from 'axios';
 
 interface Message {
@@ -59,6 +60,9 @@ export const ChatInput = () => {
 
   // Handle mouse leave on response area
   const handleResponseMouseLeave = () => {
+    // Don't auto-close while loading
+    if (loading) return;
+    
     responseCloseTimerRef.current = setTimeout(() => {
       setConversation([]);
       setError(null);
@@ -138,22 +142,29 @@ export const ChatInput = () => {
     .reverse()
     .find(msg => msg.role === 'assistant');
 
+  // Show response area if loading or has response
+  const showResponseArea = loading || lastAssistantMessage;
+
   return (
     <div 
       ref={containerRef}
       className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center"
     >
-      {/* Response display */}
-      {lastAssistantMessage && (
+      {/* Response display - shows LoadingIndicator while loading */}
+      {showResponseArea && (
         <div 
           ref={responseAreaRef}
           className="mb-4 max-w-2xl w-full bg-white rounded-lg shadow-lg p-6 max-h-96 overflow-y-auto"
           onMouseEnter={handleResponseMouseEnter}
           onMouseLeave={handleResponseMouseLeave}
         >
-          <div className="prose prose-sm max-w-none">
-            <ReactMarkdown>{lastAssistantMessage.content}</ReactMarkdown>
-          </div>
+          {loading ? (
+            <LoadingIndicator />
+          ) : lastAssistantMessage ? (
+            <div className="prose prose-sm max-w-none">
+              <ReactMarkdown>{lastAssistantMessage.content}</ReactMarkdown>
+            </div>
+          ) : null}
         </div>
       )}
 
