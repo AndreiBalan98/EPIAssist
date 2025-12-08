@@ -2,7 +2,7 @@ import os
 import json
 import re
 
-OUTPUT_FILE = "output.json"
+OUTPUT_FILE = "data.json"
 
 header_regex = re.compile(r"^(#+)\s+(.*)")
 
