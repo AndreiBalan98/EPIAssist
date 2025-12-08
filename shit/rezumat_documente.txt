@@ -1,0 +1,425 @@
+==============================
+DOCUMENT: ORDIN Nr. 1101.2016
+==============================
+
+# ORDIN Nr. 1101 din 30 septembrie 2016
+Ministerul Sănătății aprobă Normele de supraveghere, prevenire și limitare a infecțiilor asociate asistenței medicale în unitățile sanitare, care includ organizarea activităților de prevenire, raportarea infecțiilor, metodologia de supraveghere a expunerii accidentale și măsuri standard de precauție. Unitățile sanitare trebuie să elaboreze anual un program propriu, iar costurile activităților vor fi incluse în serviciile medicale decontate. Activitățile de prevenire sunt obligații profesionale, iar nerespectarea normelor atrage responsabilitate. Ordinul abrogă un precedent din 2006 și se publică în Monitorul Oficial.
+
+# ANEXA 1
+Activitățile de supraveghere, prevenire și limitare a infecțiilor asociate asistenței medicale în unitățile sanitare publice și private cu paturi sunt esențiale pentru asigurarea siguranței pacienților și a personalului medical.
+
+## CAPITOLUL I
+Unitățile sanitare publice și private cu paturi trebuie să organizeze servicii de prevenire a infecțiilor asociate asistenței medicale, cu personal specializat, inclusiv medici epidemiologi și de boli infecțioase. Acestea au responsabilitatea de a supraveghea și limita infecțiile, iar Comitetul de prevenire a infecțiilor trebuie să fie constituit în fiecare unitate. Unitățile ambulatorii și alte tipuri de unități sanitare trebuie să desemneze un medic responsabil pentru prevenirea infecțiilor. Îndrumarea metodologică este asigurată de direcțiile de sănătate publică, iar intervenția în caz de epidemii este gratuită, finanțată din bugetul de stat.
+
+## CAPITOLUL II
+Unitatea sanitară are atribuții în supravegherea, prevenirea și limitarea infecțiilor asociate asistenței medicale, inclusiv implementarea măsurilor de igienă, educarea personalului și monitorizarea infecțiilor.
+
+### 1. Atribuţiile Comitetului director al unităţii sanitare:
+Comitetul de prevenire a infecţiilor asociate asistenţei medicale organizează activitățile de prevenire, elaborează regulamentul de funcționare, aprobă planul anual de activitate, analizează îndeplinirea obiectivelor, verifică bugetul, îmbunătățește condițiile de prevenire, derulează achiziții legale, decide asupra responsabilității personalului în cazuri de infecții și asigură dotarea sistemului informațional pentru monitorizarea infecțiilor.
+
+### 2. Atribuţiile managerului unităţii sanitare:
+Responsabilitățile includ organizarea serviciului de prevenire a infecțiilor asociate asistenței medicale, participarea la activități de supraveghere, asigurarea bugetului, înființarea registrului de monitorizare, organizarea screening-ului pacienților, realizarea studiilor de prevalență, publicarea informațiilor statistice, gestionarea cazurilor de expunere accidentală, aplicarea sancțiunilor, controlul serviciului, alocarea fondurilor în cazuri de risc, verificarea informațiilor transmise, solicitarea de expertize externe, angajarea unității pentru servicii specializate și reprezentarea unității în litigii legate de infecții.
+
+### 3. Atribuţiile directorului medical:
+Responsabilitățile includ aplicarea procedurilor de prevenire a infecțiilor, raportarea infecțiilor asociate asistenței medicale, respectarea politicii de utilizare a antibioticelor, screeningul pacienților în secții cu risc, controlul activităților de prevenire a infecțiilor, respectarea protocoalelor de prevenire a infecțiilor, evaluarea imunizării personalului și organizarea registrelor de expunere accidentală la produse biologice.
+
+### 4. Atribuţiile directorului de îngrijiri:
+Responsabilitățile includ: prelucrarea și aplicarea procedurilor de prevenire a infecțiilor, implementarea precauțiilor standard, controlul igienei personalului, verificarea curățeniei și a măsurilor de asepsie, planificarea aprovizionării cu materiale necesare, supravegherea activităților blocului alimentar și a spălătoriei, raportarea deficiențelor de igienă, coordonarea măsurilor de izolare a bolnavilor infecțioși, instruirea personalului privind autodeclararea îmbolnăvirilor, respectarea circuitelor de lenjerie și deșeuri, organizarea procedurilor de prevenire a infecțiilor, completarea registrelor de monitorizare a infecțiilor și expunerii accidentale, și igienizarea ținutelor de spital.
+
+### 5. Atribuţiile directorului economic/financiar-contabil:
+Răspunde de planificarea bugetară conform planului aprobat și de asigurarea materialelor necesare pentru implementarea procedurilor de limitare a infecțiilor asociate asistenței medicale.
+
+### 6. Atribuţiile medicului şef de secţie:
+Șeful secției organizează și controlează activitățile legate de prevenirea infecțiilor asociate asistenței medicale, răspunde de raportarea infecțiilor, respectarea politicii de utilizare a antibioticelor, triajul personalului, screeningul pacienților pentru germeni rezistenți, deciziile de izolare și elaborarea procedurilor de prevenire a infecțiilor.
+
+### 7. Atribuţiile medicului curant (indiferent de specialitate):
+Măsurile de prevenire a infecțiilor asociate asistenței medicale includ protejarea pacienților, aplicarea protocoalelor, obținerea de probe microbiologice, raportarea infecțiilor, consilierea pacienților și personalului, instituirea tratamentului adecvat, solicitarea consultului de boli infecțioase, respectarea procedurilor de declarare a infecțiilor, screening-ul pacienților în secții cu risc și comunicarea infecțiilor la transferul pacienților.
+
+### 8. Atribuţiile serviciului/compartimentului pentru supravegherea, prevenirea şi limitarea infecţiilor asociate asistenţei medicale:
+Responsabilul cu prevenirea infecțiilor asociate asistenței medicale organizează întâlniri, propune sancțiuni, elaborează planuri de prevenire, derulează studii de prevalență, formează personalul, coordonează activitățile de prevenire, propune măsuri de urgență, elaborează ghiduri și hărți de risc, implementează metodologii naționale, verifică registrele de monitorizare, raportează infecțiile, evaluează procedurile de curățenie, colaborează cu laboratoarele, supraveghează sterilizarea și gestionarea deșeurilor, controlează circuitele funcționale, răspunde la informații suspecte, demarează anchete epidemiologice, dispune măsuri de limitare a infecțiilor, întocmește rapoarte și solicită colaborări externe.
+
+### 9. Atribuţiile medicului de boli infecţioase sau medicului responsabil de politica de utilizare a antibioticelor din cadrul serviciului/compartimentului de prevenire a infecţiilor asociate asistenţei medicale:
+Consultul de specialitate pentru diagnosticarea patologiilor infecțioase, elaborarea politicii de utilizare a antibioticelor, coordonarea listei de antibiotice esențiale, avizarea prescrierii anumitor antibiotice, colaborarea cu farmacistul pentru evaluarea consumului, pregătirea personalului medical, consultanța pentru tratamentele antibiotice, stabilirea profilaxiei perioperatorii, cooperarea cu microbiologii pentru testele de sensibilitate, evaluarea utilizării antibioticelor în secții clinice și raportarea anuală a consumului și respectării politicii de utilizare judicioasă a antibioticelor.
+
+### 10. Atribuţiile laboratorului unităţii sanitare/laboratorului în contract cu o unitate sanitară:
+Responsabilitățile șefului laboratorului includ efectuarea testelor pentru identificarea agenților etiologici ai infecțiilor, detecția portajelor de germeni multirezistenți, implementarea sistemului de asigurare a calității, elaborarea ghidurilor pentru manipularea probelor biologice, crearea manualului de biosiguranță, instruirea personalului, identificarea microorganismelor patogene, anunțarea rezultatelor microbiologice, raportarea rezultatelor pozitive din screening, testarea sensibilității la antimicrobiene, organizarea bazei de date privind izolatele și rezistența la antibiotice, monitorizarea rezultatelor neobișnuite, raportarea aspectelor neobișnuite și stocarea tulpinilor microbiene de importanță epidemiologică.
+
+### 11. Atribuţiile farmacistului:
+Obținerea, depozitarea și distribuirea preparatelor farmaceutice și a medicamentelor antiinfecțioase se face conform reglementărilor pentru a limita transmisia agenților infecțioși, inclusiv gestionarea vaccinurilor și a antibioticelor, raportarea consumului de antibiotice și colaborarea cu medicii pentru monitorizarea utilizării acestora. Se organizează o bază de date electronică privind consumul de antibiotice, inclusiv DDD/100 zile spitalizare.
+
+### 12. Atribuţiile asistentei şefe de secţie:
+Responsabilitățile includ: implementarea și aplicarea procedurilor de prevenire a infecțiilor, respectarea igienei și a măsurilor de asepsie, controlul curățeniei și al circuitelor funcționale, gestionarea materialelor de curățenie, supravegherea alimentației și a igienei pacienților, coordonarea măsurilor de izolare, instruirea personalului în privința igienei și raportarea deficiențelor de igienă. De asemenea, se asigură de respectarea normelor de manipulare a lenjeriei și de gestionarea deșeurilor, precum și de completarea registrelor de monitorizare a infecțiilor și expunerilor accidentale.
+
+### 13. Atribuţiile asistentei medicale responsabile de salon:
+Practicienii trebuie să implementeze măsuri de îngrijire pentru limitarea infecțiilor, să se familiarizeze cu prevenirea acestora, să mențină igiena conform politicilor spitalului, să informeze medicii despre semnele infecției, să izoleze pacienții cu boli transmisibile, să limiteze expunerea la infecții, să semnaleze infecțiile asociate asistenței medicale, să participe la pregătirea personalului și la investigarea focarelor.
+
+### 14. Atribuţiile asistentei de la staţia de sterilizare:
+Responsabilitățile includ verificarea pregătirii echipamentelor pentru sterilizare, efectuarea sterilizării conform normelor, raportarea defecțiunilor, menținerea igienei încăperilor, etichetarea materialelor sterilizate, realizarea testelor de control al sterilizării și respectarea precauțiilor standard.
+
+### 15. Atribuţiile direcţiilor de sănătate publică judeţene, respectiv a municipiului Bucureşti:
+Compartimentul de specialitate desemnează persoane pentru suport tehnic în supravegherea infecțiilor asociate asistenței medicale, verifică trimestrial registrul de monitorizare și validează rata infecțiilor, analizează studiul anual de prevalență a infecțiilor nosocomiale și consumului de antibiotice, iar inspecția sanitară de stat evaluează aplicarea planului anual de activitate pentru prevenirea infecțiilor, respectarea normelor de igienă și gestionarea deșeurilor medicale.
+
+# ANEXA 2
+**Supravegherea şi raportarea infecţiilor asociate asistenţei medicale**
+
+## A. Organizarea supravegherii infecţiilor asociate asistenţei medicale în unităţile sanitare
+Rata infecțiilor asociate asistenței medicale reflectă calitatea și siguranța pacientului, iar dezvoltarea sistemelor de supraveghere este crucială pentru identificarea riscurilor și reducerea incidenței acestora, precum și a costurilor asociate.
+
+### 1. Obiectivele supravegherii sunt:
+Creșterea interesului personalului medical pentru reducerea infecțiilor, cunoașterea prevalenței și distribuției acestora pe secții, și identificarea secțiilor ce necesită programe preventive intensive.
+
+### 2. Criteriile pe care trebuie să le îndeplinească un sistem de supraveghere sunt:
+Cerințele pentru un sistem eficient includ simplitate, flexibilitate, acceptabilitate, standardizare, sensibilitate și specificitate.
+
+### 3. Componentele unui sistem de supraveghere sunt:
+Obiectivele includ definirea specifică a unităților sanitare și secțiilor, stabilirea unei perioade de timp pentru structurile de supraveghere, utilizarea indicatorilor de performanță măsurabili, definirea populației supravegheate, tipurile de infecții monitorizate, frecvența și durata raportării, metoda de colectare a datelor, asigurarea confidențialității și analiza internă a datelor.
+
+### 4. Metodele de supraveghere sunt:
+Supravegherea infecțiilor în unitățile sanitare se realizează prin metode pasive, active, studii de prevalență și studii de incidență. Supravegherea pasivă implică raportarea infecțiilor de către personal, dar oferă date limitate. Supravegherea activă necesită verificări periodice și monitorizarea rezultatelor bacteriologice. Studiile de prevalență identifică infecțiile la pacienți într-un moment specific, permițând calcularea ratei de prevalență. Studiile de incidență urmăresc pacienții pe termen lung pentru a determina ratele de atac ale infecțiilor, fiind mai complexe și costisitoare, utilizate în special în secții cu risc crescut.
+
+### 5. Evaluarea sistemului de supraveghere
+Sistemele de supraveghere necesită validare periodică a metodei utilizate, bazată pe simplitate, raportare corectă, utilitate și eficiență.
+
+## B. Înregistrarea şi raportarea infecţiilor asociate asistenţei medicale
+Identificarea infecțiilor asociate asistenței medicale este responsabilitatea unităților sanitare, iar diagnosticul trebuie menționat în toate actele medicale. Medicii sunt responsabili pentru corectitudinea datelor, iar serviciul de prevenire a infecțiilor stabilește un ritm de verificare pentru cazurile nediagnosticate. Unitățile sanitare trebuie să raporteze imediat cazurile cu aceeași etiologie și focarele de infecții în termen de 24 de ore. Raportarea statistică se face conform reglementărilor legale, iar intervenția în focar revine unității sanitare, care poate solicita consultanță de la direcția de sănătate publică.
+
+### I. Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale al unităţii sanitare
+Se înființează Registrul electronic unic de monitorizare a infecțiilor asociate asistenței medicale la fiecare secție, care va include toate cazurile de suspiciune depistate. Secțiile vor transmite săptămânal registrul către serviciul de prevenire a infecțiilor, iar clasificarea cazurilor va fi realizată de acesta. Registrul va fi disponibil managerului și Comitetului de prevenire pentru analiză și va fi transmis săptămânal serviciului de supraveghere a bolilor transmisibile. Acest serviciu va valida cazurile trimestrial și va analiza datele pentru a identifica focare de infecție.
+
+### II. Raportarea pe Fişa cazului de infecţie asociată asistenţei medicale
+Cazurile de infecţii asociate asistenţei medicale se declară pe Fişa cazului completată de medicul curant, transmisă lunar direcţiei de sănătate publică până pe 5 ale lunii. Aceste fişe sunt introduse în baza de date naţională de către direcţiile de sănătate publică, care transmit datele către Institutul Naţional de Sănătate Publică până pe 15 ale lunii. Institutul gestionează baza de date şi elaborează rapoarte trimestriale şi anuale.
+
+#### Figura 1 - Registrul electronic unic de monitorizare a infecţiilor asociate asistenţei medicale al unităţii
+Tabelul prezintă informații despre depistarea germenilor, inclusiv modul de depistare, identificarea germenului, rezistența microbiană, tipul probei, tipul infecției, originea infecției și clasificarea finală.
+
+#### Figura 2 - Fişa*) cazului de infecţie asociată asistenţei medicale
+Fișa cazului de infecție asociată asistenței medicale (IAAM) include date de identificare ale pacientului, informații clinice despre internare, diagnostic, intervenții medicale, tratament antibiotic, status la externare, factori de risc, date de laborator, etiologie și clasificarea originii cazului, semnată de medicul curant și validată de șeful serviciului de prevenire a infecțiilor.
+
+# ANEXA 3
+Metodologia vizează reducerea riscului de infecție postexpunere la produse biologice pentru personalul sanitar, având ca obiective estimarea incidenței expunerilor accidentale, ierarhizarea factorilor de risc, evaluarea respectării precauțiilor standard, sensibilizarea personalului și aplicarea măsurilor profilactice. Supravegherea este pasivă, iar datele sunt colectate prin fișe de raportare, tabele de evidență a vaccinărilor și fișe privind vaccinarea antihepatită B.
+
+## Definiţii
+Persoanele care lucrează în sistemul sanitar, inclusiv angajați, studenți și voluntari, pot avea expuneri cu risc de infecție HIV, VHB, VHC, ce necesită profilaxie postexpunere profesională (PPEP). Expunerile riscante includ accidentări transcutanate, contactul mucoaselor și al pielii cu leziuni. Produsele biologice considerate cu risc includ spermă, secreții vaginale și fluide corporale, în timp ce saliva, lacrimile și alte fluide fără sânge vizibil nu impun măsuri de PPEP. Cazurile de expunere profesională se referă la persoanele din sistemul sanitar care au avut contact cu sânge sau produse biologice riscante. Populația-țintă include personalul medico-sanitar și unitățile-țintă sunt atât cele publice, cât și cele private.
+
+## Atribuţii în unităţile sanitare cu paturi
+(fără rezumat)
+
+### I. Compartimentul/Secţia în care a avut loc expunerea accidentală
+Persoana expusă accidental la produse biologice trebuie să aplice un protocol de management care include îngrijire de urgenţă, chimioprofilaxie pentru HIV și vaccinare postexpunere. Medicul şef de secţie/compartiment sau medicul şef de gardă trebuie să completeze fişa de raportare a expunerii, să înregistreze incidentul, să recolteze eşantioane de sânge de la pacientul-sursă și de la personalul expus, asigurând transportul acestora la laborator.
+
+### II. Unitatea sanitară în care s-a produs expunerea accidentală
+Se asigură prelevarea și testarea sângelui de la pacientul-sursă și persoana expusă accidental, evaluarea de către medicul infecționist, vaccinarea antihepatită B dacă este necesar și chimioprofilaxia HIV de către spitalul de boli infecțioase.
+
+### III. Laboratorul spitalului în care a avut loc expunerea accidentală
+Se efectuează teste pentru persoana expusă și pacientul-sursă, iar rezultatele sunt comunicate în termen de 24 de ore serviciului de prevenire a infecțiilor.
+
+### IV. Serviciul/Compartimentul sau medicul responsabil pentru prevenirea infecţiilor asociate asistenţei medicale din spitalul în care a avut loc expunerea accidentală la produse biologice
+Responsabilitățile includ informarea personalului despre raportarea expunerii accidentale, evaluarea riscului de infecție, înregistrarea și urmărirea vaccinării antihepatită B, transmiterea situației vaccinărilor către medicul de medicina muncii și colectarea fișelor de raportare pentru direcțiile de sănătate publică, precum și întocmirea anuală a fișelor privind vaccinarea personalului.
+
+### V. Medicul de medicina muncii care deserveşte unitatea sanitară
+Se înregistrează expunerile accidentale la produse biologice, se monitorizează semnele de infecție HIV/VHB/VHC și seroconversia, se completează anual evidența vaccinărilor personalului expus, se raportează expunerile accidentale către inspectoratul teritorial de muncă și se realizează analiza semestrială a cazurilor de expunere și seroconversie.
+
+### VI. Atribuţiile direcţiilor de sănătate publică judeţene şi a municipiului Bucureşti
+Se centralizează trimestrial fișele de raportare a expunerii accidentale la produse biologice, se analizează datele conform metodologiei Institutului Național de Sănătate Publică și se transmit rezultatele către acesta și centrele regionale de sănătate publică. De asemenea, se colectează date privind vaccinarea antihepatită B a personalului medico-sanitar și se transmit anual până la 1 martie.
+
+### VII. Atribuţiile Institutului Naţional de Sănătate Publică
+Centrele regionale primesc fișele de raportare a expunerii accidentale a personalului medico-sanitar, analizează datele și transmit Ministerului Sănătății un raport anual cu propuneri de intervenții, elaborând ghiduri de proceduri pentru limitarea expunerii la produse biologice.
+
+### Figura 1*)
+Fișa raportării expunerii accidentale a personalului medico-sanitar la produse biologice include date despre persoana expusă, detalii ale expunerii, mecanismul acesteia, măsuri de prevenire, sursa expunerii, atitudinea față de persoana expusă și semnătura medicului responsabil.
+
+### Figura 2
+Tabelul prezintă datele privind vaccinările personalului medico-sanitar după expuneri accidentale la produse biologice, incluzând numărul de persoane vaccinate, testate imediat și la 6 luni, precum și seroconversia pentru HIV, VHB și VHC, împărțit pe categorii de personal.
+
+### Figura 3
+Fişa unităţii sanitare pentru raportarea vaccinării antihepatită B a personalului medico-sanitar, de îngrijire şi auxiliar, include date despre numărul de angajaţi, cei vaccinaţi înainte de anul raportării, cei vaccinaţi în anul raportării, numărul celor cu anticorpi antiHBs şi cei neefectuaţi, împărţiţi pe categorii de personal.
+
+# ANEXA 4
+(fără rezumat)
+
+## PRECAUŢIUNILE STANDARD
+Măsurile minime obligatorii pentru prevenirea infecțiilor asociate asistenței medicale includ igiena mâinilor, utilizarea echipamentului de protecție, practici sigure de injectare, manipularea sigură a echipamentelor medicale și igiena respiratorie. Aceste măsuri se aplică tuturor pacienților pentru a proteja personalul sanitar și a preveni răspândirea infecțiilor.
+
+## Precauţiile adresate căii de transmitere
+Măsurile de precauție pentru transmiterea agenților patogeni completează precauțiile standard la pacienți cu infecții transmisibile. Acestea includ: transmiterea prin contact (direct și indirect), transmiterea prin picături (directă și indirectă) și transmiterea aeriană prin particule mici.
+
+## Măsurile suplimentare de precauţie care vizează calea de transmitere includ:
+Măsurile de precauție pentru transmiterea infecțiilor includ utilizarea echipamentului de protecție în cazul contactului cu medii contaminate, amplasarea pacienților în rezerve sau saloane corespunzătoare, purtarea mănușilor și a echipamentului de protecție la intrarea în salon, utilizarea măștilor și protecțiilor faciale pentru transmiterea prin picături, și izolarea pacienților în camere cu presiune negativă pentru transmiterea aeriană. În absența facilităților adecvate, plasarea pacienților în rezerve cu grup sanitar reduce riscul de transmitere. Măsurile trebuie aplicate în plus față de precauțiile standard.
+
+## Este important de reţinut:
+Microorganismele infecțioase asociate asistenței medicale se pot transmite între pacienți și personalul medical, iar măsurile adecvate pot reduce această transmitere, fiind aplicate în funcție de semnele și simptomele pacientului, fără a aștepta rezultatele de laborator.
+
+==============================
+DOCUMENT: ORDIN Nr. 1761.2021
+==============================
+
+# ORDIN Nr. 1761 din 3 septembrie 2021
+Se aprobă Normele tehnice pentru curățarea, dezinfecția și sterilizarea în unitățile sanitare publice și private, evaluarea eficacității procedurilor de curățenie și dezinfecție, procedurile de dezinfecție a mâinilor în funcție de risc și metodele de evaluare a sterilizării. Produsele biocide utilizate trebuie să prezinte efecte specifice și să fie avizate de Comisia Națională pentru Produse Biocide. Ordinul abrogă reglementările anterioare și se publică în Monitorul Oficial.
+
+# Anexa Nr. 1
+Normele tehnice reglementează procedurile de curățare, dezinfecție și sterilizare în unitățile sanitare publice și private.
+
+## Cap. I
+Definițiile termenilor referitori la curățare, dezinfecție, decontaminare, produse biocide, dispozitive medicale reutilizabile și de unică folosință, biofilm, sterilizare, trasabilitate, standarde EN, dezinfecție curentă și terminală, și termodezinfecție sunt prezentate. Unitățile sanitare trebuie să elaboreze un program de curățenie și dezinfecție, care include proceduri operaționale și monitorizare, responsabilitatea revenind personalului pentru prevenirea infecțiilor asociate îngrijirilor medicale.
+
+## Cap. II
+Curățarea implică îndepărtarea microorganismelor de pe suprafețe și obiecte, utilizând detergenți și echipamente profesionale. Suprafața murdară conține materii organice sau anorganice. Mopurile și lavetele trebuie să fie rezistente la spălare și dezinfecție, iar utilizarea lor trebuie să respecte reguli stricte, inclusiv schimbarea la fiecare 20 mp. Produsele de curățare trebuie utilizate conform recomandărilor, fără amestecuri, și depozitate în condiții adecvate. Întreținerea ustensilelor se face după fiecare utilizare, iar personalul trebuie să poarte echipament de protecție.
+
+## Cap. III
+Dezinfecția se realizează conform măsurilor de protecție a muncii și include metode precum căldură uscată, căldură umedă, abur uscat, raze ultraviolete și produse chimice avizate. Tipurile de dezinfecție variază în funcție de nivelul de risc (înalt, intermediar, scăzut) și clasificarea instrumentarului (critice, semicritice, noncritice). Se impune curățarea prealabilă a echipamentelor, iar alegerea dezinfectanților se face pe baza spectrului de activitate, timpului de acțiune și compatibilității. Dezinfecția este obligatorie în anumite condiții, iar personalul trebuie instruit corespunzător. Documentarea proceselor de dezinfecție este esențială pentru asigurarea eficienței și siguranței.
+
+## Cap. IV
+Sterilizarea implică proceduri speciale care depind de aparatură, materiale și metode corecte. Unitățile sanitare trebuie să elaboreze proceduri operaționale pentru controlul sterilizării, asigurând calitatea și siguranța pacienților. Reprocesarea materialelor de unică folosință este interzisă, iar activitățile de sterilizare trebuie să se desfășoare în spații dedicate, respectând circuitele funcționale. Dispozitivele reutilizabile trebuie curățate, dezinfectate și inspectate înainte de sterilizare, iar ambalarea trebuie să minimizeze riscurile de contaminare. Sterilizarea se face prin metode fizice sau fizico-chimice, cu respectarea standardelor legale. Trasabilitatea dispozitivelor sterilizate este obligatorie, iar personalul responsabil trebuie să fie calificat și instruit. Înregistrările și monitorizarea procesului de sterilizare sunt esențiale pentru asigurarea eficienței și siguranței. Utilizarea oxidului de etilenă este restricționată din cauza riscurilor asociate.
+
+# Anexa Nr. 2
+Evaluarea eficacităţii procedurilor de curăţenie şi dezinfecţie include teste bacteriologice în investigaţii epidemiologice, recoltarea probelor din zonele de risc, stabilirea unui număr reprezentativ de suprafeţe pentru monitorizare, utilizarea metodelor calitative de verificare, interpretarea rezultatelor de către personal specializat şi testarea eficacităţii de către serviciile de prevenire a infecţiilor, cu implicarea Inspecţiei Sanitare de Stat.
+
+# Anexa Nr. 3
+Produsele biocide de tip 1 sunt folosite pentru dezinfecția igienică și chirurgicală a mâinilor prin spălare sau frecare. Antisepticele trebuie utilizate conform avizului CNPB, cu respectarea unor criterii stricte de păstrare și utilizare. Procedurile de igienă a mâinilor includ spălarea simplă, dezinfecția igienică și chirurgicală. Purtarea bijuteriilor și a unghiilor lungi este interzisă în unitățile medicale. Indicațiile pentru proceduri variază în funcție de nivelul de risc: spălare simplă pentru risc minim, dezinfecție igienică pentru risc intermediar și dezinfecție chirurgicală pentru risc înalt, cu respectarea volumului de dezinfectant conform recomandărilor producătorului.
+
+# Anexa Nr. 4
+METODE de evaluare a derulării procesului de sterilizare şi controlul eficienţei acestuia
+
+## 1. Indicatorii de evaluare a eficienţei procesului de sterilizare
+Indicatorii fizici, chimici (tipuri 1, 2, 4, 5) și biologici sunt esențiali pentru monitorizarea procesului de sterilizare, fiecare având roluri specifice în evaluarea eficienței sterilizării materialelor.
+
+## 2. Frecvenţa utilizării testelor de verificare a sterilizării
+Evaluarea eficacităţii sterilizării se face prin monitorizarea temperaturii și presiunii, citirea indicatorilor de proces, integratori și multiparametru. Aceasta include teste zilnice precum testul Bowie & Dick pentru abur, testul Helix pentru instrumente cu lumen și utilizarea indicatorului biologic pentru șarjele cu materiale implantabile.
+
+## 3. Modalitatea de utilizare a indicatorilor chimici în evaluarea proceselor de sterilizare este următoarea:
+Indicatorii chimici de proces (tip 1) diferențiază pachetele procesate de cele neprocesate, dar nu garantează sterilizarea corectă. Indicatorii chimici multiparametru (tip 4) și integratori (tip 5) monitorizează toți parametrii ciclului de sterilizare, fiind verificați la deschiderea pachetelor. Indicatorii pentru teste specifice (tip 2) includ testul Bowie & Dick și testul Helix, care evidențiază aerul rezidual în autoclavele cu prevacuum, și testul PCD pentru validarea globală a procesului de sterilizare. Toți indicatorii sunt produși conform standardului EN ISO 11140.
+
+## 4. Interpretarea rezultatelor testelor de verificare a sterilizării
+Indicatorii chimici de proces și integratori sunt esențiali pentru verificarea sterilizării, iar virarea culorii indică sterilizarea corectă. Materialele nesterilizate nu se utilizează, iar rezultatele testelor se înregistrează în registre specifice. Testul Bowie & Dick este obligatoriu pentru autoclavă, evidențiind aerul rezidual periculos. Procedura de testare include pregătirea autoclavului, plasarea pachetului-test, efectuarea ciclului de testare și evaluarea rezultatelor. Neconformitățile trebuie raportate imediat și autoclavul oprit până la remediere.
+
+## 5. Indicatori biologici
+Indicatorii biologici pentru controlul sterilizării includ spori din Bacillus stearothermophilus și Bacillus Atrophaeus, utilizați în fiole pentru diferite metode de sterilizare. Controlul bacteriologic se face prin introducerea indicatorului în ciclu de sterilizare, cu respectarea unor pași specifici, iar în caz de rezultate pozitive se anunță firma de service și sterilizatorul este oprit până la remedierea problemelor. Indicatorii pozitivi sunt eliminați conform legislației.
+
+==============================
+DOCUMENT: ORDIN Nr. 428.2020
+==============================
+
+# ORDIN Nr. 428 din 12 martie 2020
+Ordinul Ministerului Sănătății nr. 428/2020 aprobă o listă de dispozitive medicale și materiale sanitare pentru prevenția și tratarea infecției cu SARS-CoV-2, suspendând temporar distribuția acestora și a medicamentelor din Catalogul național Canamed în afara României pentru 6 luni, cu excepții pentru livrările către parteneri externi cu contracte de manufacturing. Nerespectarea ordinului se sancționează conform legii sănătății.
+
+# ANEXĂ
+(fără rezumat)
+
+## I. Dispozitive medicale
+Secțiunea detaliază echipamentele medicale utilizate în diagnosticare și tratament, inclusiv aparate de radiologie, echipamente pentru anestezie, dispozitive cardiovasculare, proteze cardiace, stimulatoare implantabile, echipamente de endoscopie, echipamente de explorare cu ultrasunete, echipamente pentru neonatologie, urologie, transportul pacienților și dispozitive de diagnostic pentru infecții.
+
+## II. Materiale sanitare
+(fără rezumat)
+
+### A Truse pentru traheostomie
+Truse și canule pentru traheostomie, inclusiv variante cu și fără forceps, precum și canule de diferite dimensiuni.
+
+### B Dispozitive de intubaţie
+Lista conține diverse tipuri de sonde de intubație orotraheală, inclusiv fără balonaș, cu balonaș, pentru reducerea microaspirațiilor, cu sistem de aspirație subglotică, truse de intubație selectivă endobronșică pentru ambele părți, fixatoare pentru diferite condiții și filtre antibacteriene și virale pentru diferite grupe de vârstă.
+
+### C Dispozitive alternative intubaţiei
+Lista de echipamente medicale include truse de intubație traheo/esofagiană cu dublu lumen (dimensiuni 37 FR și 41 FR), măști laringiene (nr. 1-6) și bujii cu canal de oxigenare/exchanger (dimensiuni 11 CH, 14 CH și 19 CH).
+
+### D Măşti oxigen
+Tipuri de măști de oxigen pentru adulți și copii, inclusiv măști simple, cu rezervor, cu nebulizator și măști de ventilație noninvazivă.
+
+### E Pipe Guedel
+Lista conține diferite dimensiuni de pipe Guedel, numerotate de la 000 la 6.
+
+### F Sonde de aspiraţie traheală
+Sonde de aspiraţie traheală flexibilă disponibile în dimensiunile CH 4-18 și sonde rigide tip Yankaeur.
+
+### G Canule nazale pentru administrarea oxigenului
+Canule nazale pentru administrarea oxigenului sunt disponibile atât pentru adulți, cât și pentru copii.
+
+### H Set balon ventilaţie (resuscitator)
+Seturi de balon ventilație pentru adulți, copii și nou-născuți, fiecare cu mască corespunzătoare.
+
+### I Dispozitive de drenaj toracic
+Truse și tuburi de drenaj toracic cu valve Heimlich și diverse dimensiuni (8 FR, 14 FR, 20 FR, 24 FR, 28 FR, 32 FR) și tuburi de drenaj (20 FR, 24 FR, 28 FR, 32 FR, 36 FR, 40 FR), plus un dispozitiv de colectare drenaj toracic tricameral.
+
+### J Dispozitive de monitorizare EKG
+Electrozi EKG UF pentru monitorizare de scurtă și lungă durată pentru adulți și copii, gel EKG, gel pentru defibrilare și set de drenaj suprapubian.
+
+### K Sonde Blackemore
+Sonde Blackemore disponibile: de scurtă durată în mărimile 14, 16, 18, 21 CH și de lungă durată din poliuretan în mărimile 26, 28 CH.
+
+### L Materiale folosite în traume
+Produse medicale disponibile includ guler cervical reglabil pentru adulți și copii, comprese sterile și nesterile de diverse dimensiuni, feși, pansamente, vată, comprese pentru arsuri, folie izolantă, pături pentru arși, lame de bisturiu, fire de sutură neresorbabile și resorbabile, bandă adezivă pentru sutură cutanată și feși gipsate.
+
+### M Sistemul circulator
+Lista de produse medicale include ace de unică folosinţă, catetere de puncţie venoasă periferică, catetere ombilicale, truse de perfuzie și transfuzie, seringi de diverse dimensiuni, seturi pentru cateter venos central și pâlnii otice pentru otoscop.
+
+### N Sondaje
+Lista include diverse tipuri de sonde medicale (vezicale, Nelaton, Tiemann, nazogastrice, Faucher, alimentație), pungi colectoare de urină și vărsătură, prezervative urinare și gel lubrifiant steril, specificând dimensiunile și tipurile disponibile.
+
+### O Altele
+Produse de unică folosinţă, inclusiv cearşafuri, chiloti, pijamale, halate, măşti chirurgicale, mănuşi, tăviţe, urinare, bazinete, saci pentru deşeuri, cutii pentru incinerare, recipiente pentru obiecte înţepătoare, burete pentru igienizare, teste rapide de sarcină şi glicemie.
+
+# Lista actelor modificatoare:
+Ordinul M.S. nr. 492/2020 din 25 martie 2020 suspendă temporar distribuția dispozitivelor medicale și materialelor sanitare pentru prevenția și tratarea infecțiilor cu SARS CoV-2 și reglementează asigurarea medicamentelor autorizate în România. Ordinul M.S. nr. 672/2020 din 23 aprilie 2020 aprobă o nouă listă de dispozitive medicale necesare pentru aceleași scopuri și suspendă temporar distribuția acestora, abordând și medicamentele cu risc crescut de discontinuitate.
+
+==============================
+DOCUMENT: ORDIN Nr. 914.2006
+==============================
+
+# ORDIN nr. 914 din 26 iulie 2006 (*actualizat*)
+Se aprobă normele pentru obținerea autorizației sanitare de funcționare a spitalelor, conform legislației în vigoare, iar autoritățile competente vor asigura implementarea acestora. Anexele relevante fac parte din ordin, iar prevederile contrare sunt abrogate. Ordinul este publicat în Monitorul Oficial.
+
+# ANEXA 1
+Spitalul, unitate sanitară cu paturi, trebuie să obțină autorizație sanitară de funcționare de la autoritățile de sănătate publică. Procedura include depunerea unei cereri și a unui dosar tehnic, iar evaluarea se face în termen de 20 de zile. Autorizația poate fi eliberată necondiționat, condiționat sau refuzată. Valabilitatea autorizației depinde de respectarea condițiilor igienico-sanitare și a elementelor din dosarul tehnic, fiind vizată anual. Modificările structurii sau activității spitalului necesită o nouă autorizare, iar retragerea autorizației suspendă activitatea spitalului.
+
+# ANEXA 2
+NORME privind organizarea functionala generala a spitalului
+
+## ART. 1
+Lista principalelor grupe și funcții ale spitalelor include: sectorul de spitalizare (secții medicale, unitate de spitalizare de o zi, serviciul de primire și externare), sectorul ambulatoriu (cabinete de consultații, compartiment de evidență medicală), servicii tehnico-medicale (intervenții, investigatii, terapie, servicii auxiliare), servicii gospodărești (bucătărie, spălătorie), conducere medicală și administrație, servicii anexe pentru personal, spații sociale pentru pacienți și vizitatori, și servicii tehnico-utilitare (centrale, dispecerate, întreținere).
+
+## ART. 2
+Organizarea spitalelor se bazează pe categorii de utilizatori, specificul activităților, cerințe tehnologice și criterii de igienă. Se recomandă aplicarea simultană a criteriilor de organizare, rezultând patru zone: zona "curată" pentru pacienți, zona "murdară" pentru servicii tehnice, zona "neutră" pentru interacțiunea cu pacienții și zona "intermediară" pentru laboratoare și administrație, fiecare având amplasamente specifice în funcție de condițiile igienico-sanitare.
+
+# ANEXA 3
+NORME privind structura functionala a compartimentelor si serviciilor din spital
+
+## CAP. I
+Sectiile medicale de spitalizare asigura cazarea si ingrijirea bolnavilor, avand o structura functionala similara, cu exceptia pediatriei si obstetricii. Amplasarea este preferabil pe un singur nivel, iar dotarile includ saloane, incaperi pentru asistenta medicala, camere de garda si spatii pentru activitati gospodaresti. Saloanele pentru adulti au cerinte specifice de capacitate si dotari sanitare. Orientarea ferestrelor si amenajarea spatiilor trebuie sa respecte anumite criterii pentru confortul pacientilor. Sectiile pot include unitati de ingrijire, fiecare avand un numar constant de paturi si personal medical dedicat, iar spatiile comune sunt repartizate pe unitati de ingrijire.
+
+## CAP. II
+(fără rezumat)
+
+### Organizarea sectiei de pediatrie
+Ingrijirea pacientilor copii se face in compartimente distincte in functie de varsta: sugari (0-3 ani), prescolari (3-6 ani) si scolari (6-14 ani), fiecare avand spatii adaptate nevoilor specifice. Compartimentele pentru copii scolari sunt organizate similar cu cele pentru adulti, avand saloane cu grupuri sanitare separate. Compartimentele pentru prescolari includ saloane cu supraveghere medicala si spatii de izolare, iar cele pentru sugari sunt dotate cu camere de igienizare si spatii pentru mame. Sectia de pediatrie include unitati de terapie intensiva, ingrijire prematurilor si o bucatarie specializata pentru hranirea copiilor.
+
+### Sectia (subsectia) de obstetrica fiziologica si nou-nascuti (maternitate)
+Sectiile de obstetrica-ginecologie din spitale se organizeaza in subsectii separate, cu anexe distincte. In spitalele mari, sectiile sunt diferite. Functionarea poate fi organizata in compartimente separate pentru mame si nou-nascuti, in sisteme mixte sau "rooming-in". Cazurile cu risc au compartimente distincte, iar obstetrica patologica poate necesita saloane speciale. Sectia de obstetrica trebuie sa fie conectata direct la blocul de nasteri si sala de operatii, iar in spitalele mici, blocul de nasteri poate fi in sectia de obstetrica.
+
+### Serviciul de primire-internare a bolnavilor
+Serviciul de primire-internare din spital asigură internarea pacienților, examinarea medicală, trierea epidemiologică, igienizarea și echiparea acestora. Este amplasat lângă accesul principal și serviciile de urgență. Componentele funcționale includ unități pentru documente de internare, examinări medicale, igienizare, gestiune a hainelor și externare. Cabinetele medicale sunt organizate pe specialități, cu cerințe minime de număr în funcție de capacitatea spitalului. Spațiile de așteptare și igienizare sunt separate pentru copii și adulți, iar unitatea de externare dispune de boxe de îmbrăcare distincte.
+
+### Serviciul de urgenta
+Serviciul de urgență este organizat în unități de primire urgente (UPU) pentru spitale regionale, judetene și clinice, și compartimente de primire urgente (CPU) pentru spitale municipale și orășenești. UPU include triaj clinic, stabilizare, monitorizare, internare de scurtă durată și depozit de materiale, iar CPU are funcții similare, dar cu cerințe minime reduse. Amplasarea serviciului permite colaborarea cu alte servicii spitalicești.
+
+### Compartimentul de spitalizare de o zi
+Compartimentul de spitalizare de o zi se organizează în spitale mijlocii și mari, având o capacitate de 2-3% din numărul de paturi, minim 12 paturi, și poate include unități de epurare renală, întreruperi de sarcină și chimioterapie. Acesta se amplasează aproape de accesul principal și în legătură cu serviciile ambulatorii și de urgență. Cazarea pacienților se face în saloane de 2-3 paturi, dotate cu cabinet de consultații, post de lucru pentru asistenți, oficiu alimentar, grupuri sanitare și boxe de lenjerie.
+
+### Sectorul ambulatoriu
+Sectorul ambulatoriu al spitalului oferă servicii medicale pentru pacienți care nu necesită internare, având cabinete de consultație, camere pentru tratamente, spații de așteptare, birou de programare și trusă de medicamente. Dimensiunile cabinetelor variază între 16 și 24 mp, iar numărul acestora depinde de consultările preconizate. Spațiile de așteptare sunt dimensionate în funcție de numărul pacienților, iar accesul se poate face direct din exterior sau din holul principal al spitalului, asigurând legături cu serviciile de investigații și compartimentul de spitalizare de o zi.
+
+### Blocul operator
+Blocul operator grupează sălile de operații pentru diverse specialități medicale, iar spitalele pot avea săli proprii în funcție de specificul activităților. Dimensionarea blocului se face raportat la numărul de paturi chirurgicale, cu recomandări pentru spitale mici și mari. Amenajarea include separarea zonelor aseptice și neaseptice, cu spații tehnice și de control. Blocurile mari pot avea stații de sterilizare și alte facilități. Dimensiunile minime ale sălilor de operație și ale anexelor sunt specificate, iar accesul trebuie să fie direct cu serviciile de anestezie și sterilizare.
+
+### Serviciul de anestezie - terapie intensiva (ATI)
+Serviciul ATI asigură îngrijire intensivă pentru cazuri medicale grave, cu personal calificat și echipamente specializate. Dimensiunea serviciului variază în funcție de spital, cu unități mici și mari organizate pe sectoare. Compartimentele specializate pot fi create pentru anumite specialități. Spațiile includ unități de îngrijire, camere pentru medici, săli de intervenții, laboratoare și vestiare. Circuitul intern este închis pentru asepsie. Capacitatea optimă este de 5-6 paturi, iar unitățile de îngrijire sunt organizate în nucleu. Serviciul ATI este de obicei amplasat lângă blocul operator, dar poate fi situat și la alte niveluri, cu acces direct.
+
+### Serviciul de sterilizare centrala
+Activitățile de sterilizare în spitale se centralizează în serviciul de sterilizare centrală, cu excepții pentru sticlarie, produse farmaceutice injectabile și biberoane. Serviciul are circuit închis pentru persoane și poate comunica cu blocul operator. Spațiile sunt organizate în flux pentru a separa materialele nesterile de cele sterile, incluzând zone pentru prelucrare, sterilizare și depozitare. Prelucrarea primară se face în spații distincte, iar zona de sterilizare poate fi organizată în funcție de tipul de sterilizare. Dimensionarea stației de sterilizare depinde de numărul de paturi, cantitatea de material și tipul de aparate. Serviciul de sterilizare trebuie să fie amplasat aproape de blocul operator și să aibă legături directe cu alte servicii.
+
+### Blocul de nasteri
+Blocul de nașteri asigură asistența medicală a parturientelor în timpul nașterii, având un circuit controlat și fiind compartimentat în zone septic și aseptic. Componentele sale includ unități pentru naștere, sală de operație, cameră de resuscitare, spații pentru personal și dotări sanitare. Amplasarea poate fi în cadrul secției de obstetrică sau aproape de blocul operator, în funcție de capacitatea spitalului. Blocurile mici nu necesită sală de operație, în timp ce cele mari trebuie să o includă. Unitățile de naștere pot fi organizate în diverse moduri, adaptate numărului de paturi de obstetrică.
+
+### Laboratorul de analize medicale
+Laboratorul de analize medicale e responsabil pentru examinarea produselor biologice umane, servind pacienți internați și ambulatorii. Structura laboratorului depinde de dimensiunea spitalului și de normele Ministerului Sănătății. La spitalele universitare, se dezvoltă laboratoare de cercetare și biobaze. Incaperile cu activități periculoase sunt separate, iar condițiile de mediu sunt reglementate. Laboratorul are acces restricționat, iar amplasarea sa trebuie să permită legături cu alte servicii medicale. Serviciul de roentgendiagnostic utilizează radiații Roentgen pentru investigații, având cerințe stricte de securitate nucleară. Structura acestui serviciu include diverse unități funcționale și spații pentru prelucrarea filmelor radiologice, iar amplasarea sa trebuie să respecte normele de radioprotecție.
+
+### Serviciul (laboratorul) de explorari functionale si alte investigatii anatomofiziologice complexe
+Serviciul de explorări funcționale din spitale utilizează tehnici avansate pentru evaluarea organelor și sistemelor corpului uman, organizat pe compartimente în funcție de tipul de investigații (cardiorespiratorii, digestive, nervoase etc.). Proiectarea acestuia implică stabilirea laboratoarelor necesare, organizarea spațiilor și echiparea cu aparatură medicală. Laboratoarele sunt grupate pe circuite interne, incluzând spații pentru medici și pacienți. Evoluția tehnicilor endoscopice sugerează crearea unui compartiment autonom pentru endoscopie. Unele unități de explorări funcționale pot fi integrate în secțiile medicale. Amplasarea serviciului trebuie să fie aproape de roentgendiagnostic și laboratorul de analize, asigurând legături cu serviciul de urgență și ambulatoriu.
+
+### Laboratoarele de medicina nucleara
+Procedurile medicale cu substante radiofarmaceutice se desfasoara in laboratorul de medicina nucleara, un serviciu distinct in spitalele mari si de specialitate. Acesta include compartimente pentru izotopodiagnostic, izotopoterapie, analize medicale, preparare si dozare a substantelor, si anexe pentru gestionarea deseurilor radioactive. Laboratorul functioneaza in circuit inchis, cu masuri de securitate radiologica, amplasat la parter sau demisol, avand acces direct din exterior pentru aprovizionare si expedierea deseurilor.
+
+### Serviciul de fizioterapie si recuperare medicala
+Procedurile de fizioterapie și recuperare medicală sunt esențiale în spitalele moderne, cu servicii variate în funcție de capacitatea și profilul spitalului. Acestea includ compartimente precum kinetoterapie, electrofototerapie, hidroterapie, masoterapie, pneumoterapie și psihoterapie. Fiecare compartiment are cerințe specifice de spațiu și echipamente, precum săli de gimnastică, boxe pentru proceduri, camere de odihnă pentru personal și grupuri sanitare. Amplasarea serviciului trebuie să asigure accesibilitatea și legături directe cu secțiile medicale, evitând traversarea de căile de circulație generală. Compartimentele de hidroterapie sunt recomandate la nivel inferior, iar serviciul poate fi organizat pe două niveluri pentru eficiență.
+
+### Laboratorul de anatomie patologica si prosectura
+Serviciul de anatomie patologică efectuează examene pentru pacienții decedați și biopsii de la pacienți vii, având două componente: prosectura și laboratoarele. Prosectura este prezentă în toate spitalele, iar laboratoarele nu sunt distincte în spitalele mici. Compartimentul de prosectură include spații pentru depozitarea cadavrelor, autopsie, pregătirea și predarea cadavrelor, birou pentru documente și spații pentru personal. Laboratoarele de anatomie patologică cuprind spații pentru prepararea probelor, microscopie și depozitare. Autopsiile generează noxe, necesitând dotări speciale și igienă riguroasă. Serviciul trebuie să aibă acces direct din exterior pentru apartinători și să fie izolat de restul spitalului.
+
+### Farmacia
+Farmacia asigură asistența cu medicamente pentru bolnavii internați, gestionând recepția, depozitarea, eliberarea și prepararea medicamentelor. Este structurată în mai multe incaperi, inclusiv pentru primirea prescripțiilor, prepararea rețetelor magistrale și depozitarea medicamentelor. Farmacia poate include o secție pentru produse sterile, care respectă reglementările de bună practică. Accesul se face din exterior, iar spațiile sunt organizate pe tipuri de produse. Amplasarea farmaciei trebuie să evite contaminarea și să fie accesibilă serviciilor medicale ale spitalului.
+
+### Blocul alimentar (bucatarie)
+Prepararea alimentelor în spitale se face centralizat pentru pacienți și personal, cu un circuit închis pentru aprovizionare și evacuarea deșeurilor. Blocul alimentar include sectoare pentru recepția, depozitarea și prelucrarea alimentelor, iar condițiile de igienă trebuie să respecte normele de alimentație publică. Spațiile sunt dimensionate în funcție de necesități, iar prepararea alimentelor se organizează în zone distincte. Livrarea alimentelor se face fie în recipiente mari, fie porționate, cu reguli stricte de temperatură și igienă. Personalul este supus controlului medical, iar anexele includ vestiare și săli de mese. Blocul alimentar trebuie să fie amplasat astfel încât să respecte cerințele de igienă.
+
+### Spalatoria
+Spălătoria spitalului se organizează ca un serviciu unic, având activități de primire, dezinfectare, spălare, călcare, reparare și depozitare a rufelor, respectând cerințe de separare a circuitelor de rufe murdare și curate, precum și a rufelor pe categorii. Pentru secțiile de boli transmisibile, se impune un circuit distinct. Dimensionarea și echiparea spălătoriei se fac în funcție de capacitatea secțiilor, cu minimum 2,5 kg rufe pe zi pe pat la spitalele generale. Organizarea spațiilor include primirea rufelor, dezinfectarea, spălarea, uscarea, călcarea, repararea și depozitarea rufelor curate, cu anexe pentru personal. Circuitul interior nu va fi traversat de alte circuite ale spitalului, iar amplasarea spălătoriei se va face pentru a preveni pătrunderea aburului și mirosurilor în spațiile medicale.
+
+### Depozitele centrale
+Unitățile sanitare trebuie să aibă un depozit central pentru materiale, care să fie bine amenajat, preferabil separat de clădire. Materialele sanitare și nesanitare se depozitează separat, iar cele care necesită refrigerare trebuie păstrate în condiții adecvate. Accesul în depozit trebuie să permită utilizarea echipamentelor de manipulare, iar recepția materialelor se face în ziua primirii. Se respectă norme de siguranță pentru depozitarea substanțelor inflamabile și toxice, iar personalul trebuie să folosească echipament de protecție. Fiecare unitate sanitară trebuie să aibă un catalog al materialelor utilizate, iar depozitele din sublocații trebuie amenajate corespunzător.
+
+# ANEXA 4
+Normele stabilesc condițiile generale de igienă pentru spitale, inclusiv delimitarea incintei, separarea zonelor, asigurarea accesului controlat, finisaje adecvate, iluminat natural și artificial, ventilație, alimentare cu apă potabilă, gestionarea apelor uzate și a deșeurilor medicale, precum și dotarea cu echipamente frigorifice. Se impun standarde stricte pentru calitatea apei și evacuarea apelor uzate, inclusiv tratamente speciale pentru apele contaminate.
+
+==============================
+DOCUMENT: ORDIN Nr. 961.2016
+==============================
+
+# ORDIN Nr. 961 din 19 august 2016
+Ordinul ministrului sănătății nr. 961/2016 aprobă norme tehnice pentru curățarea, dezinfecția și sterilizarea în unitățile sanitare, inclusiv tehnici de evaluare a eficienței procedurilor, dezinfecția mâinilor, aplicarea dezinfectantelor chimice și evaluarea procesului de sterilizare. Se reglementează utilizarea produselor biocide, testarea eficacității procedurilor și se abrogă ordinul anterior din 2007. Anexele detaliază normele și metodele aprobate.
+
+# ANEXA Nr. 1
+Normele tehnice reglementează procedurile de curățare, dezinfecție și sterilizare în unitățile sanitare publice și private pentru asigurarea igienei și prevenirii infecțiilor.
+
+# ANEXA Nr. 2
+Se prezintă tehnici de lucru și interpretare pentru evaluarea eficienței procedurilor de curățenie și dezinfecție, inclusiv metode de testare și criterii de evaluare.
+
+## I. Definiții
+Teste de autocontrol în unitățile sanitare evaluează circulația germenilor patogeni și eficiența curățeniei și dezinfecției pentru prevenirea infecțiilor. Aceste teste includ: teste de sterilitate pentru controlul instrumentarului, teste de aeromicrofloră pentru evaluarea încărcării aerului cu microorganisme și teste de sanitație pentru verificarea eficienței curățeniei suprafețelor și materialelor.
+
+## II. Recoltarea și pregătirea probelor primare
+Controlul sterilității se realizează prin cercetarea florei microbiene de pe obiecte sterilizate, utilizând bulion simplu, bulion thioglicolat și tampoane sterile. Materialele sterile sunt însămânțate pe medii de cultură, iar obiectele mari sunt șterse cu ser fiziologic. Controlul aeromicroflorei se efectuează în încăperi cu risc de infectare, folosind metoda sedimentării Koch cu plăci Petri. Probele de aer sunt expuse timp de 10 minute. Controlul suprafețelor implică recoltarea probelor de pe suprafețe curate, folosind tampoane sterile umezite cu ser fiziologic.
+
+## III. Tehnica executării analizei, calculul și interpretarea rezultatelor
+(fără rezumat)
+
+### A. Pentru controlul bacteriologic al probelor de pe tegumente
+Prelucrarea probelor se face rapid pentru a preveni uscarea, folosind 9 ml ser fiziologic pentru diluția 1/10, urmată de inocularea pe plăci de geloză. Se pot realiza diluții suplimentare, iar plăcile se incubează 24-48 de ore la 37°C. Germenii se identifică și se numără coloniile, raportând unități formatoare de colonii pe probă. Se verifică prezența unor specii bacteriene specifice, iar interpretarea rezultatelor stabilește limitele de încărcătură microbiană pentru diferite categorii de personal, fără germeni patogeni. Testarea rezistenței la antibiotice se face la cerere pentru germenii patogeni izolați.
+
+### B. Pentru controlul bacteriologic al sterilității:
+Tuburile cu bulion nutritiv se incubează 3-5 zile la 37°C, iar microorganismele identificate se raportează; proba este conformă dacă este sterilă, fără germeni.
+
+### C. Pentru controlul bacteriologic al aeromicroflorei:
+Plăcile se incubează 24-48 ore la 37°C, se numără coloniile pe geloză simplă și sânge, iar raportarea germenilor la mc de aer se face folosind formula lui Omelianski. Se raportează numărul total de germeni și hemolitici/m3 aer, cu limite de 500-1500 germeni/m3 în funcție de activitate și maximum 300 germeni/m3 în sălile de operații și pentru nou-născuți, fără flore hemolitică.
+
+### D. Pentru controlul bacteriologic al suprafețelor și inventarului moale:
+Se efectuează diluții seriate cu ser fiziologic, se dispersează soluțiile pe plăci de geloză, se incubează, se numără coloniile și se calculează numărul de germeni/cm2, raportând prezența germenilor patogeni; o suprafață este considerată curată dacă are sub 5 colonii/cm2 și nu conține germeni patogeni.
+
+# ANEXA Nr. 3
+Procedurile de dezinfecție a mâinilor variază în funcție de nivelul de risc: pentru risc minim se recomandă spălarea cu apă și săpun în diverse situații; pentru risc intermediar, spălarea urmată de dezinfecție cu antiseptic; iar pentru risc înalt, dezinfecția chirurgicală a mâinilor înainte de intervenții chirurgicale.
+
+# ANEXA Nr. 4
+Dezinfectanții chimici se aplică prin pulverizare, respectând cantitățile și timpii specificați în aviz. Ordinul ministrului sănătății nr. 1.025/2000 privind normele pentru serviciile de spălătorie în unitățile medicale nu a fost publicat în Monitorul Oficial.
+
+## Suprafețe
+Suporturile de tratat includ pavimente, pereți, mobilier, mese de operație, mușamale și cărucioare, fiecare având metode specifice de aplicare (ștergere, pulverizare, imersie) și observații privind curățarea și dezinfecția, variind de la nivel scăzut la înalt, în funcție de prezența produselor biologice.
+
+## Obiecte sanitare, recipiente de colectare, materiale de curățare
+Informațiile se referă la metodele de curățare și dezinfecție pentru diverse suporturi de tratat, inclusiv băi pentru copii, olițe, grupuri sanitare, sifoane, ustensile de curățare și recipiente pentru deșeuri. Se specifică metodele de aplicare (ștergere, imersie, spălare) și nivelurile de dezinfecție necesare (scăzut, mediu, înalt).
+
+## Lenjerie și echipamente de protecție
+Lenjeria contaminată necesită imersie și dezinfecție de nivel mediu, cu predezinfecție înaltă; alte categorii se spală la mașini automate cu ciclu termic sau fierbere. Echipamentele textile se curăță prin imersie, cu dezinfecție de nivel scăzut sau înalt, iar șorțurile impermeabile se curăță prin ștergere și dezinfecție de nivel mediu.
+
+## Zone de preparare și distribuire alimente
+Suporturile de tratat includ veselă și ustensile, cu metode de aplicare prin imersie sau ștergere, folosind un biocid de tip 4 pentru dezinfecție. De asemenea, suprafețele precum pavimentele și mesele sunt curățate și dezinfectate prin ștergere sau pulverizare, utilizând un biocid de tip 2.
+
+## Instrumentar, echipamente
+Detergenții casnici anionici nu sunt utilizați pentru curățarea instrumentarului și echipamentelor; se folosesc detergenți speciali, inclusiv enzimatici, urmați de dezinfectanți de nivel înalt. Procesarea suporturilor critice implică curățare și dezinfecție, iar cele semicritice necesită dezinfecție de nivel mediu. Termometrele orale și rectale nu se amestecă, iar incubatoarele și măștile de oxigen necesită curățare urmată de dezinfecție de nivel înalt.
+
+## Barbotoare
+Componentele medicale trebuie curățate, dezinfectate și sterilizate conform materialului și recomandărilor producătorului. Barbotoarele sunt utilizate o singură dată pe pacient și nu pot fi reutilizate fără dezinfecție. Dezinfectanții de nivel mediu sunt folosiți pentru obiecte obișnuite, iar pentru cele de la pacienți cu tuberculoză, se folosesc dezinfectanți de nivel înalt. Reglementările pentru lenjerie sunt stabilite prin norme specifice. Metodele de aplicare a dezinfectanților includ pulverizarea și vaporizarea, cu condiții specifice de mediu.
+
+## Spații închise
+Se recomandă utilizarea dezinfectantelor non-toxice pentru aer, interzicându-se aldehidele, exceptând dezinfecția terminală pentru pacienții cu BK. Se aplică în săli de operație, naștere, saloane și cabinete prin pulverizare sau aerosolizare, având în vedere condițiile de temperatură, umiditate și timp de expunere, iar echipamentele electronice trebuie protejate sau îndepărtate.
+
+## Diverse
+Metodele de curățare și dezinfecție pentru jucării din plastic, cauciuc, lemn și textile includ spălarea, ștergerea și pulverizarea, cu niveluri de dezinfecție mediu sau înalt. Telefoanele se curăță prin ștergere, cu dezinfecție de nivel scăzut sau mediu. Ambulanțele și mijloacele auto necesită pulverizare și ștergere, având un nivel de dezinfecție mediu sau înalt.
+
+# ANEXA Nr. 5
+METODE DE EVALUARE a derulării și eficienței procesului de sterilizare
+
+## I. Indicatori fizico-chimici
+Indicatorii fizico-chimici pentru controlul sterilizării includ bandelete, benzi adezive, pungi cu markeri și etichete, fiind verificați la deschiderea fiecărui pachet. Eficiența sterilizării se confirmă prin virarea culorii indicatorilor, iar lipsa acesteia face materialul nesterilizat. În registrul de evidență se notează detalii despre sterilizare, iar registrele și indicatorii se păstrează minimum 6 luni, fiind verificați periodic. Neconformitățile se raportează serviciului de supraveghere.
+
+## II. Testul de verificare a penetrării aburului
+Testul Bowie & Dick este obligatoriu pentru sterilizarea la autoclav, având rolul de a detecta aerul rezidual periculos. Cerneala indicatoare își schimbă culoarea în funcție de parametrii de sterilizare. Procedura de testare include controlul vidului, plasarea pachetului-test în cameră, rularea ciclului la 134°C și examinarea rezultatului. Hârtia indicatoare se păstrează în loc întunecos, iar registrele testelor trebuie păstrate minimum 6 luni și verificate periodic. Neconformitățile se raportează serviciului de supraveghere.
+
+## III. Indicatori biologici
+Indicatorii biologici pentru controlul sterilizării includ spori din Bacillus stearothermophilus și Bacillus Atrophaeus, utilizați în fiole pentru autoclavă, plasmă și căldură uscată. Controlul sterilizării se face prin introducerea indicatorilor în cicluri de sterilizare, cu monitorizarea condițiilor de temperatură și presiune. În caz de rezultate pozitive, se anunță firma de service, iar aparatul nu se folosește până la remedierea problemelor. Indicatorii pozitivi trebuie sterilizați în 24 de ore.
+
