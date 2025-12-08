@@ -1,6 +1,7 @@
 /**
  * Chat input - blue circle that expands on hover.
- * Simple prompt flow - no document context.
+ * Single isOpen state controls everything - input, response, loading.
+ * Stays open while loading, closes together on mouse leave.
  */
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
@@ -14,59 +15,39 @@ interface Message {
 }
 
 export const ChatInput = () => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState('');
   const [conversation, setConversation] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
   const closeTimerRef = useRef<NodeJS.Timeout | null>(null);
-  const responseCloseTimerRef = useRef<NodeJS.Timeout | null>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const inputAreaRef = useRef<HTMLDivElement>(null);
-  const responseAreaRef = useRef<HTMLDivElement>(null);
 
-  // Clear any pending timers
-  const clearTimers = () => {
+  // Clear close timer
+  const clearCloseTimer = () => {
     if (closeTimerRef.current) {
       clearTimeout(closeTimerRef.current);
       closeTimerRef.current = null;
     }
-    if (responseCloseTimerRef.current) {
-      clearTimeout(responseCloseTimerRef.current);
-      responseCloseTimerRef.current = null;
-    }
   };
 
-  // Handle mouse enter on input area
-  const handleInputMouseEnter = () => {
-    clearTimers();
-    setIsExpanded(true);
+  // Handle mouse enter - open everything
+  const handleMouseEnter = () => {
+    clearCloseTimer();
+    setIsOpen(true);
   };
 
-  // Handle mouse leave on input area
-  const handleInputMouseLeave = () => {
-    if (message.trim() === '') {
-      closeTimerRef.current = setTimeout(() => {
-        setIsExpanded(false);
-      }, 1000);
-    }
-  };
-
-  // Handle mouse enter on response area
-  const handleResponseMouseEnter = () => {
-    clearTimers();
-  };
-
-  // Handle mouse leave on response area
-  const handleResponseMouseLeave = () => {
-    // Don't auto-close while loading
+  // Handle mouse leave - close after delay (unless loading or typing)
+  const handleMouseLeave = () => {
+    // Don't close while loading
     if (loading) return;
     
-    responseCloseTimerRef.current = setTimeout(() => {
-      setConversation([]);
-      setError(null);
-    }, 200);
+    // Don't close if user is typing
+    if (message.trim() !== '') return;
+
+    closeTimerRef.current = setTimeout(() => {
+      setIsOpen(false);
+    }, 1000);
   };
 
   // Handle text change
@@ -74,15 +55,11 @@ export const ChatInput = () => {
     const newValue = e.target.value;
     setMessage(newValue);
     
-    if (newValue.trim() === '' && isExpanded) {
-      closeTimerRef.current = setTimeout(() => {
-        setIsExpanded(false);
-      }, 1000);
-    } else {
-      clearTimers();
-    }
+    // If user clears input and mouse is outside, start close timer
+    // (handleMouseLeave will be called naturally if mouse is outside)
   };
 
+  // Handle form submit
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -91,6 +68,7 @@ export const ChatInput = () => {
     const userMessage = message.trim();
     setLoading(true);
     setError(null);
+    clearCloseTimer(); // Ensure it stays open during loading
 
     // Add user message to conversation
     const newConversation: Message[] = [
@@ -101,10 +79,8 @@ export const ChatInput = () => {
     setMessage('');
 
     try {
-      // Send message to backend - no context
       const aiResponse = await api.sendChatMessage(userMessage);
       
-      // Add AI response to conversation
       setConversation([
         ...newConversation,
         { role: 'assistant', content: aiResponse }
@@ -131,9 +107,9 @@ export const ChatInput = () => {
     }
   };
 
-  // Cleanup timers on unmount
+  // Cleanup timer on unmount
   useEffect(() => {
-    return () => clearTimers();
+    return () => clearCloseTimer();
   }, []);
 
   // Get last assistant message for display
@@ -142,24 +118,25 @@ export const ChatInput = () => {
     .reverse()
     .find(msg => msg.role === 'assistant');
 
-  // Show response area if loading or has response
-  const showResponseArea = loading || lastAssistantMessage;
+  // Determine what to show in response area
+  const showResponseArea = isOpen && (loading || lastAssistantMessage || error);
 
   return (
     <div 
-      ref={containerRef}
       className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
-      {/* Response display - shows LoadingIndicator while loading */}
+      {/* Response / Loading / Error area */}
       {showResponseArea && (
-        <div 
-          ref={responseAreaRef}
-          className="mb-4 max-w-2xl w-full bg-white rounded-lg shadow-lg p-6 max-h-96 overflow-y-auto"
-          onMouseEnter={handleResponseMouseEnter}
-          onMouseLeave={handleResponseMouseLeave}
-        >
+        <div className="mb-4 max-w-2xl w-full bg-white rounded-lg shadow-lg p-6 max-h-96 overflow-y-auto">
           {loading ? (
             <LoadingIndicator />
+          ) : error ? (
+            <div>
+              <p className="text-red-600 text-sm font-medium mb-1">Error</p>
+              <p className="text-red-700 text-sm">{error}</p>
+            </div>
           ) : lastAssistantMessage ? (
             <div className="prose prose-sm max-w-none">
               <ReactMarkdown>{lastAssistantMessage.content}</ReactMarkdown>
@@ -168,28 +145,17 @@ export const ChatInput = () => {
         </div>
       )}
 
-      {/* Error display */}
-      {error && (
-        <div className="mb-4 max-w-2xl w-full bg-red-50 rounded-lg shadow-lg p-4">
-          <p className="text-red-600 text-sm font-medium mb-1">Error</p>
-          <p className="text-red-700 text-sm">{error}</p>
-        </div>
-      )}
-
-      {/* Input area */}
+      {/* Input area - expanded or collapsed */}
       <div
-        ref={inputAreaRef}
-        onMouseEnter={handleInputMouseEnter}
-        onMouseLeave={handleInputMouseLeave}
         className={`transition-all duration-300 ease-out ${
-          isExpanded 
+          isOpen 
             ? 'w-[500px] h-12 bg-white' 
             : 'w-14 h-14 bg-blue-500'
         } rounded-full shadow-lg cursor-pointer flex items-center ${
           loading ? 'opacity-70' : ''
         }`}
       >
-        {isExpanded ? (
+        {isOpen ? (
           <form onSubmit={handleSubmit} className="w-full px-6">
             <input
               type="text"
