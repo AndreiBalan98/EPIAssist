@@ -45,7 +45,7 @@ export const LoadingIndicator = () => {
 
   return (
     <div className="flex items-center justify-center py-8">
-      <p className="text-gray-500 italic text-base">
+      <p className="text-blue-600 italic text-base">
         {currentMessage}
         <span className="inline-block w-6 text-left">{dots}</span>
       </p>

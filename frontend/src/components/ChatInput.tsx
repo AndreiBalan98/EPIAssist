@@ -166,9 +166,9 @@ export const ChatInput = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      {/* Response / Loading / Error area */}
+      {/* Response / Loading / Error area - light blue background */}
       {showResponseArea && (
-        <div className="mb-4 w-full bg-white rounded-lg shadow-lg p-4 sm:p-6 max-h-80 sm:max-h-96 overflow-y-auto">
+        <div className="mb-4 w-full bg-blue-50 rounded-lg shadow-lg p-4 sm:p-6 max-h-80 sm:max-h-96 overflow-y-auto border border-blue-100">
           {loading ? (
             <LoadingIndicator />
           ) : error ? (
@@ -177,7 +177,7 @@ export const ChatInput = () => {
               <p className="text-red-700 text-sm">{error}</p>
             </div>
           ) : lastAssistantMessage ? (
-            <div className="prose prose-sm max-w-none">
+            <div className="prose prose-sm max-w-none prose-blue">
               <ReactMarkdown>{lastAssistantMessage.content}</ReactMarkdown>
             </div>
           ) : null}
@@ -189,8 +189,8 @@ export const ChatInput = () => {
         onClick={handleBubbleTap}
         className={`transition-all duration-300 ease-out ${
           isOpen 
-            ? 'w-full sm:w-[500px] h-12 bg-white rounded-full' 
-            : 'w-14 h-14 bg-blue-500 rounded-full'
+            ? 'w-full sm:w-[500px] h-12 bg-blue-50 rounded-full border border-blue-200' 
+            : 'w-14 h-14 bg-blue-600 hover:bg-blue-700 rounded-full'
         } shadow-lg cursor-pointer flex items-center ${
           loading ? 'opacity-70' : ''
         }`}
@@ -203,7 +203,7 @@ export const ChatInput = () => {
               value={message}
               onChange={handleTextChange}
               placeholder={loading ? "Se procesează..." : "Pune o întrebare..."}
-              className="w-full outline-none text-gray-700 placeholder-gray-400 text-sm sm:text-base"
+              className="w-full outline-none text-gray-700 placeholder-blue-400 text-sm sm:text-base bg-transparent"
               disabled={loading}
               autoFocus={!isTouchDevice()}
             />
